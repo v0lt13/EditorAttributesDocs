@@ -6,17 +6,17 @@ to easly customize your editors without having to write any editor code.
 
 Check out the :doc:`GettingStarted/instalation` section to configure the package to your unity project.
 
-Contents
---------
+Contents:
+=========
 
 .. toctree::
     :maxdepth: 1
-    :caption: General
-    :name: sec-general
+    :caption: Getting Started
+    :name: sec-gettingstarted
 
     GettingStarted/instalation
+	GettingStarted/howtouse
     GettingStarted/bestpractices
-    GettingStarted/unityserialization
     GettingStarted/voidstruct
 
 .. toctree::
@@ -38,4 +38,9 @@ Contents
     Attributes/horizontalgroup
     Attributes/button
 
-	
+External Links:
+===============
+
+*. `EditorAttributes Github repo <https://github.com/v0lt13/EditorAttributes>`_
+*. `Documentation site Github repo <https://github.com/v0lt13/EditorAttributesDocs>`_
+*. `Discord server <https://discord.gg/jKXvXyTzYn>`_
