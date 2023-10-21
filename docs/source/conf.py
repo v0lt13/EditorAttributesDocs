@@ -3,6 +3,7 @@
 # -- Project information
 
 project = 'EditorAttributes'
+copyright = '2023, v0lt'
 author = 'v0lt'
 
 release = '0.1'
