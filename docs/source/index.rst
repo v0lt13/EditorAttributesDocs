@@ -10,5 +10,31 @@ Contents
 --------
 
 .. toctree::
+    :maxdepth: 1
+    :caption: General
+    :name: sec-general
 
-   gettingstarted
+    GettingStarted/instalation
+	GettingStarted/bestpractices
+	GettingStarted/unityserialization
+	GettingStarted/voidstruct
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Attributes
+    :name: sec-attributes
+	
+	Attributes/readonly
+	Attributes/enablefield
+	Attributes/disablefield
+	Attributes/disableinplaymode
+	Attributes/hideinplaymode
+	Attributes/hidefield
+	Attributes/showfield
+	Attributes/conditionalfield
+	Attributes/messagebox
+	Attributes/helpbox
+	Attributes/dropdown
+	Attributes/horizontalgroup
+	Attributes/button
+	
