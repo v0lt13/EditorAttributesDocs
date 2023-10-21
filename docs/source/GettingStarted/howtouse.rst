@@ -6,7 +6,7 @@ Prerequisites: Familiarity with basic C# programming in Unity and knowledge abou
 Importing The Namespace
 -----------------------
 
-To start using the editor attributes you must add this using statement in your class::
+To start using the editor attributes you must add this using statement in your class:
 
 	using EditorAttributes;
 
@@ -20,7 +20,7 @@ Serialization
 Every field the attribute is attached to or the attribute is looking for must be serializable by Unity, 
 meaning those fields must be either public or private with the SerializeField Attribute and valid to the Unity serializer.
 
-Here is an exammple of what's valid and what's not::
+Here is an exammple of what's valid and what's not:
 
 	// Valid, public fields are serialized by default
 	public int field01;
@@ -52,7 +52,7 @@ Attribute Order
 The logic of all attributes are executed in the order they are written (left to right), meaning the last attribute can override the functionality of the previous attribute
 if the functionality is similar.
 In the following example the :ref:`readonlyattribute` will execute after the :ref:`buttonattribute` meaning the `button` field will be made drawn over by the button then it will get disabled by the :ref:`readonlyattribute`,
-leaving the button still enabled.::
+leaving the button still enabled.:
 
 	using UnityEngine;
 	using EditorAttributes;
@@ -69,7 +69,7 @@ leaving the button still enabled.::
 
 To fix this and have the button disabled we can change the other by putting the :ref:`readonlyattribute` before the :ref:`buttonattribute` or use the `order` property that every attribute has
 to execute the :ref:`readonlyattribute` first, C# will first go trough the attributes with the lowest order from left to right then to the ones with the higher order the same way,
-the default order of all attributes is 0.::
+the default order of all attributes is 0.:
 
 	using UnityEngine;
 	using EditorAttributes;
