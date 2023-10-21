@@ -1,9 +1,8 @@
-Template for the Read the Docs tutorial
+EditorAttributes Documentation
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+See the documentation here:
+https://editorattributesdocs.readthedocs.io/
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+Get the package here:
+https://github.com/v0lt13/EditorAttributes
