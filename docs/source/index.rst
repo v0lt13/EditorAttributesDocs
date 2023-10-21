@@ -15,7 +15,7 @@ Contents:
     :name: sec-gettingstarted
 
     GettingStarted/instalation
-	GettingStarted/howtouse
+    GettingStarted/howtouse
     GettingStarted/bestpractices
     GettingStarted/voidstruct
 

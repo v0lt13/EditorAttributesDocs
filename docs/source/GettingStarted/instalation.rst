@@ -11,6 +11,6 @@ Inside your project open the package manager window click the '+' button then "I
 
 .. image:: ../Images/temp.png
 
-And in the text field paste the link copied from before and click install.
+In the text field paste the link copied from before and click install.
 
 Now the package is available to use in your project!
