@@ -1,22 +1,14 @@
-Welcome to Lumache's documentation!
-===================================
+EditorAttributes documentation:
+===============================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**EditorAttributes** is a unity package that adds some extra editor attributes to your project
+to easly customize your editors without having to write any editor code.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
+Check out the :doc:`gettingstarted` section to configure the package to your unity package.
 
 Contents
 --------
 
 .. toctree::
 
-   usage
-   api
+   gettingstarted
