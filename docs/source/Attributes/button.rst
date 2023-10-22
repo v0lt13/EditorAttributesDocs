@@ -7,12 +7,10 @@ Attribute to add a button in the inspector.
 	- ``string`` functionName: The name of the function to call when the button is pressed
 	- `optional`, ``string`` buttonLabel: The label displayed on the button
 	
-Because a function is not a property that can be displayed in the editor we need to have a holder variable to attach the attribute to.
-
 .. note::
 	The function must be public for it to be serialized and it cannot have parameters.
 
-Example::
+Because a function is not a property that can be displayed in the editor we need to have a holder variable to attach the attribute to::
 
 	using UnityEngine;
 	using EditorAttributes;
