@@ -7,12 +7,11 @@ Importing The Namespace
 -----------------------
 
 To start using the editor attributes you must add this using statement in your class::
-
 	using EditorAttributes;
 
 If you are using Assembly Definitions in your project make sure you reference the “Attributes” Assembly Definition where needed.
 
-.. image:: ../Images/temp.png
+.. image:: ../Images/HowToUse01.png
 
 Serialization
 -------------
@@ -21,7 +20,6 @@ Every field the attribute is attached to or the attribute is looking for must be
 meaning those fields must be either public or private with the SerializeField Attribute and valid to the Unity serializer.
 
 Here is an exammple of what's valid and what's not::
-
 	// Valid, public fields are serialized by default
 	public int field01;
 	
@@ -51,9 +49,8 @@ Attribute Order
 
 The logic of all attributes are executed in the order they are written (left to right), meaning the last attribute can override the functionality of the previous attribute
 if the functionality is similar.
-In the following example the :ref:`readonlyattribute` will execute after the :ref:`buttonattribute` meaning the `button` field will be made drawn over by the button then it will get disabled by the :ref:`readonlyattribute`,
+In the following example the :ref:`readonly` Attribute will execute after the :ref:`button` Attribute meaning the `button` field will be made drawn over by the button then it will get disabled by the :ref:`readonly` Attribute,
 leaving the button still enabled::
-
 	using UnityEngine;
 	using EditorAttributes;
 	
@@ -67,10 +64,9 @@ leaving the button still enabled::
 
 .. image:: ../Images/temp.png
 
-To fix this and have the button disabled we can change the other by putting the :ref:`readonlyattribute` before the :ref:`buttonattribute` or use the `order` property that every attribute has
-to execute the :ref:`readonlyattribute` first, C# will first go trough the attributes with the lowest order from left to right then to the ones with the higher order the same way,
+To fix this and have the button disabled we can change the other by putting the :ref:`readonly` Attribute before the :ref:`button` Attribute or use the `order` property that every attribute has
+to execute the :ref:`readonly` Attribute first, C# will first go trough the attributes with the lowest order from left to right then to the ones with the higher order the same way,
 the default order of all attributes is 0::
-
 	using UnityEngine;
 	using EditorAttributes;
 	
@@ -82,6 +78,6 @@ the default order of all attributes is 0::
 		public void Button() => print("Hello World!");
 	}
 
-So now the :ref:`readonlyattribute` will be executed first disabling the field before it becomes a button and now the button will be drawn as disabled.
+So now the :ref:`readonly` Attribute will be executed first disabling the field before it becomes a button and now the button will be drawn as disabled.
 
 .. image:: ../Images/temp.png
