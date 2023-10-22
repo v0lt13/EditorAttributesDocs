@@ -10,7 +10,7 @@ To start using the editor attributes you must add this using statement in your c
 
 	using EditorAttributes;
 
-If you are using `Assembly Definitions<https://docs.unity3d.com/2023.3/Documentation/Manual/ScriptCompilationAssemblyDefinitionFiles.html>`_ in your project make sure you docerence the “Attributes” Assembly Definition where needed.
+If you are using `Assembly Definitions <https://docs.unity3d.com/2023.3/Documentation/Manual/ScriptCompilationAssemblyDefinitionFiles.html>`_ in your project make sure you docerence the “Attributes” Assembly Definition where needed.
 
 .. image:: ../Images/HowToUse01.png
 
@@ -18,7 +18,7 @@ Serialization
 -------------
 
 Every field the attribute is attached to or the attribute is looking for must be serializable by Unity, 
-meaning those fields must be either public or private with the `SerializeField Attribute<https://docs.unity3d.com/2023.3/Documentation/ScriptReference/SerializeField.html>`_ and valid to the Unity serializer.
+meaning those fields must be either public or private with the `SerializeField Attribute <https://docs.unity3d.com/2023.3/Documentation/ScriptReference/SerializeField.html>`_ and valid to the Unity serializer.
 
 Here is an exammple of what's valid and what's not::
 
