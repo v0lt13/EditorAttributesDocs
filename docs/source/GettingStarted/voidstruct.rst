@@ -1,7 +1,7 @@
 Void Struct
 ===========
 
-The **Void** struct is an empty serialized struct to use as a holder property for attributes like the :doc:`../Attributes/button`, :doc:`../Attributes/horizontalfield`, etc. 
+The **Void** struct is an empty serialized struct to use as a holder property for attributes like the :doc:`../Attributes/button`, :doc:`../Attributes/horizontalgroup`, etc. 
 that completely redraw the property in the inspector. 
 While it’s not necessary to use the struct for those attributes (any serialized data type can be used), using the struct as a holder makes the code more readable.
 
@@ -11,7 +11,7 @@ The **Void** struct can also be passed as a type in generics, which commonly hap
 	public class UnityVoidEvent : UnityEvent<Void> { }
 	
 If you are using the `System` namespace and `EditorAttributes` namespace in your script then use the **Void** struct you will notice a naming conflict between
-`System.Void` and `EditorAttributes.Void`, to fix that you will just have to specify which version you want to use, and there are 2 ways to do that.
+``System.Void`` and ``EditorAttributes.Void``, to fix that you will just have to specify which version you want to use, and there are 2 ways to do that.
 
 1. Specify the namespace of the version you want to use on that line::
 	
@@ -25,7 +25,7 @@ If you are using the `System` namespace and `EditorAttributes` namespace in your
 	// Or
 	using Void = EditorAttributes.Void;
 	
-A common way this conflict can happen is when you use the **EditorAttributes** and serialize structs::
+A common way this conflict can happen is when you use the editor attributes and serialize structs::
 
 	using System;
 	using UnityEngine;
