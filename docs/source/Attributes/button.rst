@@ -12,7 +12,8 @@ Because a function is not a property that can be displayed in the editor we need
 .. note::
 	The function must be public for it to be serialized and it cannot have parameters.
 
-::
+Example::
+
 	using UnityEngine;
 	using EditorAttributes;
 	
