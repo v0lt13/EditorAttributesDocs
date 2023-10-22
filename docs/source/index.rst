@@ -9,6 +9,10 @@ Check out the :doc:`GettingStarted/instalation` section to configure the package
 Contents:
 =========
 
+.. toctree::
+    :maxdepth: 1
+	:name: sec-changelog
+	
     changelog
 
 .. toctree::
