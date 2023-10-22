@@ -32,7 +32,7 @@ Example::
 		[SerializeField, HideInInspector] private UnityEvent field07;
 	}
 
-.. image:: ../Images/HorizaontalGroup01.png
+.. image:: ../Images/HorizontalGroup01.png
 
 .. note::
 	The attribute cannot look for fields inside a struct.
