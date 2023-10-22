@@ -59,7 +59,7 @@ Using the nameof expression
 ---------------------------
 
 Some attributes need to look for a field in your script and it will ask you to give the name of that field as a ``string`` parameter, but strings are error prone
-and you might encounter issues saying that field can not be found and spend hours scratching you head when you realise you just made a typo or had a character
+and you might encounter issues saying, `that field can not be found` and spend hours scratching you head when you realise you just made a typo or had a character
 in the wrong case. Thats why you should use the `nameof <https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/nameof>`_ expresion, that allows
 you to add your variable like a parameter and converts it's name to a string for the attribute::
 

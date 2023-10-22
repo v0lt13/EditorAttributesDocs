@@ -9,6 +9,8 @@ Check out the :doc:`GettingStarted/instalation` section to configure the package
 Contents:
 =========
 
+    changelog
+
 .. toctree::
     :maxdepth: 1
     :caption: Getting Started
