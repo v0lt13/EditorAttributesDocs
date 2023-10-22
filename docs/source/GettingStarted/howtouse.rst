@@ -10,7 +10,7 @@ To start using the editor attributes you must add this using statement in your c
 
 	using EditorAttributes;
 
-If you are using Assembly Definitions in your project make sure you docerence the “Attributes” Assembly Definition where needed.
+If you are using `Assembly Definitions<https://docs.unity3d.com/2023.3/Documentation/Manual/ScriptCompilationAssemblyDefinitionFiles.html>`_ in your project make sure you docerence the “Attributes” Assembly Definition where needed.
 
 .. image:: ../Images/HowToUse01.png
 
@@ -18,7 +18,7 @@ Serialization
 -------------
 
 Every field the attribute is attached to or the attribute is looking for must be serializable by Unity, 
-meaning those fields must be either public or private with the SerializeField Attribute and valid to the Unity serializer.
+meaning those fields must be either public or private with the `SerializeField Attribute<https://docs.unity3d.com/2023.3/Documentation/ScriptReference/SerializeField.html>`_ and valid to the Unity serializer.
 
 Here is an exammple of what's valid and what's not::
 
@@ -51,8 +51,8 @@ Attribute Order
 
 The logic of all attributes are executed in the order they are written (left to right), meaning the last attribute can override the functionality of the previous attribute
 if the functionality is similar.
-In the following example the :doc:`../Attributes/readonly` Attribute will execute after the :doc:`../Attributes/button` Attribute meaning the `button` field will be made drawn over by the button then it will get disabled by the :doc:`../Attributes/readonly` Attribute,
-leaving the button still enabled::
+In the following example the :doc:`../Attributes/readonly` will execute after the :doc:`../Attributes/button` meaning the `button` field will be made drawn over by the button 
+then it will get disabled by the :doc:`../Attributes/readonly`, leaving the button still enabled::
 
 	using UnityEngine;
 	using EditorAttributes;
@@ -67,8 +67,8 @@ leaving the button still enabled::
 
 .. image:: ../Images/temp.png
 
-To fix this and have the button disabled we can change the other by putting the :doc:`../Attributes/readonly` Attribute before the :doc:`../Attributes/button` Attribute or use the `order` property that every attribute has
-to execute the :doc:`../Attributes/readonly` Attribute first, C# will first go trough the attributes with the lowest order from left to right then to the ones with the higher order the same way,
+To fix this and have the button disabled we can change the other by putting the :doc:`../Attributes/readonly` before the :doc:`../Attributes/button` or use the `order` property that every attribute has
+to execute the :doc:`../Attributes/readonly` first, C# will first go trough the attributes with the lowest order from left to right then to the ones with the higher order the same way,
 the default order of all attributes is 0::
 
 	using UnityEngine;
@@ -82,6 +82,6 @@ the default order of all attributes is 0::
 		public void Button() => print("Hello World!");
 	}
 
-So now the :doc:`../Attributes/readonly` Attribute will be executed first disabling the field before it becomes a button and now the button will be drawn as disabled.
+So now the :doc:`../Attributes/readonly` will be executed first disabling the field before it becomes a button and now the button will be drawn as disabled.
 
 .. image:: ../Images/temp.png
