@@ -70,7 +70,7 @@ you to add your variable like a parameter and converts it's name to a string for
 	{
 		[SerializeField] private bool condition01;
 	
-		// Passing the variable as a string
+		// Passing the variable as a string (error prone)
 		[SerializeField, EnableField("condition01")] private int field01;
 	
 		// Using the nameof condition
