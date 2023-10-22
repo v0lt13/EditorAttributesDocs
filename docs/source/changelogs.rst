@@ -4,9 +4,9 @@ Changelogs:
 EditorAttributes v1.1.1 Changelog:
 ----------------------------------
 - Removed offline documentation
-- Updated samples
+- Removed samples
 - Updated links
-- Updated ReadMe
+- Updated Readme
 
 EditorAttributes v1.1.0 Changelog:
 ----------------------------------
