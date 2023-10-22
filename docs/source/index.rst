@@ -11,9 +11,9 @@ Contents:
 
 .. toctree::
     :maxdepth: 1
-	:name: sec-changelog
-	
-    changelog
+    :name: sec-changelogs
+
+    changelogs
 
 .. toctree::
     :maxdepth: 1
