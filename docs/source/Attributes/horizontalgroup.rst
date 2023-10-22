@@ -35,4 +35,4 @@ Example::
 .. image:: ../Images/HorizontalGroup01.png
 
 .. note::
-	The attribute cannot look for fields inside a struct.
+	The attribute cannot look for fields inside a ``struct``

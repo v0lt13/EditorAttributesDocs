@@ -42,11 +42,11 @@ You can also use enums as a condition like this::
 		[SerializeField, EnableField(nameof(condition), States.State02)] private int field;
 	}
 	
-The field will be enabled when the enum is set to “State02”.
+The field will be enabled when the ``enum`` is set to `State02`.
 
 .. image:: ../Images/EnableField03.png
 
 .. image:: ../Images/EnableField04.png
 
 .. note::
-	It cannot look for the condition inside a struct
+	It cannot look for the condition inside a ``struct``

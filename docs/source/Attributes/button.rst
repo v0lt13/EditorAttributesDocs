@@ -29,4 +29,4 @@ Because a function is not a property that can be displayed in the editor we need
 .. image:: ../Images/Button01.png
 
 .. note::
-	The attribute cannot look for functions inside a struct and it doesn't work well if the holder is an array or list
+	The attribute cannot look for functions inside a ``struct`` and it doesn't work well if the holder is an array or list

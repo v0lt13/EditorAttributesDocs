@@ -41,4 +41,4 @@ The message boxes will show only when the condition is true.
 .. image:: ../Images/MessageBox02.png
 
 .. note::
-	Doesn’t work well with arrays or lists and it cannot look for the condition inside a struct
+	Doesn’t work well with arrays or lists and it cannot look for the condition inside a ``struct``

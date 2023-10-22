@@ -30,4 +30,4 @@ Now you can specify the value of a string from a dropdown.
 .. image:: ../Images/Dropdown01.png
 	
 .. note::
-	The attribute cannot look for fields inside a struct.
+	The attribute cannot look for fields inside a ``struct``

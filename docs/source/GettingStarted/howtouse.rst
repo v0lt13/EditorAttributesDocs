@@ -51,7 +51,7 @@ Attribute Order
 
 The logic of all attributes are executed in the order they are written (left to right), meaning the last attribute can override the functionality of the previous attribute
 if the functionality is similar.
-In the following example the :doc:`../Attributes/readonly` will execute after the :doc:`../Attributes/button` meaning the `button` field will be made drawn over by the button 
+In the following example the :doc:`../Attributes/readonly` will execute after the :doc:`../Attributes/button` meaning the `buttonHolder` field will be made drawn over by the button 
 then it will get disabled by the :doc:`../Attributes/readonly`, leaving the button still enabled::
 
 	using UnityEngine;
