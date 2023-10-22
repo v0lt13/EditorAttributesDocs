@@ -12,9 +12,11 @@ Attribute to hide a field when entering play mode::
 	}
 
 Outside of playmode:
+
 .. image:: ../Images/DisableInPlaymode01.png
 
 During playmode:
+
 .. image:: ../Images/HideInPlaymode01.png
 
 .. note:: 
