@@ -60,7 +60,7 @@ then it will get disabled by the :doc:`../Attributes/readonly`, leaving the butt
 	public class AttributesExample : MonoBehaviour
 	{
 		[Button(nameof(Button)), ReadOnly]
-		[SerializeField] private Void button;
+		[SerializeField] private Void buttonHolder;
 	
 		public void Button() => print("Hello World!");
 	}
@@ -77,7 +77,7 @@ the default order of all attributes is 0::
 	public class AttributesExample : MonoBehaviour
 	{
 		[Button(nameof(Button)), ReadOnly(order = -1)]
-		[SerializeField] private Void button;
+		[SerializeField] private Void buttonHolder;
 	
 		public void Button() => print("Hello World!");
 	}

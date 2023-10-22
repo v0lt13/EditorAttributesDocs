@@ -7,7 +7,7 @@ First copy the **HTTPS** link from the `repository <https://github.com/v0lt13/Ed
 
 .. image:: ../Images/Instalation01.png
 
-Inside your project open the package manager window click the `+` button then "Install package from git URL…".
+Inside your project open the package manager window click the ``+`` button then `"Install package from git URL…"`.
 
 .. image:: ../Images/Instalation02.png
 

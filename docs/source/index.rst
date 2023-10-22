@@ -16,7 +16,7 @@ Contents:
 
     GettingStarted/instalation
     GettingStarted/howtouse
-    GettingStarted/bestpractices
+    GettingStarted/goodpractices
     GettingStarted/voidstruct
 
 .. toctree::

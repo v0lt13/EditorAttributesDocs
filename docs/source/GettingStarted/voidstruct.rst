@@ -2,8 +2,7 @@ Void Struct
 ===========
 
 The **Void** struct is an empty serialized struct to use as a holder property for attributes like the :doc:`../Attributes/button`, :doc:`../Attributes/horizontalgroup`, etc. 
-that completely redraw the property in the inspector. 
-While it’s not necessary to use the struct for those attributes (any serialized data type can be used), using the struct as a holder makes the code more readable.
+that completely redraw the property in the inspector.
 
 The **Void** struct can also be passed as a type in generics, which commonly happens when you make an event system that you want to return void::
 
@@ -43,7 +42,7 @@ A common way this conflict can happen is when you use the editor attributes and 
 		[SerializeField] private ExampleStruct exampleStruct;
 	
 		[Button(nameof(Button))]
-		[SerializeField] private Void button; // This line will throw an error
+		[SerializeField] private Void buttonHolder; // This line will throw an error
 	
 		public void Button() => print("Hello World!");
 	}
