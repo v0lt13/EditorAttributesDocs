@@ -1,9 +1,12 @@
-Changelogs
-==========
+Changelogs:
+===========
 
 EditorAttributes v1.1.1 Changelog:
 ----------------------------------
-- Updated documentation
+- Removed offline documentation
+- Updated samples
+- Updated links
+- Updated ReadMe
 
 EditorAttributes v1.1.0 Changelog:
 ----------------------------------
