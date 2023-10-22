@@ -9,6 +9,7 @@ Attribute to display a help box.
 	- ``MessageMode`` messageType: The type of the message
 	
 Example::
+
 	using UnityEngine;
 	using EditorAttributes;
 	

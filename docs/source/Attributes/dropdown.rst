@@ -9,6 +9,7 @@ Attribute to make a string dropdown menu out of a string array.
 	The dropdown attribute can only be attached to a string field.
 
 Example::
+
 	using UnityEngine;
 	using EditorAttributes;
 	

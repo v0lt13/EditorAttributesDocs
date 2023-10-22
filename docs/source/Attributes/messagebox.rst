@@ -10,6 +10,7 @@ Attribute to display a message box depending on a condition.
 	- ``MessageMode`` messageType: The type of the message
 
 Example::
+
 	using UnityEngine;
 	using EditorAttributes;
 	
