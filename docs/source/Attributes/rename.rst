@@ -26,3 +26,6 @@ Example::
 	}
 	
 .. image:: ../Images/Rename01.png
+
+
+Usefull for when you want two or more fields to have the same name in the inspector.
