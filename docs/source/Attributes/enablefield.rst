@@ -4,7 +4,7 @@ EnableField Attribute
 Attribute to enable a field based on a condition.
 
 **Parameters:**
-	- ``string`` conditionName: The name of the boolean condition to evaluate
+	- ``string`` conditionName: The name of the condition to evaluate
 	- ``object`` enumValue: The value of the enum condition
 	
 The field will remain disabled by default until its condition becomes true::

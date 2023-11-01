@@ -1,5 +1,6 @@
-HorizontalField Attribute
+HorizontalGroup Attribute
 =========================
+
 Attribute to display specified fields horizontally.
 
 **Parameters:**

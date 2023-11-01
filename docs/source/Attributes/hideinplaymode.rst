@@ -1,4 +1,4 @@
-HideInPlaymode Attribute
+HideInPlayMode Attribute
 =======================
 
 Attribute to hide a field when entering play mode::
@@ -11,11 +11,11 @@ Attribute to hide a field when entering play mode::
 		[HideInPlayMode] public int field = 51;
 	}
 
-Outside of playmode:
+Outside of play mode:
 
 .. image:: ../Images/DisableInPlaymode01.png
 
-During playmode:
+During play mode:
 
 .. image:: ../Images/HideInPlaymode01.png
 

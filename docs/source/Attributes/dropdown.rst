@@ -1,12 +1,10 @@
 Dropdown Attribute
 ==================
-Attribute to make a string dropdown menu out of a string array.
+
+Attribute to make a dropdown menu out of a collection of elements.
 
 **Parameters:**
-	- ``string`` stringArrayName: The name of the string array (A list can also be used)
-	
-.. note::
-	The dropdown attribute can only be attached to a string field.
+	- ``string`` stringArrayName: The name of the array or list
 
 Example::
 
@@ -25,7 +23,7 @@ Example::
 		};
 	}
 
-Now you can specify the value of a string from a dropdown.
+Now you can specify the value of the ``string`` from a dropdown.
 
 .. image:: ../Images/Dropdown01.png
 	

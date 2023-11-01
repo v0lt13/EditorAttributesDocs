@@ -6,6 +6,7 @@ Attribute to display a message box depending on a condition.
 **Parameters:**
 	- ``string`` message: The message to display
 	- ``string`` conditionName: The condition to evaluate
+	- ``object`` enumValue: The value of the enum
 	- `optional`, ``bool`` drawProperty: Draw the property this attribute is attached to
 	- ``MessageMode`` messageType: The type of the message
 
@@ -39,6 +40,32 @@ The message boxes will show only when the condition is true.
 .. image:: ../Images/MessageBox01.png
 
 .. image:: ../Images/MessageBox02.png
+
+You can also use an ``enum`` as a condition like so::
+
+	using UnityEngine;
+	using EditorAttributes;
+	
+	public class AttributesExample : MonoBehaviour
+	{
+		public enum States
+		{
+			State01,
+			State02,
+			State03
+		}
+	
+		[SerializeField] private States condition;
+	
+		[SerializeField, MessageBox("This is a message box", nameof(condition), States.State02)]
+		private string messageBox;
+	}
+
+The message boxes will show when the ``enum`` is set to `State02`.
+
+.. image:: ../Images/MessageBox03.png
+
+.. image:: ../Images/MessageBox04.png
 
 .. note::
 	Doesn’t work well with arrays or lists and it cannot look for the condition inside a ``struct``

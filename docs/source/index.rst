@@ -31,12 +31,15 @@ Contents:
     :name: sec-attributes
 	
     Attributes/readonly
+    Attributes/rename
     Attributes/enablefield
     Attributes/disablefield
     Attributes/disableinplaymode
+    Attributes/disableineditmode
     Attributes/hideinplaymode
+    Attributes/hideineditmode
     Attributes/hidefield
-    Attributes/showfield
+    Attributes/showfields
     Attributes/conditionalfield
     Attributes/messagebox
     Attributes/helpbox

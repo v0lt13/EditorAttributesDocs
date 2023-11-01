@@ -1,5 +1,6 @@
 ReadOnly Attribute
 ==================
+
 Attribute to make a field readonly in the inspector::
 
 	using UnityEngine;
@@ -7,7 +8,7 @@ Attribute to make a field readonly in the inspector::
 	
 	public class AttributesExample : MonoBehaviour
 	{
-		[ReadOnly] public string id = "c3fcaf64-34ed-4fa6-bf09-df485465eb51";
+		[ReadOnly, SerializeField] private string id = "c3fcaf64-34ed-4fa6-bf09-df485465eb51";
 	}
 
 .. image:: ../Images/ReadOnly01.png

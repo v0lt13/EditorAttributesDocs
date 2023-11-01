@@ -1,4 +1,4 @@
-DisableInPlaymode Attribute
+DisableInPlayMode Attribute
 ===========================
 
 Attribute to disable a field when entering play mode::
@@ -8,14 +8,14 @@ Attribute to disable a field when entering play mode::
 	
 	public class AttributesExample : MonoBehaviour
 	{
-		[DisableInPlaymode] public int field = "51";
+		[DisableInPlayMode] public int field = "51";
 	}
 
-Outside of playmode:
+Outside of play mode:
 
 .. image:: ../Images/DisableInPlaymode01.png
 
-During playmode:
+During play mode:
 
 .. image:: ../Images/DisableInPlaymode02.png
 
