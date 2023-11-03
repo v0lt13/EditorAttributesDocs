@@ -10,6 +10,9 @@ Attribute to add a button in the inspector.
 .. note::
 	The function must be public for it to be found.
 
+.. note::
+	In case if you have a function with overloads the button will use the first function it finds.
+
 Because a function is not a property that can be displayed in the editor we need to have a holder variable to attach the attribute to::
 
 	using UnityEngine;
@@ -41,6 +44,9 @@ If your function has parameters they will be displayed under the button as a fol
 	}
 
 .. image:: ../Images/Button02.png
+
+.. note::
+	`Arrays`, `Lists`, `UnityEvents` and ``out`` or ``ref`` parameters are not supported
 
 .. note::
 	The attribute cannot look for functions inside a ``struct`` and it doesn't work well if the holder is an array or list
