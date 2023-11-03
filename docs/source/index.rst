@@ -39,7 +39,7 @@ Contents:
     Attributes/hideinplaymode
     Attributes/hideineditmode
     Attributes/hidefield
-    Attributes/showfields
+    Attributes/showfield
     Attributes/conditionalfield
     Attributes/messagebox
     Attributes/helpbox
