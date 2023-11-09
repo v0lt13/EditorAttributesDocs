@@ -8,7 +8,7 @@ Attribute to display a message box depending on a condition.
 	- ``string`` conditionName: The condition to evaluate
 	- ``object`` enumValue: The value of the enum
 	- `optional`, ``bool`` drawProperty: Draw the property this attribute is attached to
-	- ``MessageMode`` messageType: The type of the message
+	- `optional`, ``MessageMode`` messageType: The type of the message
 
 Example::
 

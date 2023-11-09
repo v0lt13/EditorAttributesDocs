@@ -1,6 +1,14 @@
 Changelogs
 ==========
 
+EditorAttributes v1.3.0 Changelog:
+----------------------------------
+- Added MinMaxSlider attribute
+- Added Clamp attribute
+- Added PropertyWidth attribute
+- Added LayerMask support to button parameters
+- Refactored the Button attribute drawing system so they now the attributes can be placed directly on the function
+
 EditorAttributes v1.2.1 Changelog:
 ----------------------------------
 - Fixed public fields, properties and functions of type List not working with the dropdown attribute

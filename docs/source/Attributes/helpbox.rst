@@ -6,7 +6,7 @@ Attribute to display a help box.
 **Parameters:**
 	- ``string`` message: The message to display
 	- `optional`, ``bool`` drawProperty: Draw the property this attribute is attached to
-	- ``MessageMode`` messageType: The type of the message
+	- `optional`, ``MessageMode`` messageType: The type of the message
 	
 Example::
 

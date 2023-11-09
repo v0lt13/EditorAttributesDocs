@@ -44,6 +44,9 @@ Contents:
     Attributes/messagebox
     Attributes/helpbox
     Attributes/dropdown
+    Attributes/clamp
+    Attributes/minmaxslider
+    Attributes/propertywidth
     Attributes/horizontalgroup
     Attributes/button
 
