@@ -37,7 +37,7 @@ If your function has parameters they will be displayed under the button as a fol
 .. image:: ../Images/Button02.png
 
 .. note::
-	`Arrays`, `Lists`, `UnityEvents` and ``out`` or ``ref`` parameters are not supported
+	``Array``, ``List``, ``UnityEvent`` and ``out`` or ``ref`` parameters are not supported
 
 .. note::
-	The attribute won't work inside a serialized `struct`
+	The attribute won't work inside a serialized ``struct``
