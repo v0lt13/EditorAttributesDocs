@@ -30,4 +30,13 @@ highlight_language = "csharp"
 
 html_theme = 'groundwork'
 
+html_theme_options = {
+    "sidebar_width": '240px',
+    "stickysidebar": True,
+    "stickysidebarscrollable": True,
+    "contribute": True,
+    "github_fork": "useblocks/groundwork",
+    "github_user": "useblocks",
+}
+
 epub_show_urls = 'footnote'
