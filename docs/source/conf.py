@@ -6,7 +6,7 @@ project = 'EditorAttributes'
 copyright = '2023, v0lt'
 author = 'v0lt'
 
-release = '1.1.0'
+release = '1.4.0'
 
 # -- General configuration
 
@@ -30,7 +30,7 @@ highlight_language = "csharp"
 
 # -- Options for HTML output
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'groundwork'
 
 html_theme_options = {
     'collapse_navigation': False,  # Collapse navigation (False makes it tree-like)
