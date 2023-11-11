@@ -4,7 +4,7 @@ Sufix Attribute
 Attribute to add a sufix on a field
 
 **Parameters:**
-	- ``string`` prefix: The sufix to add
+	- ``string`` sufix: The sufix to add
 	- `optional`, ``float`` offset: Offset to add between the sufix and field
 
 Example::
