@@ -1,7 +1,7 @@
 Void Struct
 ===========
 
-The **Void** struct is an empty serialized struct to use as a holder property for attributes like the :doc:`../Attributes/helpbox`, :doc:`../Attributes/horizontalgroup`, etc. 
+The **Void** struct is an empty serialized struct to use as a holder property for attributes like the :doc:`../Attributes/verticalgroup`, :doc:`../Attributes/horizontalgroup`, etc. 
 that completely redraw the property in the inspector.
 
 The **Void** struct can also be passed as a type in generics, which commonly happens when you make an event system that you want to return void::

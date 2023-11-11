@@ -32,6 +32,8 @@ Contents:
 	
     Attributes/readonly
     Attributes/rename
+    Attributes/sufix
+    Attributes/prefix
     Attributes/enablefield
     Attributes/disablefield
     Attributes/disableinplaymode
@@ -43,11 +45,16 @@ Contents:
     Attributes/conditionalfield
     Attributes/messagebox
     Attributes/helpbox
+    Attributes/image
+    Attributes/line
     Attributes/dropdown
+    Attributes/tagdropdown
+    Attributes/scenedropdown
     Attributes/clamp
     Attributes/minmaxslider
     Attributes/propertywidth
     Attributes/horizontalgroup
+    Attributes/verticalgroup
     Attributes/button
 
 External Links:

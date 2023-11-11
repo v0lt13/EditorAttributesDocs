@@ -1,6 +1,15 @@
 Changelogs
 ==========
 
+EditorAttributes v1.4.0 Changelog:
+==================================
+- Added Prefix/Sufix attribute
+- Added Line attribute
+- Added TagDropdown attribute
+- Added Image attribute
+- Added VerticalGroup attribute
+- Added SceneDropdown attribute
+
 EditorAttributes v1.3.0 Changelog:
 ----------------------------------
 - Added MinMaxSlider attribute
