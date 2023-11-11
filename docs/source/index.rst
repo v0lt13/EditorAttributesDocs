@@ -32,7 +32,7 @@ Contents:
 	
     Attributes/readonly
     Attributes/rename
-    Attributes/sufix
+    Attributes/suffix
     Attributes/prefix
     Attributes/enablefield
     Attributes/disablefield
