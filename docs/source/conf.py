@@ -28,7 +28,7 @@ templates_path = ['_templates']
 
 highlight_language = "csharp"
 
-# -- Options for HTML output
+import groundwork
 
 html_theme = 'groundwork'
 
@@ -36,5 +36,4 @@ html_theme_options = {
     'collapse_navigation': False,  # Collapse navigation (False makes it tree-like)
 }
 
-# -- Options for EPUB output
 epub_show_urls = 'footnote'
