@@ -3,7 +3,7 @@ SceneDropdown Attribute
 
 Attribute to make a dropdown containing all scenes in the build settings
 
-If the attribute is attached to a ``string`` it will return the scene name, if is attached to an ``int`` it will return the scene index::
+If the attribute is attached to a ``string`` it will get the scene name, if is attached to an ``int`` it will get the scene index::
 
 	using UnityEngine;
 	using EditorAttributes;

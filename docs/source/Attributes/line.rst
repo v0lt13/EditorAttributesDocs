@@ -7,7 +7,7 @@ Attribute to draw a line in the inspector
 	- ``float`` red: Red amount
 	- ``float`` green: Green amount
 	- ``float`` blue: Blue amount
-	- ``string`` hexColor: Color in hexadecimal
+	- ``string`` hexColor: The color in hexadecimal
 	- `optional`, ``LineColor`` color: The color of the line
 	- `optional`, ``float`` alpha: Alpha amount
 

@@ -4,7 +4,7 @@ TagDropdown Attribute
 Attribute to make a dropdown of tags
 
 .. note::
-	The `TagDropdown` can only be attached on a string
+	The `TagDropdown` can only be attached to a ``string``
 
 Example::
 
