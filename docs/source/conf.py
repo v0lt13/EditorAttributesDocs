@@ -16,6 +16,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx_rtd_dark_mode',
 ]
 
 intersphinx_mapping = {
@@ -28,15 +29,12 @@ templates_path = ['_templates']
 
 highlight_language = "csharp"
 
-html_theme = 'groundwork'
+html_theme = 'sphinx_rtd_theme'
 
 html_theme_options = {
-    "sidebar_width": '240px',
-    "stickysidebar": True,
-    "stickysidebarscrollable": True,
-    "contribute": True,
-    "github_fork": "useblocks/groundwork",
-    "github_user": "useblocks",
+    'collapse_navigation': False,  # Collapse navigation (False makes it tree-like)
 }
+
+default_dark_mode = True
 
 epub_show_urls = 'footnote'
