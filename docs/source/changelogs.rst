@@ -2,7 +2,7 @@ Changelogs
 ==========
 
 EditorAttributes v1.4.0 Changelog:
-==================================
+----------------------------------
 - Added Prefix/Sufix attribute
 - Added Line attribute
 - Added TagDropdown attribute
