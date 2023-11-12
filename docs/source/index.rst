@@ -45,6 +45,7 @@ Contents:
     Attributes/conditionalfield
     Attributes/messagebox
     Attributes/helpbox
+    Attributes/assetpreview
     Attributes/image
     Attributes/line
     Attributes/dropdown
@@ -55,6 +56,8 @@ Contents:
     Attributes/propertywidth
     Attributes/horizontalgroup
     Attributes/verticalgroup
+    Attributes/foldoutgroup
+    Attributes/togglegroup
     Attributes/button
 
 External Links:
