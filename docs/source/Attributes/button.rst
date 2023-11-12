@@ -70,6 +70,7 @@ Now the buttons will be disabled/hidden by default until the `condition` is true
 .. image:: ../Images/Button04.png
 
 If you wish for the button to be enabled/shown by default and disabled/hidden when the `conditon` is true, you can set the `negate` parameter to true::
+
 	using UnityEngine;
 	using EditorAttributes;
 	
