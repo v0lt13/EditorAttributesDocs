@@ -51,24 +51,22 @@ Attribute Order
 
 The logic of all attributes are executed in the order they are written (left to right), meaning the last attribute can override the functionality of the previous attribute
 if the functionality is similar.
-In the following example the :doc:`../Attributes/readonly` will execute after the :doc:`../Attributes/button` meaning the `buttonHolder` field will be made drawn over by the button 
-then it will get disabled by the :doc:`../Attributes/readonly`, leaving the button still enabled::
+In the following example the :doc:`../Attributes/propertywidth` will execute after the :doc:`../Attributes/prefix` meaning the prefix will be added before the property width is set, so the 
+:doc:`../Attributes/prefix` couldn't calculate it's position to be next to the field because the field width changed after the prefix was already calculated::
 
 	using UnityEngine;
 	using EditorAttributes;
 	
 	public class AttributesExample : MonoBehaviour
 	{
-		[Button(nameof(Button)), ReadOnly]
-		[SerializeField] private Void buttonHolder;
-	
-		public void Button() => print("Hello World!");
+		[Prefix("num"), PropertyWidth(100f)]
+		[SerializeField] private int field;
 	}
 
 .. image:: ../Images/HowToUse02.png
 
-To fix this and have the button disabled we can change the other by putting the :doc:`../Attributes/readonly` before the :doc:`../Attributes/button` or use the `order` property that every attribute has
-to execute the :doc:`../Attributes/readonly` first, C# will first go trough the attributes with the lowest order from left to right then to the ones with the higher order the same way,
+To fix this we can change the order by putting the :doc:`../Attributes/propertywidth` before the :doc:`../Attributes/prefix` or use the `order` parameter that every attribute has
+to execute the :doc:`../Attributes/propertywidth` first, C# will first go trough the attributes with the lowest order from left to right then to the ones with the higher order the same way,
 the default order of all attributes is 0::
 
 	using UnityEngine;
@@ -76,12 +74,10 @@ the default order of all attributes is 0::
 	
 	public class AttributesExample : MonoBehaviour
 	{
-		[Button(nameof(Button)), ReadOnly(order = -1)]
-		[SerializeField] private Void buttonHolder;
-	
-		public void Button() => print("Hello World!");
+		[Prefix("num"), PropertyWidth(100f, order = -1)]
+		[SerializeField] private int field;
 	}
 
-So now the :doc:`../Attributes/readonly` will be executed first disabling the field before it becomes a button and now the button will be drawn as disabled.
+So now the :doc:`../Attributes/propertywidth` will be executed first and the :doc:`../Attributes/prefix` calculates it's position using the new width set by it.
 
 .. image:: ../Images/HowToUse03.png
