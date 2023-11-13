@@ -48,6 +48,8 @@ Contents:
     Attributes/assetpreview
     Attributes/image
     Attributes/line
+    Attributes/guicolor
+    Attributes/colorfield
     Attributes/dropdown
     Attributes/tagdropdown
     Attributes/scenedropdown

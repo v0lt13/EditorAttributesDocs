@@ -6,6 +6,7 @@ Attribute to display specified fields horizontally.
 **Parameters:**
 	- `optional`, ``float`` labelWidth: The width of the field labels
 	- `optional`, ``float`` fieldWidth: The width of the input fields
+	- `optional`, ``bool`` drawInBox: Draw the group in a nice box
 	- `params`, ``string`` fieldsToGroup: The name of the fields to group
 
 Example::

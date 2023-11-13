@@ -1,15 +1,14 @@
-Line Attribute
-==============
+GUIColor Attribute
+==================
 
-Attribute to draw a line in the inspector
+Attribute to color the GUI
 
 **Parameters:**
 	- ``float`` red: Red amount
 	- ``float`` green: Green amount
 	- ``float`` blue: Blue amount
 	- ``string`` hexColor: The color in hexadecimal
-	- `optional`, ``GUIColor`` color: The color of the line
-	- `optional`, ``float`` alpha: Alpha amount
+	- ``GUIColor`` color: The color of the GUI
 
 Example::
 
@@ -18,17 +17,20 @@ Example::
 	
 	public class AttributesExample : MonoBehaviour
 	{
+		[GUIColor(GUIColor.Lime)]
 		[SerializeField] private int field01;
-		[Line]
 		[SerializeField] private int field02;
-		[Line(GUIColor.Green)]
 		[SerializeField] private int field03;
-		[Line(GUIColor.Cyan, 0.3f)]
+	
+		[GUIColor(144f, 151f, 222f)]
 		[SerializeField] private int field04;
-		[Line(250f, 129f, 120f)]
 		[SerializeField] private int field05;
-		[Line("#a86c2f")]
 		[SerializeField] private int field06;
+	
+		[GUIColor("#8c508b")]
+		[SerializeField] private int field07;
+		[SerializeField] private int field08;
+		[SerializeField] private int field09;
 	}
-
-.. image:: ../Images/Line01.png
+	
+.. image:: ../Images/GUIColor01.png
