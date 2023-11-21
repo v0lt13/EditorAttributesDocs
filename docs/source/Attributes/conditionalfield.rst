@@ -51,7 +51,7 @@ And ``NOR`` which evaluates like this:
 
 .. image:: ../Images/ConditionalField08.png
 
-On top of the ``ConditionType`` we can also specify a certain condition we want to negate by creating a ``bool`` arraythat must contain the 
+On top of the ``ConditionType`` we can also specify a certain condition we want to negate by creating a ``bool`` array that must contain the 
 the conditions we want to negate in the order we added them.
 We set true for conditions we want to negate and set false for conditions we don’t::
 	
@@ -98,4 +98,4 @@ by setting the ``ConditionResult`` parameter to the value `EnableDisable`, like 
 .. image:: ../Images/ConditionalField12.png
 
 .. note::
-	It cannot look for the condition inside a ``struct`` and it cannot hide arrays or lists, only the fields inside them
+	It cannot hide arrays or lists, only the fields inside them

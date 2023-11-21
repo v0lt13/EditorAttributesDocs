@@ -49,4 +49,4 @@ The field will be enabled when the ``enum`` is set to `State02`.
 .. image:: ../Images/EnableField04.png
 
 .. note::
-	It cannot look for the condition inside a ``struct``
+	It cannot look for the condition inside a serialized ``struct`` or ``class``

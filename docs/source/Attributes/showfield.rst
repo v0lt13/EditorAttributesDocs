@@ -49,4 +49,4 @@ The field will be shown when the ``enum`` is set to `State02`.
 .. image:: ../Images/ShowField04.png
 
 .. note::
-	It cannot look for the condition inside a ``struct`` and it cannot hide arrays or lists, only the fields inside them
+	It cannot hide arrays or lists, only the fields inside them

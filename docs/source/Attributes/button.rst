@@ -6,7 +6,7 @@ Attribute to add a button in the inspector.
 **Parameters:**
 	- ``string`` conditionName: The name of the condition to evaluate
 	- ``object`` enumValue: The value of the enum condition
-	- ``ConditionResult`` conditionResult: What happens to the property when the condition evaluates to true
+	- ``ConditionResult`` conditionResult: What happens to the button when the condition evaluates to true
 	- `optional`, ``bool`` negate: Negate the evaluated condition
 	- `optional`, ``string`` buttonLabel: The label displayed on the button
 	- `optional`, ``float`` buttonHeight: The height of the button
@@ -41,7 +41,7 @@ If your function has parameters they will be displayed under the button as a fol
 .. image:: ../Images/Button02.png
 
 .. note::
-	``Array``, ``List``, ``UnityEvent``, ``struct``, ``enum`` and ``out`` or ``ref`` parameters are not supported
+	``Array``, ``List``, ``UnityEvent``, serialized ``struct`` or ``class`` and ``out`` or ``ref`` parameters are not supported
 
 .. note::
 	Because of the way the button parameters are serialized if you have multiple of the same component on one object the button parameters will share values, same applies to multiple objects
@@ -92,4 +92,4 @@ If you wish for the button to be enabled/shown by default and disabled/hidden wh
 You can also use an ``enum`` as a condition the same way you would use it on the :doc:`enablefield`, :doc:`disablefield`, :doc:`showfield`, :doc:`hidefield` and :doc:`messagebox`.
 
 .. note::
-	The attribute won't work inside a serialized ``struct``
+	The attribute won't work inside a serialized ``struct`` or ``class``

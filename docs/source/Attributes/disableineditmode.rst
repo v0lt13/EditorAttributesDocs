@@ -8,15 +8,15 @@ Attribute to disable a field when outside of play mode::
 	
 	public class AttributesExample : MonoBehaviour
 	{
-		[DisableInEditMode] public int field = "51";
+		[SerializeField, DisableInEditMode] private int field;
 	}
 
 Outside of play mode:
 
-.. image:: ../Images/DisableInPlaymode02.png
+.. image:: ../Images/DisableInEditmode01.png
 
 During play mode:
 
-.. image:: ../Images/DisableInPlaymode01.png
+.. image:: ../Images/HideInEditmode01.png
 
 Useful when you want to enable certain fields only when playing.

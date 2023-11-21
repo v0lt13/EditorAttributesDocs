@@ -68,4 +68,4 @@ The message boxes will show when the ``enum`` is set to `State02`.
 .. image:: ../Images/MessageBox04.png
 
 .. note::
-	Doesn’t work well with arrays or lists and it cannot look for the condition inside a ``struct``
+	Doesn’t work well with arrays or lists

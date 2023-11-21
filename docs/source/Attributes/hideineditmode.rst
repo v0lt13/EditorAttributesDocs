@@ -8,15 +8,15 @@ Attribute to hide a field when outside of play mode::
 	
 	public class AttributesExample : MonoBehaviour
 	{
-		[HideInEditMode] public int field = "51";
+		[SerializeField, HideInEditMode] private int field;
 	}
 
 Outside of play mode:
 
-.. image:: ../Images/HideInPlaymode01.png
+.. image:: ../Images/HideInEditmode01.png
 
 During play mode:
 
-.. image:: ../Images/DisableInPlaymode01.png
+.. image:: ../Images/HideInEditmode02.png
 
 Useful when you want to show certain fields only when playing.

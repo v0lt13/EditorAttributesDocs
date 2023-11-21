@@ -17,10 +17,10 @@ Example::
 	
 	public class AttributesExample : MonoBehaviour
 	{
-		[SerializeField, HorizontalGroup(nameof(field01), nameof(field02), nameof(field03), nameof(field04))] 
+		[SerializeField, HorizontalGroup(nameof(field01), nameof(field02), nameof(field03), nameof(field04))]
 		private Void groupHolder01;
 	
-		[SerializeField, HorizontalGroup(nameof(field05), nameof(field06), nameof(field07))]
+		[SerializeField, HorizontalGroup(50f, 50f, true, nameof(field05), nameof(field06))]
 		private Void groupHolder02;
 	
 		// The fields needs to be serialized, but we don't want them to show in the inspector
@@ -30,11 +30,7 @@ Example::
 		[SerializeField, HideInInspector] private bool field04;
 	
 		[SerializeField, HideInInspector] private Vector3 field05;
-		[SerializeField, HideInInspector] private string[] field06;
-		[SerializeField, HideInInspector] private UnityEvent field07;
+		[SerializeField, HideInInspector] private UnityEvent field06;
 	}
 
 .. image:: ../Images/HorizontalGroup01.png
-
-.. note::
-	The attribute cannot look for fields inside a ``struct``

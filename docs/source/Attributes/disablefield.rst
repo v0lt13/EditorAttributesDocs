@@ -47,7 +47,3 @@ The field will be disabled when the ``enum`` is set to `State02`.
 .. image:: ../Images/DisableField03.png
 
 .. image:: ../Images/DisableField04.png
-
-.. note::
-	It cannot look for the condition inside a ``struct``
-
