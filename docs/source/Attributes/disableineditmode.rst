@@ -17,6 +17,6 @@ Outside of play mode:
 
 During play mode:
 
-.. image:: ../Images/HideInEditmode01.png
+.. image:: ../Images/HideInEditmode02.png
 
 Useful when you want to enable certain fields only when playing.

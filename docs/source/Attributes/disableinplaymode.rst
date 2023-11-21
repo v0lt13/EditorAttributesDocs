@@ -8,7 +8,7 @@ Attribute to disable a field when entering play mode::
 	
 	public class AttributesExample : MonoBehaviour
 	{
-		[DisableInPlayMode] public int field = "51";
+		[SerializeField, DisableInPlayMode] private int field = "51";
 	}
 
 Outside of play mode:
