@@ -4,16 +4,16 @@ Clamp Attribute
 Attribute to clamp a numeric field between two values
 
 **Parameters:**
-	- ``minValue`` The min value to clamp
-	- ``maxValue`` The max value to clamp
-	- ``minValueX`` The min value to clamp on X
-	- ``maxValueX`` The max value to clamp on X
-	- ``minValueY`` The min value to clamp on Y
-	- ``maxValueY`` The max value to clamp on Y
-	- ``minValueZ`` The min value to clamp on Z
-	- ``maxValueZ`` The max value to clamp on Z
-	- ``minValueW`` The min value to clamp on W
-	- ``maxValueW`` The max value to clamp on W
+	- ``float`` minValue: The min value to clamp
+	- ``float`` maxValue: The max value to clamp
+	- ``float`` minValueX: The min value to clamp on X
+	- ``float`` maxValueX: The max value to clamp on X
+	- ``float`` minValueY: The min value to clamp on Y
+	- ``float`` maxValueY: The max value to clamp on Y
+	- ``float`` minValueZ: The min value to clamp on Z
+	- ``float`` maxValueZ: The max value to clamp on Z
+	- ``float`` minValueW: The min value to clamp on W
+	- ``float`` maxValueW: The max value to clamp on W
 
 Example::
 
@@ -28,8 +28,6 @@ Example::
 
 Now the values will be clamped between the min and max specified
 
-.. image:: ../Images/Clamp01.png
-
 By default, on vectors the provided min and max will affect all axis, but you can also provide different min max values for different axis::
 
 	using UnityEngine;
@@ -42,8 +40,6 @@ By default, on vectors the provided min and max will affect all axis, but you ca
 	}
 
 Now the values of each axis will be clamped between the min and max specified for their axis
-
-.. image:: ../Images/Clamp02.png
 
 .. note::
 	Quaternions are not supported because they are weird

@@ -34,6 +34,7 @@ Contents:
     Attributes/rename
     Attributes/suffix
     Attributes/prefix
+    Attributes/hidelabel
     Attributes/enablefield
     Attributes/disablefield
     Attributes/disableinplaymode
@@ -45,6 +46,8 @@ Contents:
     Attributes/conditionalfield
     Attributes/messagebox
     Attributes/helpbox
+    Attributes/required
+    Attributes/typefilter
     Attributes/assetpreview
     Attributes/image
     Attributes/line
@@ -52,8 +55,10 @@ Contents:
     Attributes/colorfield
     Attributes/dropdown
     Attributes/tagdropdown
+    Attributes/sortinglayerdropdown
     Attributes/scenedropdown
     Attributes/clamp
+    Attributes/wrap
     Attributes/minmaxslider
     Attributes/propertywidth
     Attributes/horizontalgroup

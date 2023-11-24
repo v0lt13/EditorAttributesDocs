@@ -6,7 +6,7 @@ project = 'EditorAttributes'
 copyright = '2023, v0lt'
 author = 'v0lt'
 
-release = '1.6.0'
+release = '1.7.0'
 
 # -- General configuration
 
