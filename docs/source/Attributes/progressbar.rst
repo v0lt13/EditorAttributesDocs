@@ -32,3 +32,6 @@ Moving the value slider will update the progress bar value::
 	}
 	
 .. image:: ../Images/ProgressBar01.png
+
+.. note:: 
+	The `ProgressBar Attribute` can only be attached to numeric fields (``int``, ``float``, ``double``, etc.)
