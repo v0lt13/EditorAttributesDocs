@@ -27,4 +27,4 @@ Example::
 .. image:: ../Images/DataTable01.png
 
 .. note:: 
-	The data table can't contain collections, unityEvents or other serialized structs or classes
+	The data table can't contain collections, UnityEvents or other serialized structs or classes
