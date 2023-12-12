@@ -53,6 +53,7 @@ Contents:
     Attributes/line
     Attributes/guicolor
     Attributes/colorfield
+    Attributes/progressbar
     Attributes/dropdown
     Attributes/tagdropdown
     Attributes/sortinglayerdropdown
@@ -65,6 +66,7 @@ Contents:
     Attributes/verticalgroup
     Attributes/foldoutgroup
     Attributes/togglegroup
+    Attributes/datatable
     Attributes/button
 
 External Links:
