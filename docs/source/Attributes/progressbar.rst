@@ -1,5 +1,5 @@
-Line Attribute
-==============
+ProgressBar Attribute
+=====================
 
 Attribute to draw a progress bar
 
