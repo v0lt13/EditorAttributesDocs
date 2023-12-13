@@ -1,7 +1,7 @@
 TypeFilter Attribute
 ====================
 
-Attribute to only allow asignment of objects that are or derive from the specified types
+Attribute to only allow assignment of objects that are or derive from the specified types
 
 **Parameters:**
 	- `params`, ``object`` objectType: The type of objects to filter
