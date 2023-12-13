@@ -10,7 +10,7 @@ To start using the editor attributes you must add this using statement in your c
 
 	using EditorAttributes;
 
-If you are using `Assembly Definitions <https://docs.unity3d.com/2023.3/Documentation/Manual/ScriptCompilationAssemblyDefinitionFiles.html>`_ in your project make sure you reference the “Attributes” Assembly Definition where needed.
+If you are using `Assembly Definitions <https://docs.unity3d.com/2023.3/Documentation/Manual/ScriptCompilationAssemblyDefinitionFiles.html>`_ in your project make sure you reference the “EditorAttributes” Assembly Definition where needed.
 
 .. image:: ../Images/HowToUse01.png
 
