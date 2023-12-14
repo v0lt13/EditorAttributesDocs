@@ -15,8 +15,6 @@ Example::
 	{
 		[SerializeField, Dropdown(nameof(dropdownValue))] private string stringDropdown;
 	
-		// The array needs to be serialized, but we don't want it to show in the inspector
-		[SerializeField, HideInInspector]
 		private string[] dropdownValue = new string[]
 		{
 			"Value01", "Value02", "Value03"
