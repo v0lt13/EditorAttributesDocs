@@ -16,7 +16,7 @@ While it’s not necessary to use the struct for those attributes (any serialize
 When you use the :doc:`voidstruct` as a variable it makes it obvious that is a holder and it will be redrawn, it also keeps some consistency in your code rather then using 
 ``int`` or ``float`` randomly in your code as holders.
 
-Is also a good idea to add a `holder` sufix or other naming convention to the void fields so when it comes up in something like `Intellisense` you know what it is.
+Is also a good idea to add a `holder` suffix or other naming convention to the void fields so when it comes up in something like `Intellisense` you know what it is.
 
 Managing multiple attributes
 ----------------------------
@@ -58,10 +58,10 @@ Any of these methods are valid ways of shortening the line of code, is up to you
 Using the nameof expression
 ---------------------------
 
-Some attributes need to look for a field in your script and it will ask you to give the name of that field as a ``string`` parameter, but strings are error prone
+Some attributes need to look for a member in your script and it will ask you to give the name of that member as a ``string`` parameter, but strings are error prone
 and you might encounter issues saying, `that field can not be found` and spend hours scratching you head when you realise you just made a typo or had a character
 in the wrong case. Thats why you should use the `nameof <https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/nameof>`_ expresion, that allows
-you to add your variable like a parameter and converts it's name to a string for the attribute::
+you to add your variable like a parameter and converts it's name to a ``string`` for the attribute::
 
 	using UnityEngine;
 	using EditorAttributes;

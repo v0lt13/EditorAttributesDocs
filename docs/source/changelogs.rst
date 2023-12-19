@@ -1,6 +1,12 @@
 Changelogs
 ==========
 
+EditorAttributes v1.8.1 Changelog:
+----------------------------------
+- Added some helpboxes when group fields cannot be found
+- Fixed the dropdown attribute not finding the collection
+- Added some missing null checks
+
 EditorAttributes v1.8.0 Changelog:
 ----------------------------------
 - Added DataTable Attribute

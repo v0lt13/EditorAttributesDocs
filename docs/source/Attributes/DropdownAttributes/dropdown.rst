@@ -4,7 +4,7 @@ Dropdown Attribute
 Attribute to make a dropdown menu out of a collection of elements.
 
 **Parameters:**
-	- ``string`` arrayName: The name of the array or list
+	- ``string`` collectionName: The name of the array or list
 
 Example::
 
