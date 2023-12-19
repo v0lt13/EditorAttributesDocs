@@ -19,4 +19,4 @@ Example::
 		[SerializeField, PropertyWidth(100f)] private string stringField;
 	}
 	
-.. image:: ../Images/PropertyWidth01.png
+.. image:: ../../Images/PropertyWidth01.png

@@ -26,30 +26,30 @@ The field will be shown when the result of the specified conditions return true:
 In this case we set the ``ConditionType`` to ``AND`` so the evaluation will be something like this:
 ``condition01 && condition02``
 
-.. image:: ../Images/ConditionalField01.png
+.. image:: ../../Images/ConditionalField01.png
 
-.. image:: ../Images/ConditionalField02.png
+.. image:: ../../Images/ConditionalField02.png
 
 We can also set it to ``OR`` and it will evaluate like this:
 ``condition01 || condition02``
 
-.. image:: ../Images/ConditionalField03.png
+.. image:: ../../Images/ConditionalField03.png
 
-.. image:: ../Images/ConditionalField04.png
+.. image:: ../../Images/ConditionalField04.png
 
 ``NAND`` which will evaluate like this:
 ``!condition01 && !condition02``
 
-.. image:: ../Images/ConditionalField05.png
+.. image:: ../../Images/ConditionalField05.png
 
-.. image:: ../Images/ConditionalField06.png
+.. image:: ../../Images/ConditionalField06.png
 
 And ``NOR`` which evaluates like this:
 ``!condition01 || !condition02``
 
-.. image:: ../Images/ConditionalField07.png
+.. image:: ../../mages/ConditionalField07.png
 
-.. image:: ../Images/ConditionalField08.png
+.. image:: ../../Images/ConditionalField08.png
 
 On top of the ``ConditionType`` we can also specify a certain condition we want to negate by creating a ``bool`` array that must contain the 
 the conditions we want to negate in the order we added them.
@@ -70,13 +70,13 @@ We set true for conditions we want to negate and set false for conditions we don
 So in this case we only negate `condition02` and the evaluation will be something like this:
 ``condition01 && !condition02``
 
-.. image:: ../Images/ConditionalField09.png
+.. image:: ../../Images/ConditionalField09.png
 
-.. image:: ../Images/ConditionalField10.png
+.. image:: ../../Images/ConditionalField10.png
 
-.. image:: ../Images/ConditionalField03.png
+.. image:: ../../Images/ConditionalField03.png
 
-.. image:: ../Images/ConditionalField05.png
+.. image:: ../../Images/ConditionalField05.png
 
 By default the ConditionalField attribute will only show/hide fields, but you can also set it to only enable/disable fields, 
 by setting the ``ConditionResult`` parameter to the value `EnableDisable`, like so::
@@ -93,9 +93,9 @@ by setting the ``ConditionResult`` parameter to the value `EnableDisable`, like 
 		private int field;
 	}
 	
-.. image:: ../Images/ConditionalField11.png
+.. image:: ../../Images/ConditionalField11.png
 
-.. image:: ../Images/ConditionalField12.png
+.. image:: ../../Images/ConditionalField12.png
 
 .. note::
 	It cannot hide arrays or lists, only the fields inside them

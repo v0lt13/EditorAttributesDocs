@@ -27,4 +27,4 @@ Example::
 		private string helpBoxError;
 	}
 	
-.. image:: ../Images/HelpBox01.png
+.. image:: ../../Images/HelpBox01.png

@@ -18,4 +18,4 @@ Example::
 		[SerializeField, Prefix("prefix with offset", 20f)] private int field02;
 	}
 
-.. image:: ../Images/Prefix01.png
+.. image:: ../../Images/Prefix01.png

@@ -31,4 +31,4 @@ Example::
 		[SerializeField] private int field06;
 	}
 
-.. image:: ../Images/Line01.png
+.. image:: ../../Images/Line01.png

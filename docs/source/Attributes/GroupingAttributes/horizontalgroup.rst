@@ -33,4 +33,4 @@ Example::
 		[SerializeField, HideInInspector] private UnityEvent field06;
 	}
 
-.. image:: ../Images/HorizontalGroup01.png
+.. image:: ../../Images/HorizontalGroup01.png

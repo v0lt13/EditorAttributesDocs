@@ -13,4 +13,4 @@ Example::
 		[SerializeField, HideLabel] private string stringField;
 	}
 
-.. image:: ../Images/HideLabel01.png
+.. image:: ../../Images/HideLabel01.png

@@ -13,4 +13,4 @@ If the attribute is attached to a ``string`` it will get the scene name, if is a
 		[SerializeField, SceneDropdown] private string scene;
 	}
 
-.. image:: ../Images/SceneDropdown01.png
+.. image:: ../../Images/SceneDropdown01.png

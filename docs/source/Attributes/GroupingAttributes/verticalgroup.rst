@@ -53,4 +53,4 @@ This attribute is best used with the :doc:`horizontalgroup` to display a bunch o
 		[SerializeField, HideInInspector] private bool boolField02;
 	}
 
-.. image:: ../Images/VerticalGroup02.png
+.. image:: ../../Images/VerticalGroup02.png

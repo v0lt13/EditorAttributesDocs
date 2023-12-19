@@ -13,11 +13,11 @@ Attribute to hide a field when entering play mode::
 
 Outside of play mode:
 
-.. image:: ../Images/DisableInPlaymode01.png
+.. image:: ../../Images/DisableInPlaymode01.png
 
 During play mode:
 
-.. image:: ../Images/HideInPlaymode01.png
+.. image:: ../../Images/HideInPlaymode01.png
 
 .. note:: 
 	It cannot hide arrays or lists, only the fields inside them

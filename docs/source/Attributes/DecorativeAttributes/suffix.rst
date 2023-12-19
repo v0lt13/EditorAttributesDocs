@@ -18,4 +18,4 @@ Example::
 		[SerializeField, Suffix("suffix with offset", 20f)] private int field02;
 	}
 
-.. image:: ../Images/Suffix01.png
+.. image:: ../../Images/Suffix01.png

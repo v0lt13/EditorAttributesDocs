@@ -22,4 +22,4 @@ If there is no size given it will default to the image size::
 		[SerializeField] private int field02;
 	}
 
-.. image:: ../Images/Image01.png
+.. image:: ../../Images/Image01.png

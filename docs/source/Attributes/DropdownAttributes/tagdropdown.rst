@@ -4,7 +4,7 @@ TagDropdown Attribute
 Attribute to make a dropdown of tags
 
 .. note::
-	The `TagDropdown` can only be attached to a ``string``
+	The `TagDropdown Attribute` can only be attached to a ``string``
 
 Example::
 
@@ -16,4 +16,4 @@ Example::
 		[SerializeField, TagDropdown] private string objectTag;
 	}
 
-.. image:: ../Images/TagDropdown01.png
+.. image:: ../../Images/TagDropdown01.png

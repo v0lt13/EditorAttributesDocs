@@ -23,4 +23,4 @@ Example::
 
 Now you can specify the value of the ``string`` from a dropdown.
 
-.. image:: ../Images/Dropdown01.png
+.. image:: ../../Images/Dropdown01.png

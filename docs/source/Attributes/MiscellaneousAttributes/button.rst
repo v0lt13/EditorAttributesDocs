@@ -25,7 +25,7 @@ Example::
 		public void TallButton() => print("Im Tall!");
 	}
 
-.. image:: ../Images/Button01.png
+.. image:: ../../Images/Button01.png
 
 If your function has parameters they will be displayed under the button as a foldout::
 
@@ -38,7 +38,7 @@ If your function has parameters they will be displayed under the button as a fol
 		public void ButtonParams(int param01) => print(param01);
 	}
 
-.. image:: ../Images/Button02.png
+.. image:: ../../Images/Button02.png
 
 .. note::
 	``Array``, ``List``, ``UnityEvent``, serialized ``struct`` or ``class`` and ``out`` or ``ref`` parameters are not supported
@@ -65,9 +65,9 @@ You can also enable/disable or show/hide buttons based on a given condition::
 
 Now the buttons will be disabled/hidden by default until the `condition` is true
 
-.. image:: ../Images/Button03.png
+.. image:: ../../Images/Button03.png
 
-.. image:: ../Images/Button04.png
+.. image:: ../../Images/Button04.png
 
 If you wish for the button to be enabled/shown by default and disabled/hidden when the `conditon` is true, you can set the `negate` parameter to true::
 
@@ -85,9 +85,9 @@ If you wish for the button to be enabled/shown by default and disabled/hidden wh
 		public void Button02() => print("Hello World!");
 	}
 
-.. image:: ../Images/Button05.png
+.. image:: ../../Images/Button05.png
 
-.. image:: ../Images/Button06.png
+.. image:: ../../Images/Button06.png
 
 You can also use an ``enum`` as a condition the same way you would use it on the :doc:`../ConditionalAttributes/enablefield`, :doc:`../ConditionalAttributes/disablefield`, 
 :doc:`../ConditionalAttributes/showfield`, :doc:`../ConditionalAttributes/hidefield` and :doc:`../ConditionalAttributes/messagebox`.

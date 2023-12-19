@@ -33,4 +33,4 @@ Example::
 		[SerializeField] private int field09;
 	}
 	
-.. image:: ../Images/GUIColor01.png
+.. image:: ../../Images/GUIColor01.png

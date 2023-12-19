@@ -37,9 +37,9 @@ Example::
 
 The message boxes will show only when the condition is true.
 
-.. image:: ../Images/MessageBox01.png
+.. image:: ../../Images/MessageBox01.png
 
-.. image:: ../Images/MessageBox02.png
+.. image:: ../../Images/MessageBox02.png
 
 You can also use an ``enum`` as a condition like so::
 
@@ -63,9 +63,9 @@ You can also use an ``enum`` as a condition like so::
 
 The message boxes will show when the ``enum`` is set to `State02`.
 
-.. image:: ../Images/MessageBox03.png
+.. image:: ../../Images/MessageBox03.png
 
-.. image:: ../Images/MessageBox04.png
+.. image:: ../../Images/MessageBox04.png
 
 .. note::
 	Doesn’t work well with arrays or lists

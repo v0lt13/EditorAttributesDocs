@@ -19,9 +19,9 @@ The field will remain shown by default until its condition becomes true::
 		[SerializeField, HideField(nameof(condition))] private int field;
 	}
 	
-.. image:: ../Images/HideField01.png
+.. image:: ../../Images/HideField01.png
 
-.. image:: ../Images/HideField02.png
+.. image:: ../../Images/HideField02.png
 
 You can also use enums as a condition like this::
 
@@ -44,9 +44,9 @@ You can also use enums as a condition like this::
 	
 The field will be hidden when the ``enum`` is set to `State02`.
 
-.. image:: ../Images/HideField03.png
+.. image:: ../../Images/HideField03.png
 
-.. image:: ../Images/HideField04.png
+.. image:: ../../Images/HideField04.png
 
 .. note::
 	It cannot hide arrays or lists, only the fields inside them
