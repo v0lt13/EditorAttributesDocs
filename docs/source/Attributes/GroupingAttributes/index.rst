@@ -7,4 +7,7 @@ Grouping Attributes
     :maxdepth: 1
     :caption: Attributes
 	
-	datatable
+    clamp
+    wrap
+    minmaxslider
+    progressbar
