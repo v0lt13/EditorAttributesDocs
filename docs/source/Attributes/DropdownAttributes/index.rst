@@ -5,8 +5,7 @@ Dropdown Attributes
 
 .. toctree::
     :maxdepth: 1
-    :caption: Dropdown Attributes
-    :name: toc-dropdownattributes
+    :caption: Attributes
 	
     dropdown
     scenedropdown

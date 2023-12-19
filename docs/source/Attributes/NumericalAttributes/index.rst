@@ -5,8 +5,7 @@ Numerical Attributes
 
 .. toctree::
     :maxdepth: 1
-    :caption: Numerical Attributes
-    :name: toc-numericalattributes
+    :caption: Attributes
 	
     clamp
     wrap

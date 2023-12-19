@@ -11,14 +11,12 @@ Contents:
 
 .. toctree::
     :maxdepth: 1
-    :name: sec-changelogs
 
     changelogs
 
 .. toctree::
     :maxdepth: 1
     :caption: Getting Started
-    :name: sec-gettingstarted
 
     GettingStarted/instalation
     GettingStarted/howtouse
@@ -28,7 +26,6 @@ Contents:
 .. toctree::
     :maxdepth: 1
     :caption: Attributes
-    :name: sec-attributes
 	
     Attributes/ConditionalAttributes/index	
     Attributes/NumericalAttributes/index	

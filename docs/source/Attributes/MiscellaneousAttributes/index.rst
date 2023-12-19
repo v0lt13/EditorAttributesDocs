@@ -5,8 +5,7 @@ Miscellaneous Attributes
 
 .. toctree::
     :maxdepth: 1
-    :caption: Miscellaneous Attributes
-    :name: toc-miscellaneousattributes
+    :caption: Attributes
 	
     button
     readonly

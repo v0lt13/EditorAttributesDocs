@@ -9,8 +9,7 @@ it will check if the attribute is used inside a serialized class or struct and l
 
 .. toctree::
     :maxdepth: 1
-    :caption: Conditional Attributes
-    :name: toc-conditionalattributes
+    :caption: Attributes
 	
     enablefield
     disablefield

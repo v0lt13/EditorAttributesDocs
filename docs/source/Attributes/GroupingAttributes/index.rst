@@ -5,12 +5,10 @@ Grouping Attributes
 
 .. toctree::
     :maxdepth: 1
-    :caption: Grouping Attributes
-    :name: toc-groupingattributes
+    :caption: Attributes
 	
 	datatable
 	horizontalgroup
 	verticalgroup
 	foldoutgroup
 	togglegroup
-	

@@ -5,8 +5,7 @@ Decorative Attributes
 
 .. toctree::
     :maxdepth: 1
-    :caption: Decorative Attributes
-    :name: toc-decorativeattributes
+    :caption: Attributes
 	
     suffix
     prefix
