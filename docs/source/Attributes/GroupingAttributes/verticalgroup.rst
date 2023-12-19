@@ -26,7 +26,7 @@ Example::
 		[SerializeField, HideInInspector] private bool field04;
 	}
 
-.. image:: ../Images/VerticalGroup01.png
+.. image:: ../../Images/VerticalGroup01.png
 
 This attribute is best used with the :doc:`horizontalgroup` to display a bunch of field groups horizontally::
 
