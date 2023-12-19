@@ -1,7 +1,7 @@
 Numerical Attributes
 ====================
 
-**Numerical Attributes** are attributes that specifically affect numerical fields. (``int``, ``float``,``double``,``Vector3``, etc.)
+**Numerical Attributes** are attributes that specifically affect numerical fields. (``int``, ``float``, ``double``, ``Vector3``, etc.)
 
 .. toctree::
     :maxdepth: 1

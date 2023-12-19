@@ -8,7 +8,3 @@ Grouping Attributes
     :caption: Attributes
 	
 	datatable
-	horizontalgroup
-	verticalgroup
-	foldoutgroup
-	togglegroup
