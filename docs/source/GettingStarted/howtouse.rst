@@ -68,7 +68,7 @@ In the following example the :doc:`../Attributes/DecorativeAttributes/propertywi
 .. image:: ../Images/HowToUse02.png
 
 To fix this we can change the order by putting the :doc:`../Attributes/DecorativeAttributes/propertywidth` before the :doc:`../Attributes/DecorativeAttributes/prefix` or use the `order` parameter that every attribute has
-to execute the :doc:`../Attributes/propertywidth` first, C# will first go trough the attributes with the lowest order from left to right then to the ones with the higher order the same way,
+to execute the :doc:`../Attributes/DecorativeAttributes/propertywidth` first, C# will first go trough the attributes with the lowest order from left to right then to the ones with the higher order the same way,
 the default order of all attributes is 0::
 
 	using UnityEngine;
