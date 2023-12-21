@@ -5,7 +5,7 @@ Here are a few good practices to follow when using this package.
 
 .. note::
 	These are just some general reccomandations to follow when using this package, you don't have to abide by them like laws, if you already have a workflow that fits better for you,
-	feel are free to use it.
+	feel free to use it.
 	
 Using the void struct
 ---------------------
