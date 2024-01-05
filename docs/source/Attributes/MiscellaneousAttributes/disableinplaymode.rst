@@ -11,6 +11,6 @@ Attribute to disable a field when entering play mode::
 		[SerializeField, DisableInPlayMode] private int field = "51";
 	}
 
-.. image:: ../../Images/DisableInPlaymode01.gif
+.. image:: ../../Images/DisableInPlayMode01.gif
 
 Useful when you want to make sure no values can be modified in the inspector while you're playing the game but you can still see them.

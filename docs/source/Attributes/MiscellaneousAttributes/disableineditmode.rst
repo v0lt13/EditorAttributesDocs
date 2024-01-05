@@ -11,6 +11,6 @@ Attribute to disable a field when outside of play mode::
 		[SerializeField, DisableInEditMode] private int field;
 	}
 
-.. image:: ../../Images/DisableInEditmode01.gif
+.. image:: ../../Images/DisableInEditMode01.gif
 
 Useful when you want to enable certain fields only when playing.
