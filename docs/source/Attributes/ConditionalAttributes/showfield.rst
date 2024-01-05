@@ -42,9 +42,7 @@ You can also use enums as a condition like this::
 	
 The field will be shown when the ``enum`` is set to `State02`.
 
-.. image:: ../../Images/ShowField03.png
-
-.. image:: ../../Images/ShowField04.png
+.. image:: ../../Images/ShowField02.gif
 
 .. note::
 	It cannot hide arrays or lists, only the fields inside them
