@@ -19,9 +19,7 @@ The field will remain hidden by default until its condition becomes true::
 		[SerializeField, ShowField(nameof(condition))] private int field;
 	}
 	
-.. image:: ../../Images/ShowField01.png
-
-.. image:: ../../Images/ShowField02.png
+.. image:: ../../Images/ShowField01.gif
 
 You can also use enums as a condition like this::
 

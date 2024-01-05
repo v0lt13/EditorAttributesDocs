@@ -19,9 +19,7 @@ The field will remain disabled by default until its condition becomes true::
 		[SerializeField, EnableField(nameof(condition))] private int field;
 	}
 	
-.. image:: ../../Images/EnableField01.png
-
-.. image:: ../../Images/EnableField02.png
+.. image:: ../../Images/EnableField01.gif
 
 You can also use enums as a condition like this::
 
@@ -44,6 +42,4 @@ You can also use enums as a condition like this::
 	
 The field will be enabled when the ``enum`` is set to `State02`.
 
-.. image:: ../../Images/EnableField03.png
-
-.. image:: ../../Images/EnableField04.png
+.. image:: ../../Images/EnableField02.gif

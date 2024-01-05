@@ -16,4 +16,4 @@ Example::
 		[SerializeField, TagDropdown] private string objectTag;
 	}
 
-.. image:: ../../Images/TagDropdown01.png
+.. image:: ../../Images/TagDropdown01.gif

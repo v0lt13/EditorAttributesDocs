@@ -25,4 +25,4 @@ Example::
 		[SerializeField, HideInInspector] private bool boolField;
 	}
 	
-.. image:: ../../Images/FoldoutGroup01.png
+.. image:: ../../Images/FoldoutGroup01.gif

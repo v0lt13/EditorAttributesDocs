@@ -28,6 +28,8 @@ Example::
 
 Now the values will be clamped between the min and max specified
 
+.. image:: ../../Images/Clamp01.gif
+
 By default, on vectors the provided min and max will affect all axis, but you can also provide different min max values for different axis::
 
 	using UnityEngine;
@@ -40,6 +42,8 @@ By default, on vectors the provided min and max will affect all axis, but you ca
 	}
 
 Now the values of each axis will be clamped between the min and max specified for their axis
+
+.. image:: ../../Images/Clamp02.gif
 
 .. note::
 	Quaternions are not supported because they are weird

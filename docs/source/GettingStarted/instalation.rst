@@ -22,4 +22,4 @@ Whenever there is a new update to the package just go to your package manager, l
 
 .. image:: ../Images/Instalation03.png
 
-Yeah is that easy.
+Yeah, is that easy.

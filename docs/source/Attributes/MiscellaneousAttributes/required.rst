@@ -13,6 +13,4 @@ Example::
 		[SerializeField, Required] private GameObject objectField;
 	}
 
-.. image:: ../../Images/Required01.png
-
-.. image:: ../../Images/Required02.png
+.. image:: ../../Images/Required01.gif

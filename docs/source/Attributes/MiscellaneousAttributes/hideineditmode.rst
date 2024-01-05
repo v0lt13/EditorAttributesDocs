@@ -11,12 +11,6 @@ Attribute to hide a field when outside of play mode::
 		[SerializeField, HideInEditMode] private int field;
 	}
 
-Outside of play mode:
-
-.. image:: ../../Images/HideInEditmode01.png
-
-During play mode:
-
-.. image:: ../../Images/HideInEditmode02.png
+.. image:: ../../Images/HideInEditmode01.gif
 
 Useful when you want to show certain fields only when playing.

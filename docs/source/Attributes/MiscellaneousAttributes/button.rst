@@ -65,9 +65,7 @@ You can also enable/disable or show/hide buttons based on a given condition::
 
 Now the buttons will be disabled/hidden by default until the `condition` is true
 
-.. image:: ../../Images/Button03.png
-
-.. image:: ../../Images/Button04.png
+.. image:: ../../Images/Button03.gif
 
 If you wish for the button to be enabled/shown by default and disabled/hidden when the `conditon` is true, you can set the `negate` parameter to true::
 
@@ -85,9 +83,7 @@ If you wish for the button to be enabled/shown by default and disabled/hidden wh
 		public void Button02() => print("Hello World!");
 	}
 
-.. image:: ../../Images/Button05.png
-
-.. image:: ../../Images/Button06.png
+.. image:: ../../Images/Button04.gif
 
 You can also use an ``enum`` as a condition the same way you would use it on the :doc:`../ConditionalAttributes/enablefield`, :doc:`../ConditionalAttributes/disablefield`, 
 :doc:`../ConditionalAttributes/showfield`, :doc:`../ConditionalAttributes/hidefield` and :doc:`../ConditionalAttributes/messagebox`.

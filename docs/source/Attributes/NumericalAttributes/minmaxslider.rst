@@ -22,4 +22,4 @@ Example::
 		[SerializeField, MinMaxSlider(0f, 10f, false)] private Vector2Int vector2IntFieldNoField;
 	}
 	
-.. image:: ../../Images/MinMaxSlider01.png
+.. image:: ../../Images/MinMaxSlider01.gif

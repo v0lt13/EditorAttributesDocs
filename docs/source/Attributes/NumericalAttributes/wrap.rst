@@ -28,6 +28,8 @@ Example::
 	
 Now the values will wrap arround when it reaches either limit.
 
+.. image:: ../../Images/Wrap01.gif
+
 By default, on vectors the provided min and max will affect all axis, but you can also provide different min max values for different axis::
 
 	using UnityEngine;
@@ -40,6 +42,8 @@ By default, on vectors the provided min and max will affect all axis, but you ca
 	}
 
 Now the values of each axis will wrap arround when it reaches either limit
+
+.. image:: ../../Images/Wrap02.gif
 
 .. note::
 	Quaternions are not supported because they are weird

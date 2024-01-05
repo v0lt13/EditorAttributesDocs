@@ -51,7 +51,7 @@ For more details about unity serialization see `this <https://docs.unity3d.com/M
 Attribute Order
 ---------------
 
-The logic of all attributes are executed in the order they are written (left to right), meaning the last attribute can override the functionality of the previous attribute
+The logic of all attributes is executed in the order they are written (left to right), meaning the last attribute can override the functionality of the previous attribute
 if the functionality is similar.
 In the following example the :doc:`../Attributes/DecorativeAttributes/propertywidth` will execute after the :doc:`../Attributes/DecorativeAttributes/prefix` meaning the prefix will be added before the property width is set, so the 
 :doc:`../Attributes/DecorativeAttributes/prefix` couldn't calculate it's position to be next to the field because the field width changed after the prefix was already calculated::
@@ -68,7 +68,7 @@ In the following example the :doc:`../Attributes/DecorativeAttributes/propertywi
 .. image:: ../Images/HowToUse02.png
 
 To fix this we can change the order by putting the :doc:`../Attributes/DecorativeAttributes/propertywidth` before the :doc:`../Attributes/DecorativeAttributes/prefix` or use the `order` parameter that every attribute has
-to execute the :doc:`../Attributes/DecorativeAttributes/propertywidth` first, C# will first go trough the attributes with the lowest order from left to right then to the ones with the higher order the same way,
+to execute the :doc:`../Attributes/DecorativeAttributes/propertywidth` first, C# will first go through the attributes with the lowest order from left to right then to the ones with the higher order the same way,
 the default order of all attributes is 0::
 
 	using UnityEngine;

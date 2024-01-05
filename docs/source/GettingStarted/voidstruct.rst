@@ -41,7 +41,7 @@ A common way this conflict can happen is when you use the editor attributes and 
 	
 		[SerializeField] private ExampleStruct exampleStruct;
 	
-		[HelpBox("This is a help box", false)]
+		[HelpBox("This is a help box")]
 		[SerializeField] private Void helpBoxHolder; // This line will throw an error
 	}
 
