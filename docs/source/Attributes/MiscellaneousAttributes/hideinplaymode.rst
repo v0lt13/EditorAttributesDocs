@@ -8,7 +8,7 @@ Attribute to hide a field when entering play mode::
 	
 	public class AttributesExample : MonoBehaviour
 	{
-		[SerializeField, HideInPlayMode] private int field = 51;
+		[SerializeField, HideInPlayMode] private int field;
 	}
 
 .. image:: ../../Images/HideInPlayMode01.gif
