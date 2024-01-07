@@ -29,6 +29,7 @@ Contents:
 	
     Attributes/ConditionalAttributes/index	
     Attributes/NumericalAttributes/index	
+    Attributes/ButtonAttributes/index	
     Attributes/DropdownAttributes/index	
     Attributes/GroupingAttributes/index	
     Attributes/DecorativeAttributes/index	

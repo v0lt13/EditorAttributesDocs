@@ -9,6 +9,7 @@ Decorative Attributes
 	
     suffix
     prefix
+	title
     guicolor
     colorfield
     line
