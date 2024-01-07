@@ -3,7 +3,7 @@ Changelogs
 
 EditorAttributes v1.9.0 Changelog:
 ----------------------------------
-- Added Title Attrbiute
+- Added Title Attribute
 - Added InlineButton Attribute
 - Added SelectionButtons Attribute
 - Changed the ProgressBar attribute label
