@@ -22,7 +22,7 @@ The name of the field will be used as the tab label::
 
 .. image:: ../../Images/TabGroup01.gif
 
-If you want to display multiple fields in one tab put those fields inside a group first then but those groups as the parameters of the tab group::
+If you want to display multiple fields in one tab put those fields inside a group first then put those groups as the parameters of the tab group::
 
 	using UnityEngine;
 	using EditorAttributes;
