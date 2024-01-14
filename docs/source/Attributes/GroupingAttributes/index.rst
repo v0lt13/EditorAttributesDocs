@@ -12,3 +12,4 @@ Grouping Attributes
     togglegroup
     horizontalgroup
     verticalgroup
+    tabgroup

@@ -8,5 +8,6 @@ Button Attributes
     :caption: Attributes
 	
     button
+    buttonfield
     inlinebutton
     selectionbuttons

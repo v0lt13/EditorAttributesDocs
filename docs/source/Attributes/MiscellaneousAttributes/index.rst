@@ -7,10 +7,11 @@ Miscellaneous Attributes
     :maxdepth: 1
     :caption: Attributes
 	
-    button
     readonly
     required
     rename
+    filepath
+    folderpath
     typefilter
     disableinplaymode
     disableineditmode
