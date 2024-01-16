@@ -4,7 +4,7 @@ FolderPath Attribute
 Attribute to get the path of a folder.
 
 **Parameters:**
-	- ``bool`` getRelativePath: Get the relative path of the folder
+	- `optional`, ``bool`` getRelativePath: Get the relative path of the folder
 
 .. note::
 	The `FolderPath Attribute` can only be attached to a ``string``

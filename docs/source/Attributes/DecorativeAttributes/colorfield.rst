@@ -18,8 +18,10 @@ Unlike the :doc:`guicolor` the `ColorField Attribute` only colors the field is a
 	public class AttributesExample : MonoBehaviour
 	{
 		[SerializeField, ColorField(GUIColor.Green)] private int field01;
-		[SerializeField, ColorField(255f, 0f, 123f)] private int field02;
-		[SerializeField, ColorField("#00f2ff")] private int field03;
+		[SerializeField] private int field02;
+		[SerializeField, ColorField(255f, 0f, 123f)] private int field03;
+		[SerializeField, ColorField("#00f2ff")] private int field04;
+		[SerializeField] private int field05;
 	}
 	
 .. image:: ../../Images/ColorField01.png

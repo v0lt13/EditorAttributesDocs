@@ -3,6 +3,10 @@ DataTable Attribute
 
 Attribute to draw the members of a serialized struct or class in a table instead of a dropdown
 
+**Parameters:**
+	- `optional`, ``bool`` drawInBox: Draw the table members in a nice box
+	- `optional`, ``bool`` showLabels: Show the labels of the members
+
 Example::
 
 	using System;

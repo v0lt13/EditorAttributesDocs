@@ -4,8 +4,8 @@ FilePath Attribute
 Attribute to get the path of a file.
 
 **Parameters:**
-	- ``bool`` filters: Get the relative path of the file
-	- ``string`` fileExtension: Filters the files by the specified extension
+	- `optional`, ``bool`` filters: Get the relative path of the file
+	- `optional`, ``string`` fileExtension: Filters the files by the specified extension
 
 .. note::
 	The `FilePath Attribute` can only be attached to a ``string``
