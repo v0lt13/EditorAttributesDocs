@@ -32,7 +32,7 @@ Now only components of type ``SphereCollider`` and ``BoxCollider`` can be assign
 
 .. image:: ../../Images/TypeFilter02.gif
 
-The best use of this attribute is to filter types that inherit from a certain interface::
+The best use of this attribute is to filter types that implement a certain interface::
 
 	using UnityEngine;
 	using EditorAttributes;
