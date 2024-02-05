@@ -8,7 +8,7 @@ Attribute to add a button in the inspector in place of a field.
 	- `optional`, ``string`` buttonLabel: The label displayed on the button
 	- `optional`, ``float`` buttonHeight: The height of the button
 
-Buttons made using the :doc:`button` will always drawn after all fields, use the `ButtonField Attribute` instead if you want to add buttons anywhere in the inspector::
+Buttons made using the :doc:`button` will always be drawn after all the fields, use the `ButtonField Attribute` instead if you want to add buttons anywhere in the inspector::
 
 	using UnityEngine;
 	using EditorAttributes;
