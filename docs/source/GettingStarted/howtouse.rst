@@ -17,7 +17,7 @@ If you are using `Assembly Definitions <https://docs.unity3d.com/2023.3/Document
 Serialization
 -------------
 
-Every member the attribute is attached to must be serializable by Unity (with the exception of the :doc:`../Attributes/MiscellaneousAttributes/button` which is attached to functions), 
+Every member the attribute is attached to must be serializable by Unity (with the exception of the :doc:`../Attributes/ButtonAttributes/button` which is attached to functions), 
 meaning those members must be either public or private with the `SerializeField Attribute <https://docs.unity3d.com/2023.3/Documentation/ScriptReference/SerializeField.html>`_ and valid to the Unity serializer.
 
 Here is a small example of what's valid and what's not::
