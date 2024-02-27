@@ -1,5 +1,5 @@
-Required Attribute
-==================
+HideInChildren Attribute
+========================
 
 Attribute to hide the inherited field in the child classes
 
