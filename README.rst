@@ -1,5 +1,5 @@
 EditorAttributes Documentation
-=======================================
+==============================
 
 See the documentation here:
 https://editorattributesdocs.readthedocs.io/
