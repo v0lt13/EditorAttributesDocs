@@ -43,6 +43,3 @@ You can also use enums as a condition like this::
 The field will be hidden when the ``enum`` is set to `State02`.
 
 .. image:: ../../Images/HideField02.gif
-
-.. note::
-	It cannot hide arrays or lists, only the fields inside them

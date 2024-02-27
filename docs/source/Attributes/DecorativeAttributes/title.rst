@@ -8,6 +8,7 @@ Attribute to draw a fully customizable header
 	- `optional`, ``int`` titleSize: The size of the title
 	- `optional`, ``bool`` drawLine: Draw a line under the title
 	- `optional`, ``TextAnchor`` alignment: The alignment of the title
+	- `optional`, ``StringInputMode`` stringInputMode: Set if the string input is set trough a constant or dynamically trough another member
 
 Example::
 
@@ -33,3 +34,18 @@ Example::
 	}
 
 .. image:: ../../Images/Title01.png
+
+You can dynamically change the title by settings the `stringInputMode` parameter to dynamic and specify a member name in the string parameter to get the string value from::
+
+	using UnityEngine;
+	using EditorAttributes;
+	
+	public class AttributesExample : MonoBehaviour
+	{
+		[Title(nameof(DynamicTitle), stringInputMode: StringInputMode.Dynamic)]
+		[SerializeField] private int intField;
+	
+		public string DynamicTitle => $"The int value is: {intField}";
+	}
+
+.. image:: ../../Images/Title02.gif

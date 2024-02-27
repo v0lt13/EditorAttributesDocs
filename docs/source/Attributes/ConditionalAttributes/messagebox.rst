@@ -62,6 +62,3 @@ You can also use an ``enum`` as a condition like so::
 The message boxes will show when the ``enum`` is set to `State02`.
 
 .. image:: ../../Images/MessageBox02.gif
-
-.. note::
-	Doesn’t work well with arrays or lists

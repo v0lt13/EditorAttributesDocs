@@ -13,6 +13,7 @@ Miscellaneous Attributes
     filepath
     folderpath
     typefilter
+    hideinchildren
     disableinplaymode
     disableineditmode
     hideinplaymode

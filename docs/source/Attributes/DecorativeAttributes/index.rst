@@ -18,3 +18,4 @@ Decorative Attributes
     helpbox
     hidelabel
     propertywidth
+    indentproperty

@@ -6,6 +6,7 @@ Attribute to rename a field in the inspector
 **Parameters:**
 	- ``string`` name: The new name of the field
 	- `optional`, ``CaseType`` caseType: In what case to rename the field
+	- `optional`, ``StringInputMode`` stringInputMode: Set if the string input is set trough a constant or dynamically trough another member
 
 Example::
 
@@ -39,3 +40,16 @@ You can also apply different case types to the name like so::
 	}
 
 .. image:: ../../Images/Rename02.png
+
+You can dynamically change the label by setting the `stringInputMode` parameter to dynamic and specify a member name in the string parameter to get the string value from::
+
+	using UnityEngine;
+	using EditorAttributes;
+	
+	public class AttributesExample : MonoBehaviour
+	{
+		[Rename(nameof(stringField), stringInputMode: StringInputMode.Dynamic)]
+		[SerializeField] private string stringField;
+	}
+	
+.. image:: ../../Images/Rename03.gif

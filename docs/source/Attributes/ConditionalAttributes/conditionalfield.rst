@@ -80,6 +80,3 @@ by setting the ``ConditionResult`` parameter to the value `EnableDisable`, like 
 	}
 	
 .. image:: ../../Images/ConditionalField06.gif
-
-.. note::
-	It cannot hide arrays or lists, only the fields inside them

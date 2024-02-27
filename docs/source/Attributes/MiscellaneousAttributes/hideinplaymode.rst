@@ -12,6 +12,3 @@ Attribute to hide a field when entering play mode::
 	}
 
 .. image:: ../../Images/HideInPlayMode01.gif
-
-.. note:: 
-	It cannot hide arrays or lists, only the fields inside them

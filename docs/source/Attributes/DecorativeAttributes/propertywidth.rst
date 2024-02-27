@@ -4,8 +4,8 @@ PropertyWidth Attribute
 Attribute to adjust the width of a property's label and field
 
 **Parameters:**
-	- ``labelWidth`` The width of the label
-	- `optional`, ``fieldWidth`` The minimum width reserved for the fields
+	- ``float`` labelWidth: The width of the label
+	- `optional`, ``float`` labelWidth: The minimum width reserved for the fields
 
 Example::
 

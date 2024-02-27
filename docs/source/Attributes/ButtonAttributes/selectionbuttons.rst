@@ -45,6 +45,3 @@ Example::
 	}
 
 .. image:: ../../Images/SelectionButtons01.png
-
-.. note::
-	The attribute doesn't work well with collections.
