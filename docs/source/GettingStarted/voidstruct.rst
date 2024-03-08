@@ -3,11 +3,6 @@ Void Struct
 
 The **Void** struct is an empty serialized struct to use as a holder property for attributes like the :doc:`../Attributes/GroupingAttributes/verticalgroup`, :doc:`../Attributes/GroupingAttributes/horizontalgroup`, etc. 
 that completely redraw the property in the inspector.
-
-The **Void** struct can also be passed as a type in generics, which commonly happens when you make an event system that you want to return void::
-
-	[Serializable]
-	public class UnityVoidEvent : UnityEvent<Void> { }
 	
 If you are using the `System` namespace and `EditorAttributes` namespace in your script then use the **Void** struct you will notice a naming conflict between
 ``System.Void`` and ``EditorAttributes.Void``, to fix that you will just have to specify which version you want to use, and there are 2 ways to do that.
