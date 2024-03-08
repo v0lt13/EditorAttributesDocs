@@ -5,7 +5,7 @@ Attribute to add a suffix on a field
 
 **Parameters:**
 	- ``string`` suffix: The suffix to add
-	- `optional`, ``float`` offset: Offset to add between the suffix and field
+	- `optional`, ``float`` offset: Offset to add between the suffix and field in pixels
 	- `optional`, ``StringInputMode`` stringInputMode: Set if the string input is set trough a constant or dynamically trough another member
 
 Example::

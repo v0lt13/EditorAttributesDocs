@@ -5,7 +5,7 @@ Attribute to display a bunch of values in toggleble buttons.
 
 **Parameters:**
 	- `optional`, ``string`` collectionName: The name of the collection
-	- `optional`, ``float`` buttonsHeight: The height of the selection buttons
+	- `optional`, ``float`` buttonsHeight: The height of the selection buttons in pixels
 	- `optional`, ``bool`` showLabel: Show the label of the field
 
 Example::

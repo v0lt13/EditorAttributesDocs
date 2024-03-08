@@ -5,7 +5,7 @@ Attribute to add a prefix on a field
 
 **Parameters:**
 	- ``string`` prefix: The prefix to add
-	- `optional`, ``float`` offset: Offset to add between the prefix and field
+	- `optional`, ``float`` offset: Offset to add between the prefix and field in pixels
 	- `optional`, ``StringInputMode`` stringInputMode: Set if the string input is set trough a constant or dynamically trough another member
 
 Example::

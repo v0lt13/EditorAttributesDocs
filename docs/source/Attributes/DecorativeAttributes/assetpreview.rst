@@ -4,8 +4,8 @@ AssetPreview Attribute
 Attribute to preview an asset in the inspector
 
 **Parameters:**
-	- `optional`, ``float`` previewWidth: The width of the preview
-	- `optional`, ``float`` previewHeight: The height of the preview
+	- `optional`, ``float`` previewWidth: The width of the preview in pixels
+	- `optional`, ``float`` previewHeight: The height of the preview in pixels
 
 Example::
 

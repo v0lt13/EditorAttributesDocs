@@ -6,7 +6,7 @@ Attribute to add a button in the inspector in place of a field.
 **Parameters:**
 	- ``string`` functionName: The name of the function to call
 	- `optional`, ``string`` buttonLabel: The label displayed on the button
-	- `optional`, ``float`` buttonHeight: The height of the button
+	- `optional`, ``float`` buttonHeight: The height of the button in pixels
 
 Buttons made using the :doc:`button` will always be drawn after all the fields, use the `ButtonField Attribute` instead if you want to add buttons anywhere in the inspector::
 

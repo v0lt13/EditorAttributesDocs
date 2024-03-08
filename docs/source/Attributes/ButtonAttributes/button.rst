@@ -9,7 +9,8 @@ Attribute to add a button in the inspector.
 	- ``ConditionResult`` conditionResult: What happens to the button when the condition evaluates to true
 	- `optional`, ``bool`` negate: Negate the evaluated condition
 	- `optional`, ``string`` buttonLabel: The label displayed on the button
-	- `optional`, ``float`` buttonHeight: The height of the button
+	- `optional`, ``float`` buttonHeight: The height of the button in pixels
+	- `optional`, ``bool`` serializeParameters: Have the button parameters persist between selections
 
 Example::
 
@@ -41,11 +42,15 @@ If your function has parameters they will be displayed under the button as a fol
 .. image:: ../../Images/Button02.png
 
 .. note::
-	``Array``, ``List``, ``UnityEvent``, serialized ``struct`` or ``class`` and ``out`` or ``ref`` parameters are not supported
+	Collections, UnityEvents, serialized objects and ``out`` or ``ref`` parameters are not supported
+
+Due to how buttons are drawing, parameters are serialized trough a custom system into JSON files, those JSON files are saved in ``YourProjectRoot\ProjectSettings\EditorAttributes``, to not 
+have the parameters save you can set the `serializeParameters` parameter to ``false``, this is reccomended to avoid unneccesary clutter when you have tons of objects in your scene that do not need
+the parameters to be saved.
 
 .. note::
 	Because of the way the button parameters are serialized if you have multiple of the same component on one object the button parameters will share values, same applies to multiple objects
-	with the same name and component. If you delete the duplicate object or component it will reset the parameters to the default values
+	with the same name and component. If you delete the duplicate object or component it will reset the parameters to the default values.
 
 You can also enable/disable or show/hide buttons based on a given condition::
 

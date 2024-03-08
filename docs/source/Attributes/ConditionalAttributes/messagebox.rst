@@ -9,6 +9,7 @@ Attribute to display a message box depending on a condition.
 	- ``object`` enumValue: The value of the enum
 	- `optional`, ``bool`` drawProperty: Draw the property this attribute is attached to
 	- `optional`, ``MessageMode`` messageType: The type of the message
+	- `optional`, ``StringInputMode`` stringInputMode: Set if the string input is set trough a constant or dynamically trough another member
 
 Example::
 
@@ -62,3 +63,18 @@ You can also use an ``enum`` as a condition like so::
 The message boxes will show when the ``enum`` is set to `State02`.
 
 .. image:: ../../Images/MessageBox02.gif
+
+You can dynamically change the message by setting the `stringInputMode` parameter to dynamic and specify a member name in the string parameter to get the string value from::
+
+	using UnityEngine;
+	using EditorAttributes;
+	
+	public class AttributesExample : MonoBehaviour
+	{
+		[SerializeField] private bool condition;
+	
+		[MessageBox(nameof(stringField), nameof(condition), stringInputMode: StringInputMode.Dynamic)]
+		[SerializeField] private string stringField;
+	}
+	
+.. image:: ../../Images/MessageBox03.gif

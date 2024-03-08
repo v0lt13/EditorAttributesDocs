@@ -5,7 +5,7 @@ Attribute to draw a progress bar
 
 **Parameters:**
 	- ``float`` maxValue: The maximum value of the progress bar
-	- ``float`` barHeight: The height of the progress bar
+	- ``float`` barHeight: The height of the progress bar in pixels
 
 Moving the value slider will update the progress bar value::
 

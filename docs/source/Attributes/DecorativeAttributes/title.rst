@@ -5,7 +5,7 @@ Attribute to draw a fully customizable header
 
 **Parameters:**
 	- ``string`` title: The text of the title
-	- `optional`, ``int`` titleSize: The size of the title
+	- `optional`, ``int`` titleSize: The size of the title font
 	- `optional`, ``bool`` drawLine: Draw a line under the title
 	- `optional`, ``TextAnchor`` alignment: The alignment of the title
 	- `optional`, ``StringInputMode`` stringInputMode: Set if the string input is set trough a constant or dynamically trough another member
