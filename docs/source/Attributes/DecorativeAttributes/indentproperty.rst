@@ -4,7 +4,7 @@ IndentProperty Attribute
 Attrtibute to indent a property in the inspector
 
 **Parameters:**
-	- `optional`, ``int`` indentLevel: The amount to indent by in pixels
+	- `optional`, ``float`` indentLevel: The amount to indent by in pixels
 
 Example::
 

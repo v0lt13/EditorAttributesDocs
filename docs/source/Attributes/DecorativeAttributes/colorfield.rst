@@ -2,7 +2,7 @@ ColorField Attribute
 ====================
 
 .. warning::
-	This attribute has been deprecated, use GUIColor instead
+	This attribute has been deprecated, use :doc:`guicolor` instead
 	
 .. note::
 	Because UI toolkit makes tinting elements very difficult, it's not possible to properly tint properties with ColorField, 
