@@ -1,6 +1,15 @@
 ColorField Attribute
 ====================
 
+.. warning::
+	This attribute has been deprecated, use GUIColor instead
+	
+.. note::
+	Because UI toolkit makes tinting elements very difficult, it's not possible to properly tint properties with ColorField, 
+	this attribute will stay deprecated until Unity adds an easyer way of tinting elements.
+	Which I estimate it will be in about 234287346598175492164 years.
+	If you think this attribute would work well enough for you, feel free to uncomment all the code in ColorFieldDrawer.cs
+
 Attribute to color a field in the inspector
 
 **Parameters:**

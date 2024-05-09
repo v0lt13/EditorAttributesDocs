@@ -42,9 +42,9 @@ If your function has parameters they will be displayed under the button as a fol
 .. image:: ../../Images/Button02.png
 
 .. note::
-	Collections, UnityEvents, serialized objects and ``out`` or ``ref`` parameters are not supported
+	Collections, UnityEvents, GameObject, serialized objects and ``out`` or ``ref`` parameters are not supported
 
-Due to how buttons are drawing, parameters are serialized trough a custom system into JSON files, those JSON files are saved in ``YourProjectRoot\ProjectSettings\EditorAttributes``, to not 
+Due to how buttons are drawm, parameters are serialized trough a custom system into JSON files, those JSON files are saved in ``YourProjectRoot\ProjectSettings\EditorAttributes``, to not 
 have the parameters save you can set the `serializeParameters` parameter to ``false``, this is reccomended to avoid unneccesary clutter when you have tons of objects in your scene that do not need
 the parameters to be saved.
 

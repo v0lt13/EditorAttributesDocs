@@ -11,4 +11,5 @@ Dropdown Attributes
     scenedropdown
     tagdropdown
     sortinglayerdropdown
+    animatorparamdropdown
     propertydropdown

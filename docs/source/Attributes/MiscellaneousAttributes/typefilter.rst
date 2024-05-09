@@ -4,7 +4,7 @@ TypeFilter Attribute
 Attribute to only allow assignment of objects that are or derive from the specified types
 
 **Parameters:**
-	- `params`, ``object`` objectType: The type of objects to filter
+	- `params`, ``Type`` objectType: The type of objects to filter
 
 In this example only components of type ``SphereCollider`` can be assigned into the inspector field::
 

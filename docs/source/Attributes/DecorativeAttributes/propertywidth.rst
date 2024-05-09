@@ -1,11 +1,10 @@
 PropertyWidth Attribute
 =======================
 
-Attribute to adjust the width of a property's label and field
+Attribute to adjust the width of a property
 
 **Parameters:**
-	- ``float`` labelWidth: The width of the label
-	- `optional`, ``float`` labelWidth: The minimum width reserved for the fields
+	- ``float`` widthOffset: By how much to offset the width of the property in pixels
 
 Example::
 
@@ -14,9 +13,9 @@ Example::
 	
 	public class AttributesExample : MonoBehaviour
 	{
-		[SerializeField, PropertyWidth(300f)] private int intField;
-		[SerializeField, PropertyWidth(200f)] private float floatField;
-		[SerializeField, PropertyWidth(100f)] private string stringField;
+		[SerializeField, PropertyWidth(200f)] private int intField;
+		[SerializeField, PropertyWidth(100f)] private float floatField;
+		[SerializeField, PropertyWidth(-100f)] private string stringField;
 	}
 	
 .. image:: ../../Images/PropertyWidth01.png

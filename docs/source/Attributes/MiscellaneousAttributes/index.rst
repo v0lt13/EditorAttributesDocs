@@ -18,3 +18,4 @@ Miscellaneous Attributes
     disableineditmode
     hideinplaymode
     hideineditmode
+    onvaluechanged

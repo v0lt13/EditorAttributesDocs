@@ -34,3 +34,6 @@ Example::
 	}
 	
 .. image:: ../../Images/GUIColor01.png
+
+.. note::
+	The `GUIColor Attribute` may not work well with nested arrays and objects

@@ -29,4 +29,4 @@ Moving the value slider will update the progress bar value::
 .. image:: ../../Images/ProgressBar01.gif
 
 .. note:: 
-	The `ProgressBar Attribute` can only be attached to numeric fields (``int``, ``float``, ``double``, etc.)
+	The `ProgressBar Attribute` cannot be attached to vector fields

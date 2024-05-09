@@ -53,22 +53,22 @@ Attribute Order
 
 The logic of all attributes is executed in the order they are written (left to right), meaning the last attribute can override the functionality of the previous attribute
 if the functionality is similar.
-In the following example the :doc:`../Attributes/DecorativeAttributes/propertywidth` will execute after the :doc:`../Attributes/DecorativeAttributes/prefix` meaning the prefix will be added before the property width is set, so the 
-:doc:`../Attributes/DecorativeAttributes/prefix` couldn't calculate it's position to be next to the field because the field width changed after the prefix was already calculated::
+In the following example the :doc:`../Attributes/NumericalAttributes/timefield` will execute before the :doc:`../Attributes/DecorativeAttributes/suffix` 
+meaning the suffix will fail to add because of how the :doc:`../Attributes/NumericalAttributes/timefield` is drawn::
 
 	using UnityEngine;
 	using EditorAttributes;
 	
 	public class AttributesExample : MonoBehaviour
 	{
-		[Prefix("num"), PropertyWidth(100f)]
+		[TimeField(TimeFormat.YearMonthWeek, ConvertTo.Days), Suffix("to days")]
 		[SerializeField] private int field;
 	}
 
 .. image:: ../Images/HowToUse02.png
 
-To fix this we can change the order by putting the :doc:`../Attributes/DecorativeAttributes/propertywidth` before the :doc:`../Attributes/DecorativeAttributes/prefix` or use the `order` parameter that every attribute has
-to execute the :doc:`../Attributes/DecorativeAttributes/propertywidth` first, C# will first go through the attributes with the lowest order from left to right then to the ones with the higher order the same way,
+To fix this we can change the order by putting the :doc:`../Attributes/NumericalAttributes/timefield` after the :doc:`../Attributes/DecorativeAttributes/suffix` or use the `order` parameter that every attribute has
+to execute the :doc:`../Attributes/DecorativeAttributes/suffix` first, C# will first go through the attributes with the lowest order from left to right then to the ones with the higher order the same way,
 the default order of all attributes is 0::
 
 	using UnityEngine;
@@ -76,10 +76,10 @@ the default order of all attributes is 0::
 	
 	public class AttributesExample : MonoBehaviour
 	{
-		[Prefix("num"), PropertyWidth(100f, order = -1)]
+		[TimeField(TimeFormat.YearMonthWeek, ConvertTo.Days), Suffix("to days", order = -1)]
 		[SerializeField] private int field;
 	}
 
-So now the :doc:`../Attributes/DecorativeAttributes/propertywidth` will be executed first and the :doc:`../Attributes/DecorativeAttributes/prefix` calculates it's position using the new width set by it.
+So now the :doc:`../Attributes/DecorativeAttributes/suffix` will be executed first and the :doc:`../Attributes/NumericalAttributes/timefield` will draw the field with the suffix already on it.
 
 .. image:: ../Images/HowToUse03.png

@@ -11,3 +11,4 @@ Numerical Attributes
     wrap
     minmaxslider
     progressbar
+    timefield

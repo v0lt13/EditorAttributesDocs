@@ -5,8 +5,7 @@ Attribute to display the specified fields in a toggleble group
 
 **Parameters:**
 	- ``string`` groupName: The name of the group
-	- `optional`, ``float`` labelWidth: The width of the field labels in pixels
-	- `optional`, ``float`` fieldWidth: The width of the input fields in pixels
+	- `optional`, ``float`` widthOffset: By how much to offset the width of the properties in pixels
 	- `optional`, ``bool`` drawInBox: Draw the group in a nice box
 	- `params`, ``string`` fieldsToGroup: The name of the fields to group
 
@@ -34,7 +33,7 @@ If you place the `ToggleGroup Attribute` on a ``bool`` the toggle value it will 
 	
 	public class AttributesExample : MonoBehaviour
 	{
-		[ToggleGroup("ToggleGroup", nameof(intField), nameof(stringField), nameof(boolField))]
+		[ToggleGroup("ToggleGroup", drawInBox: true, nameof(intField), nameof(stringField), nameof(boolField))]
 		[SerializeField] private bool toggleGroup;
 	
 		[MessageBox("The group is toggled", nameof(toggleGroup))]

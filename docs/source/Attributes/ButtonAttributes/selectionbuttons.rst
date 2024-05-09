@@ -26,11 +26,11 @@ Example::
 		[Flags]
 		public enum Flags
 		{
-			Flag01 = 0,
-			Flag02 = 1,
-			Flag03 = 2,
-			Flag04 = 4,
-			Flag05 = 8
+			Nothing = 0,
+			Flag01 = 1,
+			Flag02 = 2,
+			Flag03 = 4,
+			Flag04 = 8
 		}
 	
 		[Header("SelectionButtons Attribute:")]

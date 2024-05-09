@@ -23,3 +23,6 @@ Example::
 	}
 	
 .. image:: ../../Images/MinMaxSlider01.gif
+
+.. note:: 
+	The `MinMaxSlider Attribute` can only be attached to ``Vector2`` and ``Vector2Int`` fields
