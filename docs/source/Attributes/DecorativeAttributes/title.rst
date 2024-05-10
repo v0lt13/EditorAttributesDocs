@@ -11,7 +11,7 @@ Attribute to draw a fully customizable header
 	- `optional`, ``TextAnchor`` alignment: The alignment of the title
 	- `optional`, ``StringInputMode`` stringInputMode: Set if the string input is set trough a constant or dynamically trough another member
 
-Example::
+You can further customize titles with rich text support::
 
 	using UnityEngine;
 	using EditorAttributes;

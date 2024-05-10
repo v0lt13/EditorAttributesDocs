@@ -2,7 +2,9 @@ Void Struct
 ===========
 
 The **Void** struct is an empty serialized struct to use as a holder property for attributes like the :doc:`../Attributes/GroupingAttributes/verticalgroup`, :doc:`../Attributes/GroupingAttributes/horizontalgroup`, etc. 
-that completely redraw the property in the inspector.
+that completely redraw the property in the inspector. 
+
+By itself the Void struct will not be drawn in the inspector but attributes attached to it will still execute.
 	
 If you are using the `System` namespace and `EditorAttributes` namespace in your script then use the **Void** struct you will notice a naming conflict between
 ``System.Void`` and ``EditorAttributes.Void``, to fix that you will just have to specify which version you want to use, and there are 2 ways to do that.

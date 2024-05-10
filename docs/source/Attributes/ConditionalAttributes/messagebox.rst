@@ -74,3 +74,5 @@ You can dynamically change the message by setting the `stringInputMode` paramete
 	}
 	
 .. image:: ../../Images/MessageBox03.gif
+
+MessageBoxes have rich text support.

@@ -18,3 +18,6 @@ Example::
 	}
 
 .. image:: ../../Images/PropertyDropdown01.png
+
+.. note::
+	The `PropertyDropdown Attribute` is not able to apply custom editor modifications when drawing properties only property drawers

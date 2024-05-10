@@ -28,3 +28,5 @@ Example::
 	}
 	
 .. image:: ../../Images/HelpBox01.png
+
+HelpBoxes have rich text support.
