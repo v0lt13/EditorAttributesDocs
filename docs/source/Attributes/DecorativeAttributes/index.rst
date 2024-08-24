@@ -17,5 +17,6 @@ Decorative Attributes
     assetpreview
     helpbox
     hidelabel
+    rename
     propertywidth
     indentproperty

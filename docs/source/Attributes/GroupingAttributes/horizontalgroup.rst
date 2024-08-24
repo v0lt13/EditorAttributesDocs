@@ -21,14 +21,13 @@ Example::
 		[SerializeField, HorizontalGroup(50f, true, nameof(field05), nameof(field06))]
 		private Void groupHolder02;
 	
-		// The fields needs to be serialized, but we don't want them to show twice in the inspector
-		[SerializeField, HideInInspector] private int field01;
-		[SerializeField, HideInInspector] private float field02;
-		[SerializeField, HideInInspector] private string field03;
-		[SerializeField, HideInInspector] private bool field04;
+		[SerializeField, HideProperty] private int field01;
+		[SerializeField, HideProperty] private float field02;
+		[SerializeField, HideProperty] private string field03;
+		[SerializeField, HideProperty] private bool field04;
 	
-		[SerializeField, HideInInspector] private Vector3 field05;
-		[SerializeField, HideInInspector] private Vector4 field06;
+		[SerializeField, HideProperty] private Vector3 field05;
+		[SerializeField, HideProperty] private Vector4 field06;
 	}
 
 .. image:: ../../Images/HorizontalGroup01.png

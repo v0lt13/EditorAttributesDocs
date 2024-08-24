@@ -9,10 +9,10 @@ Miscellaneous Attributes
 	
     readonly
     required
-    rename
     filepath
     folderpath
     typefilter
+    hideproperty
     hideinchildren
     disableinplaymode
     disableineditmode

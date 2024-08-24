@@ -34,6 +34,16 @@ Contents:
     Attributes/GroupingAttributes/index	
     Attributes/DecorativeAttributes/index	
     Attributes/MiscellaneousAttributes/index
+	
+.. toctree::
+    :maxdepth: 1
+    :caption: ScriptingAPI
+	
+    ScriptingAPI/editorextension
+    ScriptingAPI/propertydrawerbase
+    ScriptingAPI/reflectionutility
+    ScriptingAPI/colorutility
+    ScriptingAPI/unitytypeconverter
 
 External Links:
 ===============

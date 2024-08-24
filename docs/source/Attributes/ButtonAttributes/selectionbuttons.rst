@@ -1,6 +1,9 @@
 SelectionButtons Attribute
 ==========================
 
+.. warning::
+	This attribute has been deprecated in **Unity 6** and above, use EnumButtons instead
+
 Attribute to display a bunch of values in toggleble buttons.
 
 **Parameters:**

@@ -19,9 +19,9 @@ Example::
 		[FoldoutGroup("FoldoutGroup", nameof(intField), nameof(stringField), nameof(boolField))]
 		[SerializeField] private Void groupHolder;
 	
-		[SerializeField, HideInInspector] private int intField;
-		[SerializeField, HideInInspector] private string stringField;
-		[SerializeField, HideInInspector] private bool boolField;
+		[SerializeField, HideProperty] private int intField;
+		[SerializeField, HideProperty] private string stringField;
+		[SerializeField, HideProperty] private bool boolField;
 	}
 	
 .. image:: ../../Images/FoldoutGroup01.gif

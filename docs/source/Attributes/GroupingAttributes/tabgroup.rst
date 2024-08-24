@@ -16,8 +16,8 @@ The name of the field will be used as the tab label::
 		[TabGroup(nameof(intField), nameof(stringField))]
 		[SerializeField] private Void groupHolder;
 	
-		[SerializeField, HideInInspector] private int intField;
-		[SerializeField, HideInInspector] private string stringField;
+		[SerializeField, HideProperty] private int intField;
+		[SerializeField, HideProperty] private string stringField;
 	}
 
 .. image:: ../../Images/TabGroup01.gif
@@ -41,17 +41,17 @@ If you want to display multiple fields in one tab put those fields inside a grou
 		[VerticalGroup(drawInBox: true, nameof(boolField01), nameof(boolField02), nameof(boolField03))]
 		[SerializeField, HideInInspector] private Void boolFields;
 	
-		[SerializeField, HideInInspector] private int intField01;
-		[SerializeField, HideInInspector] private int intField02;
-		[SerializeField, HideInInspector] private int intField03;
+		[SerializeField, HideProperty] private int intField01;
+		[SerializeField, HideProperty] private int intField02;
+		[SerializeField, HideProperty] private int intField03;
 	
-		[SerializeField, HideInInspector] private string stringField01;
-		[SerializeField, HideInInspector] private string stringField02;
-		[SerializeField, HideInInspector] private string stringField03;
+		[SerializeField, HideProperty] private string stringField01;
+		[SerializeField, HideProperty] private string stringField02;
+		[SerializeField, HideProperty] private string stringField03;
 	
-		[SerializeField, HideInInspector] private bool boolField01;
-		[SerializeField, HideInInspector] private bool boolField02;
-		[SerializeField, HideInInspector] private bool boolField03;
+		[SerializeField, HideProperty] private bool boolField01;
+		[SerializeField, HideProperty] private bool boolField02;
+		[SerializeField, HideProperty] private bool boolField03;
 	}
 
 .. image:: ../../Images/TabGroup02.gif

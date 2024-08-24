@@ -19,10 +19,10 @@ Example::
 		private Void groupHolder;
 	
 		// The fields needs to be serialized, but we don't want them to show twice in the inspector
-		[SerializeField, HideInInspector] private int field01;
-		[SerializeField, HideInInspector] private float field02;
-		[SerializeField, HideInInspector] private string field03;
-		[SerializeField, HideInInspector] private bool field04;
+		[SerializeField, HideProperty] private int field01;
+		[SerializeField, HideProperty] private float field02;
+		[SerializeField, HideProperty] private string field03;
+		[SerializeField, HideProperty] private bool field04;
 	}
 
 .. image:: ../../Images/VerticalGroup01.png
@@ -43,13 +43,13 @@ This attribute is best used with the :doc:`horizontalgroup` to display a bunch o
 		[VerticalGroup(drawInBox: true, nameof(intField02), nameof(stringField02), nameof(boolField02))]
 		[SerializeField, HideInInspector] private Void verticalGroupHolder02;
 	
-		[SerializeField, HideInInspector] private int intField01;
-		[SerializeField, HideInInspector] private string stringField01;
-		[SerializeField, HideInInspector] private bool boolField01;
+		[SerializeField, HideProperty] private int intField01;
+		[SerializeField, HideProperty] private string stringField01;
+		[SerializeField, HideProperty] private bool boolField01;
 	
-		[SerializeField, HideInInspector] private int intField02;
-		[SerializeField, HideInInspector] private string stringField02;
-		[SerializeField, HideInInspector] private bool boolField02;
+		[SerializeField, HideProperty] private int intField02;
+		[SerializeField, HideProperty] private string stringField02;
+		[SerializeField, HideProperty] private bool boolField02;
 	}
 
 .. image:: ../../Images/VerticalGroup02.png
