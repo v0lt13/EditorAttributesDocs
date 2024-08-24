@@ -7,12 +7,13 @@ An utiliy class containing usefull functions related to reflection.
 	- *object* -> *ReflectionUtility*
 
 **Namespace:** 
-	EditorAttributes.Editor.Utility
+	*EditorAttributes.Editor.Utility*
 	
 **Assembly:**
-	EditorAttributes.Editor.asmdef
+	*EditorAttributes.Editor.asmdef*
 	
 Syntax::
+
 	public static class ReflectionUtility
 
 Fields:
@@ -26,6 +27,7 @@ A preset of binding flags used by the package.
 **Type:** ``BindingFlags``
 
 Declaration::
+
 	public const BindingFlags BINDING_FLAGS = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static;
 
 Methods:
@@ -37,6 +39,7 @@ FindField(string, SerializedProperty)
 Finds a field inside a serialized object.
 
 Declaration::
+
 	public static FieldInfo FindField(string fieldName, SerializedProperty property)
 	
 **Parameters:**
@@ -51,6 +54,7 @@ FindProperty(string, SerializedProperty)
 Finds a property inside a serialized object.
 
 Declaration::
+
 	public static PropertyInfo FindProperty(string propertyName, SerializedProperty property)
 	
 **Parameters:**
@@ -65,6 +69,7 @@ FindFunction(string, SerializedProperty)
 Finds a funciton inside a serialized object.
 
 Declaration::
+
 	public static MethodInfo FindFunction(string functionName, SerializedProperty property)
 	
 **Parameters:**
@@ -79,6 +84,7 @@ FindMember(string, Type, BindingFlags, MemberTypes)
 Finds a member from the target type.
 
 Declaration::
+
 	public static MemberInfo FindMember(string memberName, Type targetType, BindingFlags bindingFlags, MemberTypes memberType)
 	
 **Parameters:**
@@ -95,6 +101,7 @@ TryGetField(string, Type, BindingFlags, out FieldInfo)
 Tries to get a field from the target type.
 
 Declaration::
+
 	public static bool TryGetField(string name, Type targetType, BindingFlags bindingFlags, out FieldInfo fieldInfo)
 	
 **Parameters:**
@@ -111,6 +118,7 @@ TryGetProperty(string, Type, BindingFlags, out PropertyInfo)
 Tries to get a property from the target type.
 
 Declaration::
+
 	public static bool TryGetProperty(string name, Type targetType, BindingFlags bindingFlags, out PropertyInfo propertyInfo)
 	
 **Parameters:**
@@ -127,6 +135,7 @@ TryGetMethod(string, Type, BindingFlags, out MethodInfo)
 Tries to get a function from the target type.
 
 Declaration::
+
 	public static bool TryGetMethod(string name, Type targetType, BindingFlags bindingFlags, out MethodInfo methodInfo)
 	
 **Parameters:**
@@ -143,6 +152,7 @@ IsPropertyCollection(SerializedProperty)
 Checks to see if a seralized property is a list or array.
 
 Declaration::
+
 	public static bool IsPropertyCollection(SerializedProperty property)
 	
 **Parameters:**
@@ -156,6 +166,7 @@ GetValidMemberInfo(string, SerializedProperty)
 Finds a member inside a serialzied object.
 
 Declaration::
+
 	public static MemberInfo GetValidMemberInfo(string memberName, SerializedProperty serializedProperty)
 	
 **Parameters:**
@@ -170,6 +181,7 @@ GetNestedObjectType(SerializedProperty, out object)
 Gets the type of a nested serialized object.
 
 Declaration::
+
 	public static Type GetNestedObjectType(SerializedProperty property, out object nestedObject)
 	
 **Parameters:**
@@ -184,6 +196,7 @@ GetMemberInfoType(MemberInfo)
 Gets the type of a member.
 
 Declaration::
+
 	public static Type GetMemberInfoType(MemberInfo memberInfo)
 	
 **Parameters:**
@@ -197,6 +210,7 @@ GetMemberInfoValue(MemberInfo, SerializedProperty)
 Gets the value of a member.
 
 Declaration::
+
 	public static object GetMemberInfoValue(MemberInfo memberInfo, SerializedProperty property)
 	
 **Parameters:**

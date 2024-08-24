@@ -7,12 +7,13 @@ An utiliy class containing usefull functions related to editor coloring.
 	- *object* -> *ColorUtility*
 
 **Namespace:** 
-	EditorAttributes.Editor.Utility
+	*EditorAttributes.Editor.Utility*
 	
 **Assembly:**
-	EditorAttributes.Editor.asmdef
+	*EditorAttributes.Editor.asmdef*
 	
 Syntax::
+
 	public static class ColorUtility
 
 Methods:
@@ -24,6 +25,7 @@ ApplyColor(VisualElement, IColorAttribute, HelpBox)
 Applies a color to a visual element via the color attribute.
 
 Declaration::
+
 	public static void ApplyColor(VisualElement visualElement, IColorAttribute color, HelpBox errorBox)
 	
 **Parameters:**
@@ -37,6 +39,7 @@ ApplyColor(VisualElement, Color, int)
 Applies a color to a visual element.
 
 Declaration::
+
 	public static void ApplyColor(VisualElement visualElement, Color color, int delay = 50)
 	
 **Parameters:**
@@ -50,6 +53,7 @@ GetColorFromProperty(SerializedProperty)
 Gets the color from a serialzied property with a color attribute.
 
 Declaration::
+
 	public static Color? GetColorFromProperty(SerializedProperty property)
 	
 **Parameters:**
@@ -63,6 +67,7 @@ GetColorFromAttribute(IColorAttribute, HelpBox)
 Gets the color value from a color attribute
 
 Declaration::
+
 	public static Color GetColorFromAttribute(IColorAttribute attribute, HelpBox errorBox)
 	
 **Parameters:**
@@ -77,6 +82,7 @@ ColorAttributeToColor(IColorAttribute)
 Converts the color attribute values from the color attribute to a color
 
 Declaration::
+
 	public static Color ColorAttributeToColor(IColorAttribute colorAttribute)
 	
 **Parameters:**
@@ -90,6 +96,7 @@ ColorAttributeToColor(IColorAttribute, float)
 Converts the color attribute values from the color attribute to a color
 
 Declaration::
+
 	public static Color ColorAttributeToColor(IColorAttribute colorAttribute, float alpha)
 	
 **Parameters:**
@@ -104,6 +111,7 @@ GUIColorToColor(GUIColor)
 Converts the GUIColor value to a color
 
 Declaration::
+
 	public static Color GUIColorToColor(GUIColor color)
 	
 **Parameters:**
@@ -117,6 +125,7 @@ GUIColorToColor(GUIColor, float)
 Converts the GUIColor value to a color
 
 Declaration::
+
 	public static Color GUIColorToColor(GUIColor color, float alpha)
 	
 **Parameters:**

@@ -7,12 +7,13 @@ The base class all property drawers from the package derive from, it contains so
 	- *object* -> *GUIDrawer* -> *PropertyDrawer* -> *PropertyDrawerBase*
 
 **Namespace:** 
-	EditorAttributes.Editor
+	*EditorAttributes.Editor*
 	
 **Assembly:**
-	EditorAttributes.Editor.asmdef
+	*EditorAttributes.Editor.asmdef*
 	
 Syntax::
+
 	public class PropertyDrawerBase : PropertyDrawer
 
 Properties:
@@ -26,6 +27,7 @@ Checks if the global color can be applied on an element.
 **Type:** ``bool``
 
 Declaration::
+
 	protected bool CanApplyGlobalColor => EditorExtension.GLOBAL_COLOR != EditorExtension.DEFAULT_GLOBAL_COLOR;
 
 Methods:
@@ -37,6 +39,7 @@ CreatePropertyGUI(SerializedProperty)
 Override this method to make your own UI Toolkit based GUI for the property.
 
 Declaration::
+
 	public override VisualElement CreatePropertyGUI(SerializedProperty property)
 	
 **Parameters:**
@@ -45,6 +48,7 @@ Declaration::
 **Returns:** ``VisualElement``: The element containing the custom GUI
 	
 Overrides::
+
 	PropertyDrawer.CreatePropertyGUI(SerializedProperty)
 
 DrawProperty(SerializedProperty, Label)
@@ -53,6 +57,7 @@ DrawProperty(SerializedProperty, Label)
 Draws a property field also accounting for Unity Events.
 
 Declaration::
+
 	protected virtual VisualElement DrawProperty(SerializedProperty property, Label label = null)
 	
 **Parameters:**
@@ -67,6 +72,7 @@ SetProperyValueFromString(string, ref SerializedProperty, HelpBox)
 Sets the value of a property from a string.
 
 Declaration::
+
 	protected static void SetProperyValueFromString(string value, ref SerializedProperty property, HelpBox errorBox)
 	
 **Parameters:**
@@ -80,6 +86,7 @@ GetPropertyValueAsString(SerializedProperty)
 Gets the value of a serialzied property and returns it as a string.
 
 Declaration::
+
 	protected static string GetPropertyValueAsString(SerializedProperty property)
 	
 **Parameters:**
@@ -93,6 +100,7 @@ ConvertCollectionValuesToStrings(string, SerializedProperty, MemberInfo, HelpBox
 Converts the values of a collection into strings.
 
 Declaration::
+
 	protected static List<string> ConvertCollectionValuesToStrings(string collectionName, SerializedProperty serializedProperty, MemberInfo memberInfo, HelpBox errorBox)
 	
 **Parameters:**
@@ -109,6 +117,7 @@ FindNestedProperty(SerializedProperty, string)
 Finds a nested serialized property.
 
 Declaration::
+
 	protected static SerializedProperty FindNestedProperty(SerializedProperty property, string propertyName)
 	
 **Parameters:**
@@ -123,6 +132,7 @@ GetSerializedPropertyName(string, SerializedProperty)
 Gets the name of a serialized property accounting for C# properties.
 
 Declaration::
+
 	public static string GetSerializedPropertyName(string propertyName, SerializedProperty property)
 	
 **Parameters:**
@@ -137,6 +147,7 @@ DisplayErrorBox(VisualElement, HelpBox)
 Displays an error box in the inspector.
 
 Declaration::
+
 	public static void DisplayErrorBox(VisualElement root, HelpBox errorBox)
 	
 **Parameters:**
@@ -149,6 +160,7 @@ UpdateVisualElement(Action)
 Update logic for a visual element.
 
 Declaration::
+
 	protected void UpdateVisualElement(Action logicToUpdate)
 	
 **Parameters:**
@@ -160,6 +172,7 @@ UpdateVisualElement(VisualElement, Action, long)
 Updates a visual element at a set interval.
 
 Declaration::
+
 	public static void UpdateVisualElementAtInterval(VisualElement visualElement, Action logicToUpdate, long intervalMs = 60)
 	
 **Parameters:**
@@ -173,6 +186,7 @@ AddElement(VisualElement, VisualElement)
 Add an element from another visual element if it doesn't exist.
 
 Declaration::
+
 	public static void AddElement(VisualElement root, VisualElement element)
 	
 **Parameters:**
@@ -185,6 +199,7 @@ RemoveElement(VisualElement, VisualElement)
 Removes an element from another visual element if it exists.
 
 Declaration::
+
 	public static void RemoveElement(VisualElement owner, VisualElement element)
 	
 **Parameters:**
@@ -197,6 +212,7 @@ GetConditionValue(MemberInfo, IConditionalAttribute, SerializedProperty, HelpBox
 Gets the value of a condition for a conditional attribute.
 
 Declaration::
+
 	public static bool GetConditionValue(MemberInfo memberInfo, IConditionalAttribute conditionalAttribute, SerializedProperty serializedProperty, HelpBox errorBox)
 	
 **Parameters:**
@@ -213,6 +229,7 @@ GetDynamicString(string, SerializedProperty, IDynamicStringAttribute, HelpBox)
 Gets the string value from a member if the input mode is set to Dynamic.
 
 Declaration::
+
 	public static string GetDynamicString(string inputText, SerializedProperty property, IDynamicStringAttribute dynamicStringAttribute, HelpBox errorBox)
 	
 **Parameters:**
@@ -229,6 +246,7 @@ ApplyBoxStyle(VisualElement)
 Applies the help box style to a visual element.
 
 Declaration::
+
 	public static void ApplyBoxStyle(VisualElement visualElement)
 	
 **Parameters:**
@@ -240,6 +258,7 @@ Print(object)
 A short handy version of ``Debug.Log``.
 
 Declaration::
+
 	protected void Print(object message)
 	
 **Parameters:**
@@ -251,6 +270,7 @@ IsCollectionValid(ICollection)
 Checks if a collection is null or has no members.
 
 Declaration::
+
 	public static bool IsCollectionValid(ICollection collection)
 	
 **Parameters:**
@@ -264,6 +284,7 @@ Vector3IntToVector2Int(Vector3Int)
 Converts a ``Vector3Int`` to a ``Vector2Int``.
 
 Declaration::
+
 	public static Vector2Int Vector3IntToVector2Int(Vector3Int vector3Int)
 	
 **Parameters:**
@@ -277,6 +298,7 @@ GetTextureSize(Texture2D)
 Gets the size of a 2D texture.
 
 Declaration::
+
 	public static Vector2 GetTextureSize(Texture2D texture)
 	
 **Parameters:**
