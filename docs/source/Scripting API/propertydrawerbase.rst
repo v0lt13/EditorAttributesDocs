@@ -15,7 +15,8 @@ The base class all property drawers from the package derive from, it contains so
 Syntax::
 	public class PropertyDrawerBase : PropertyDrawer
 
-***Properties:***
+Properties:
+-----------
 
 CanApplyGlobalColor
 -------------------
@@ -27,7 +28,8 @@ Checks if the global color can be applied on an element.
 Declaration::
 	protected bool CanApplyGlobalColor => EditorExtension.GLOBAL_COLOR != EditorExtension.DEFAULT_GLOBAL_COLOR;
 
-***Methods:***
+Methods:
+--------
 
 CreatePropertyGUI(SerializedProperty)
 -------------------------------------

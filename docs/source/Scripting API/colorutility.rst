@@ -15,7 +15,8 @@ An utiliy class containing usefull functions related to editor coloring.
 Syntax::
 	public static class ColorUtility
 
-***Methods:***
+Methods:
+--------
 
 ApplyColor(VisualElement, IColorAttribute, HelpBox)
 ---------------------------------------------------

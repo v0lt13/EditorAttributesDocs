@@ -16,7 +16,8 @@ A custom JSON converter used by the :doc:`../Attributes/ButtonAttributes/button`
 Syntax::
 	public class UnityTypeConverter : JsonConverter
 
-***Methods:***
+Methods:
+--------
 
 CanConvert(Type)
 ----------------

@@ -19,7 +19,8 @@ Syntax::
 	[CanEditMultipleObjects, CustomEditor(typeof(Object), true)]
 	public class EditorExtension : UnityEditor.Editor
 
-***Fields:***
+Fields:
+-------
 
 DEFAULT_GLOBAL_COLOR
 --------------------
@@ -41,7 +42,8 @@ The current global color.
 Declaration::
 	public static Color GLOBAL_COLOR = DEFAULT_GLOBAL_COLOR;
 
-***Methods:***
+Methods:
+--------
 
 OnEnable()
 ----------

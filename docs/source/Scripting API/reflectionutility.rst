@@ -15,7 +15,8 @@ An utiliy class containing usefull functions related to reflection.
 Syntax::
 	public static class ReflectionUtility
 
-***Fields:***
+Fields:
+-------
 
 BINDING_FLAGS
 -------------
@@ -27,7 +28,8 @@ A preset of binding flags used by the package.
 Declaration::
 	public const BindingFlags BINDING_FLAGS = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static;
 
-***Methods:***
+Methods:
+--------
 
 FindField(string, SerializedProperty)
 -------------------------------------
