@@ -1,5 +1,5 @@
-Class ColorUtility
-==================
+ColorUtility
+============
 
 An utiliy class containing usefull functions related to editor coloring.
 

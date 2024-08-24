@@ -1,5 +1,5 @@
-Class UnityTypeConverter
-========================
+UnityTypeConverter
+==================
 
 A custom JSON converter used by the :doc:`../Attributes/ButtonAttributes/button` to serialize the following Unity types: 
 ``Vector2``, ``Vector2Int``, ``Vector3``, ``Vector3Int``, ``Vector4``, ``Color``, ``Rect``, ``RectInt``, ``Bounds``, ``BoundsInt``

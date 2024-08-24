@@ -1,5 +1,5 @@
-Class ReflectionUtility
-=======================
+ReflectionUtility
+=================
 
 An utiliy class containing usefull functions related to reflection.
 

@@ -1,5 +1,5 @@
-Class EditorExtension
-=====================
+EditorExtension
+===============
 
 The class that expands the base editor functionality, redrawing the editor with UIElements and makes attributes like 
 :doc:`../Attributes/ButtonAttributes/button`, :doc:`../Attributes/DecorativeAttributes/guicolor` and :doc:`../Attributes/MiscellaneousAttributes/hideproperty` work.

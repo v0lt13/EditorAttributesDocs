@@ -1,5 +1,5 @@
-Class PropertyDrawerBase
-========================
+PropertyDrawerBase
+==================
 
 The base class all property drawers from the package derive from, it contains some extra utility functions.
 
