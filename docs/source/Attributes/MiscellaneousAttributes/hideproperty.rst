@@ -12,9 +12,11 @@ Attribute to hide a field in the inspector but still show it in debug view::
 	}
 
 Normal inspector mode:
+
 .. image:: ../../Images/HideProperty01.png
 
 Debug inspector mode:
+
 .. image:: ../../Images/HideProperty02.png
 
 .. note::

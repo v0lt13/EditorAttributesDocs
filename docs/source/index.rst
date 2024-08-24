@@ -37,13 +37,13 @@ Contents:
 	
 .. toctree::
     :maxdepth: 1
-    :caption: ScriptingAPI
+    :caption: Scripting API
 	
-    ScriptingAPI/editorextension
-    ScriptingAPI/propertydrawerbase
-    ScriptingAPI/reflectionutility
-    ScriptingAPI/colorutility
-    ScriptingAPI/unitytypeconverter
+    Scripting API/editorextension
+    Scripting API/propertydrawerbase
+    Scripting API/reflectionutility
+    Scripting API/colorutility
+    Scripting API/unitytypeconverter
 
 External Links:
 ===============
