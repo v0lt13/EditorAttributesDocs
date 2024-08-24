@@ -1,7 +1,7 @@
 PropertyDrawerBase
 ==================
 
-The base class all property drawers from the package derive from, it contains some extra utility functions.
+The base class all property drawers from the package derive from. It contains some extra utility functions.
 
 **Inheritance:**
 	- *object* -> *GUIDrawer* -> *PropertyDrawer* -> *PropertyDrawerBase*
