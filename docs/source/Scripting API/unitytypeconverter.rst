@@ -14,6 +14,7 @@ A custom JSON converter used by the :doc:`../Attributes/ButtonAttributes/button`
 	*EditorAttributes.Editor.asmdef*
 	
 Syntax::
+
 	public class UnityTypeConverter : JsonConverter
 
 Methods:
