@@ -166,8 +166,8 @@ Declaration::
 **Parameters:**
 	- ``Action`` logicToUpdate: The logic to update
 
-UpdateVisualElement(VisualElement, Action, long)
-------------------------------------------------
+UpdateVisualElementAtInterval(VisualElement, Action, long)
+----------------------------------------------------------
 
 Updates a visual element at a set interval.
 
