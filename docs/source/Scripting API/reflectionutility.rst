@@ -1,7 +1,7 @@
 ReflectionUtility
 =================
 
-An utiliy class containing usefull functions related to reflection.
+An utility class containing usefull functions related to reflection.
 
 **Inheritance:**
 	- *object* -> *ReflectionUtility*
