@@ -183,7 +183,7 @@ Declaration::
 AddElement(VisualElement, VisualElement)
 ----------------------------------------
 
-Add an element from another visual element if it doesn't exist.
+Add an element to another visual element if it doesn't exist.
 
 Declaration::
 
