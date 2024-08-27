@@ -1,7 +1,7 @@
 ColorUtility
 ============
 
-An utiliy class containing usefull functions related to editor coloring.
+An utility class containing usefull functions related to editor coloring.
 
 **Inheritance:**
 	- *object* -> *ColorUtility*
