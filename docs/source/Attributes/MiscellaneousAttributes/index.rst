@@ -9,6 +9,7 @@ Miscellaneous Attributes
 	
     readonly
     required
+    validate
     filepath
     folderpath
     typefilter

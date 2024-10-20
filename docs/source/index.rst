@@ -42,7 +42,8 @@ Contents:
     Scripting API/editorextension
     Scripting API/propertydrawerbase
     Scripting API/reflectionutility
-    Scripting API/colorutility
+    Scripting API/colorutils
+    Scripting API/vectorutils
     Scripting API/unitytypeconverter
 
 External Links:

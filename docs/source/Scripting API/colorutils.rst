@@ -1,10 +1,10 @@
-ColorUtility
-============
+ColorUtils
+==========
 
 An utility class containing usefull functions related to editor coloring.
 
 **Inheritance:**
-	- *object* -> *ColorUtility*
+	- *object* -> *ColorUtils*
 
 **Namespace:** 
 	*EditorAttributes.Editor.Utility*
@@ -14,7 +14,7 @@ An utility class containing usefull functions related to editor coloring.
 	
 Syntax::
 
-	public static class ColorUtility
+	public static class ColorUtils
 
 Methods:
 --------
@@ -72,6 +72,22 @@ Declaration::
 	
 **Parameters:**
 	- ``SerializedProperty`` attribute: The color attribute
+	- ``HelpBox`` errorBox: The error box to display any errors to
+	
+**Returns:** ``Color``: The color from the attribute
+
+GetColorFromAttribute(IColorAttribute, float, HelpBox)
+------------------------------------------------------
+
+Gets the color value from a color attribute with custom alpha
+
+Declaration::
+
+	public static Color GetColorFromAttribute(IColorAttribute attribute, float alpha, HelpBox errorBox)
+	
+**Parameters:**
+	- ``SerializedProperty`` attribute: The color attribute
+	- ``float`` alpha: Custom transparency value
 	- ``HelpBox`` errorBox: The error box to display any errors to
 	
 **Returns:** ``Color``: The color from the attribute

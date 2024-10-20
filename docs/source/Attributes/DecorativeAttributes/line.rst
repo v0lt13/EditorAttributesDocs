@@ -10,6 +10,7 @@ Attribute to draw a line in the inspector
 	- ``string`` hexColor: The color in hexadecimal
 	- `optional`, ``GUIColor`` color: The color of the line
 	- `optional`, ``float`` alpha: Alpha amount
+	- `optional`, ``float`` lineThickness: The thickness of the line in pixels
 
 Example::
 
@@ -23,7 +24,7 @@ Example::
 		[SerializeField] private int field02;
 		[Line(GUIColor.Green)]
 		[SerializeField] private int field03;
-		[Line(GUIColor.Cyan, 0.3f)]
+		[Line(GUIColor.Cyan, 0.3f, 10f)]
 		[SerializeField] private int field04;
 		[Line(250f, 129f, 120f)]
 		[SerializeField] private int field05;

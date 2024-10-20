@@ -278,20 +278,6 @@ Declaration::
 	
 **Returns:** ``bool``: False is the collection is null or has no members, true otherwise
 
-Vector3IntToVector2Int(Vector3Int)
-----------------------------------
-
-Converts a ``Vector3Int`` to a ``Vector2Int``.
-
-Declaration::
-
-	public static Vector2Int Vector3IntToVector2Int(Vector3Int vector3Int)
-	
-**Parameters:**
-	- ``Vector3Int`` vector3Int: The Vector3Int to convert
-	
-**Returns:** ``Vector2Int``: The converted Vector2Int
-
 GetTextureSize(Texture2D)
 -------------------------
 

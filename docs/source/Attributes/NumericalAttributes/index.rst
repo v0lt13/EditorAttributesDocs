@@ -12,3 +12,4 @@ Numerical Attributes
     minmaxslider
     progressbar
     timefield
+    drawhandle

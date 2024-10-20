@@ -4,10 +4,13 @@ Button Attribute
 Attribute to add a button in the inspector.
 
 **Parameters:**
+	- ``bool`` isRepetable: Makes the button repeat logic on hold
 	- ``string`` conditionName: The name of the condition to evaluate
 	- ``object`` enumValue: The value of the enum condition
 	- ``ConditionResult`` conditionResult: What happens to the button when the condition evaluates to true
 	- `optional`, ``bool`` negate: Negate the evaluated condition
+	- `optional`, ``long`` pressDelay: How many milliseconds to wait before the logic is executed on hold
+	- `optional`, ``long`` repetitionInterval: The interval in milliseconds the logic will repeat
 	- `optional`, ``string`` buttonLabel: The label displayed on the button
 	- `optional`, ``float`` buttonHeight: The height of the button in pixels
 	- `optional`, ``bool`` serializeParameters: Have the button parameters persist between selections
@@ -51,6 +54,22 @@ the parameters to be saved.
 .. note::
 	Because of the way the button parameters are serialized if you have multiple of the same component on one object the button parameters will share values, same applies to multiple objects
 	with the same name and component. If you delete the duplicate object or component it will reset the parameters to the default values.
+
+You can make a button to keep executing on hold by marking it as repetable::
+
+	using UnityEngine;
+	using EditorAttributes;
+	
+	public class AttributesExample : MonoBehaviour
+	{
+		[Button(true)]
+		public void RepetableButton() => print(Random.value);
+	
+		[Button(true, pressDelay: 200, repetitionInterval: 500)]
+		public void SlowRepetableButton() => print(Random.value);
+	}
+
+.. image:: ../../Images/Button05.gif
 
 You can also enable/disable or show/hide buttons based on a given condition::
 

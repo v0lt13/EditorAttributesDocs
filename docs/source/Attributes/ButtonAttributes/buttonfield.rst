@@ -5,6 +5,9 @@ Attribute to add a button in the inspector in place of a field.
 
 **Parameters:**
 	- ``string`` functionName: The name of the function to call
+	- ``bool`` isRepetable: Makes the button repeat logic on hold
+	- `optional`, ``long`` pressDelay: How many milliseconds to wait before the logic is executed on hold
+	- `optional`, ``long`` repetitionInterval: The interval in milliseconds the logic will repeat
 	- `optional`, ``string`` buttonLabel: The label displayed on the button
 	- `optional`, ``float`` buttonHeight: The height of the button in pixels
 
@@ -50,6 +53,24 @@ By using the `ButtonField Attribute` you can also add buttons inside groups::
 	}
 
 .. image:: ../../Images/ButtonField02.png
+
+You can make a button to keep executing on hold by marking it as repetable::
+
+	using UnityEngine;
+	using EditorAttributes;
+	
+	public class AttributesExample : MonoBehaviour
+	{
+		[ButtonField(nameof(PrintRandomValue), true)]
+		[SerializeField] private Void buttonHolder01;
+	
+		[ButtonField(nameof(PrintRandomValue), true, 100, 500, "Slow Button")]
+		[SerializeField] private Void buttonHolder02;
+	
+		public void PrintRandomValue() => print(Random.value);
+	}
+
+.. image:: ../../Images/ButtonField03.gif
 
 .. note::
 	The `ButtonField Attribute` does not support functions with parameters.

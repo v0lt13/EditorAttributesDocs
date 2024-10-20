@@ -10,4 +10,5 @@ Button Attributes
     button
     buttonfield
     inlinebutton
+    valuebuttons
     selectionbuttons

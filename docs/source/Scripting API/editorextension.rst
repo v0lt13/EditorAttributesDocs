@@ -104,6 +104,20 @@ Declaration::
 	
 **Returns:** ``VisualElement``: All the inspector properties
 	
+DrawStaticFields()
+------------------
+
+Draws all the static and const field marked as public or with SerializeField
+
+.. warning::
+	THIS FUNCTION IS EXPERIMENTAL! To enable drawing of static variables uncomment the lines of code at 60 and 64 in the CreateInspectorGUI() function
+
+Declaration::
+
+	protected VisualElement DrawStaticFields()
+	
+**Returns:** ``VisualElement``: A visual element containing all static and const fields
+	
 DrawButtons()
 -------------
 
