@@ -19,7 +19,7 @@ Example::
 
 .. image:: ../../Images/Required01.gif
 
-If you want to include a required field in the validation process set **throwValidationError** to ``true``::
+If you want to include a required field in the validation process set *throwValidationError* to ``true``::
 
 	using UnityEngine;
 	using EditorAttributes;

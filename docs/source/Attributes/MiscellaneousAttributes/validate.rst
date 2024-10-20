@@ -34,7 +34,7 @@ When is done it will throw some logs in the console with the results of the vali
 
 .. image:: ../../Images/Validate02.png
 
-Notice how one of the validations has a red *(Build Killer)* text. Those appear when you set the **buildKiller** parameter to ``true``, what it means is that when you are trying to build the project
+Notice how one of the validations has a red *(Build Killer)* text. Those appear when you set the *buildKiller* parameter to ``true``, what it means is that when you are trying to build the project
 if you have any failed validations marked as a build killer it will cancel the build and throw the validation logs in the console.
 
 .. image:: ../../Images/Validate04.png

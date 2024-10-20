@@ -34,20 +34,20 @@ Declaration::
 	
 **Returns:** ``Vector3``: A vector with the value added to all axis
 
-SubstractVector(Vector3, float)
--------------------------------
+SubtractVector(Vector3, float)
+------------------------------
 
-Substracts a value from a vector.
+Subtracts a value from a vector.
 
 Declaration::
 
-	public static Vector3 SubstractVector(Vector3 vector, float subtrahend)
+	public static Vector3 SubtractVector(Vector3 vector, float subtrahend)
 	
 **Parameters:**
-	- ``Vector3`` vector: The vector to subrtact the value from
+	- ``Vector3`` vector: The vector to subtract the value from
 	- ``float`` subtrahend: The value to subtract
 	
-**Returns:** ``Vector3``: A vector with the value substracted from all axis
+**Returns:** ``Vector3``: A vector with the value subtracted from all axis
 
 Vector3IntToVector2Int(Vector3Int)
 ----------------------------------
