@@ -40,6 +40,8 @@ Contents:
     :caption: Scripting API
 	
     Scripting API/editorextension
+    Scripting API/editorvalidation
+    Scripting API/editorhandles
     Scripting API/propertydrawerbase
     Scripting API/reflectionutility
     Scripting API/colorutils
