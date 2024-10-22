@@ -154,16 +154,17 @@ Declaration::
 	- ``VisualElement`` root: The root visual element
 	- ``HelpBox`` errorBox: The help box to displaying the errors
 
-UpdateVisualElement(Action)
----------------------------
+UpdateVisualElement(VisualElement, Action)
+------------------------------------------
 
 Update logic for a visual element.
 
 Declaration::
 
-	protected void UpdateVisualElement(Action logicToUpdate)
+	protected void UpdateVisualElement(VisualElement visualElement, Action logicToUpdate)
 	
 **Parameters:**
+	- ``VisualElement`` visualElement: The element to update
 	- ``Action`` logicToUpdate: The logic to update
 
 UpdateVisualElementAtInterval(VisualElement, Action, long)
