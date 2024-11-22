@@ -18,5 +18,6 @@ Decorative Attributes
     helpbox
     hidelabel
     rename
+    propertyorder
     propertywidth
     indentproperty

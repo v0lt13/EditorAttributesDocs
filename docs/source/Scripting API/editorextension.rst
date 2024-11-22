@@ -93,7 +93,7 @@ Overrides::
 DrawDefaultInspector()
 ----------------------
 
-This function redraws all the inspector properties with UIElements and handles the coloring and hiding of properties
+This function redraws all the inspector properties with UIElements and handles the coloring and hiding of properties.
 
 .. warning::
 	If you override this function make sure you call base.DrawDefaultInspector() or handle property hiding and coloring yourself
@@ -104,13 +104,23 @@ Declaration::
 	
 **Returns:** ``VisualElement``: All the inspector properties
 	
+RunUpdateLoop(VisualElement)
+----------------------------
+
+Runs the update loop on elements that use the :doc:`propertydrawerbase/UpdateVisualElement` function.
+Call this function in the CreateGUI function to have conditional attributes and dynamic string attributes work in custom editor windows.
+
+**Parameters:**
+	- ``VisualElement`` root: The root element of the editor
+
+Declaration::
+
+	public static void RunUpdateLoop(VisualElement root)
+	
 DrawStaticFields()
 ------------------
 
-Draws all the static and const field marked as public or with SerializeField
-
-.. warning::
-	THIS FUNCTION IS EXPERIMENTAL! To enable drawing of static variables uncomment the lines of code at 60 and 64 in the CreateInspectorGUI() function
+Draws all the static and const fields.
 
 Declaration::
 
@@ -121,7 +131,7 @@ Declaration::
 DrawButtons()
 -------------
 
-Draws all the buttons from functions using the Button Attribute
+Draws all the buttons from functions using the Button Attribute.
 
 Declaration::
 

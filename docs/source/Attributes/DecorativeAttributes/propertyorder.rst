@@ -1,0 +1,21 @@
+PropertyOrder Attribute
+=======================
+
+Attribute to change the drawing order of a field
+
+**Parameters:**
+	- ``int`` order: The number to other the field by
+
+Example::
+
+	using UnityEngine;
+	using EditorAttributes;
+	
+	public class AttributesExample : MonoBehaviour
+	{
+		[SerializeField, PropertyOrder(3)] private int intField01;
+		[SerializeField, PropertyOrder(2)] private int intField02;
+		[SerializeField, PropertyOrder(1)] private int intField03;
+	}
+	
+.. image:: ../../Images/PropertyOrder01.png

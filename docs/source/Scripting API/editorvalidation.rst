@@ -56,18 +56,28 @@ Validates every asset and scene in the project.
 
 Declaration::
 
-	[MenuItem("EditorValidation/Validate All")]
+	[MenuItem("EditorValidation/Validate All", priority = 0)]
 	public static void ValidateAll()
 	
 ValidateAllScenes()
 -------------------
 
-Validates all scenes in the project.
+Validates all scenes in the build.
 
 Declaration::
 
-		[MenuItem("EditorValidation/Validate Scenes")]
+		[MenuItem("EditorValidation/Validate Scenes", priority = 2)]
 		public static void ValidateAllScenes()
+
+ValidateAllScenes()
+-------------------
+
+Validates all scenes currently open.
+
+Declaration::
+
+		[MenuItem("EditorValidation/Validate Open Scenes", priority = 3)]
+		public static void ValidateOpenScenes()
 
 ValidateAllAssets()
 -------------------
@@ -76,7 +86,7 @@ Validates all assets in the project.
 
 Declaration::
 
-		[MenuItem("EditorValidation/Validate Assets")]
+		[MenuItem("EditorValidation/Validate Assets", priority = 1)]
 		public static void ValidateAllAssets()
 	
 Validate(Object, ref int, ref int)
