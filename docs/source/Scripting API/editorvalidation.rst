@@ -59,8 +59,8 @@ Declaration::
 	[MenuItem("EditorValidation/Validate All", priority = 0)]
 	public static void ValidateAll()
 	
-ValidateOpenScenes()
---------------------
+ValidateAllScenes()
+-------------------
 
 Validates all scenes in the build.
 
@@ -69,8 +69,8 @@ Declaration::
 		[MenuItem("EditorValidation/Validate Scenes", priority = 2)]
 		public static void ValidateAllScenes()
 
-ValidateAllScenes()
--------------------
+ValidateOpenScenes()
+--------------------
 
 Validates all scenes currently open.
 
