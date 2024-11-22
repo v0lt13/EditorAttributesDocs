@@ -107,7 +107,7 @@ Declaration::
 RunUpdateLoop(VisualElement)
 ----------------------------
 
-Runs the update loop on elements that use the :doc:`propertydrawerbase/UpdateVisualElement` function.
+Runs the update loop on elements that use the :doc:`propertydrawerbase` UpdateVisualElement function.
 Call this function in the CreateGUI function to have conditional attributes and dynamic string attributes work in custom editor windows.
 
 **Parameters:**
