@@ -4,9 +4,9 @@ Changelogs
 EditorAttributes v2.5.1 Changelog:
 ----------------------------------
 - Fixed attributes not finding properties
-- Fixed overriden function missmach warning in the UnityTypeConverter class
+- Fixed overridden function mismatch warning in the UnityTypeConverter class
 - Fixed Clamp and Wrap Attributes not setting their values correctly
-- Fixed serialized objects not displaying in folout and toggle groups
+- Fixed serialized objects not displaying in foldout and toggle groups
 - Fixed properties not updating after opening the object picker
 - Properties with the HideProperty Attribute should now be hidden inside a property dropdown
 
