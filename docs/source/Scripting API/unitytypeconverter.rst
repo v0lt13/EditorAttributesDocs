@@ -45,7 +45,7 @@ Reads the JSON representation of the object.
 
 Declaration::
 
-	public override object ReadJson(JsonReader reader, Type objectType, object? existingValue, JsonSerializer serializer)
+	public override object? ReadJson(JsonReader reader, Type objectType, object? existingValue, JsonSerializer serializer)
 	
 **Parameters:**
 	- ``JsonReader`` reader: The JSON reader to read from

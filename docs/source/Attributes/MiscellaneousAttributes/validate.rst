@@ -25,12 +25,17 @@ Example::
 
 .. image:: ../../Images/Validate01.png
 
-To validate a scene go to the engine toolbar and look for *EditorValidation* and select whatever you want to validate.
+To validate something go to the engine toolbar and look for *EditorValidation* and select whatever you want to validate.
 
 .. image:: ../../Images/Validate03.png
 
+- **Validate All** combines the process of **Validate Assets** and **Validate Scenes**.
+- **Validate Assets** will validate every prefab and scriptable object inside the Assets folder.
+- **Validate Scenes** will validate every scene in the active scene list in the build settings.
+- **Validate Open Scenes** will validate every scene currently loaded in the hierarchy whether is added in the active build settings scene list or not.
+
 Once you select what you want to validate it will begin the validation process. Note that the validation process may take a while depending on the size of the project.
-When is done it will throw some logs in the console with the results of the validation and any errors for failed validations.
+When is done it will throw some logs in the console with the results of the validation and errors for failed validations.
 
 .. image:: ../../Images/Validate02.png
 
