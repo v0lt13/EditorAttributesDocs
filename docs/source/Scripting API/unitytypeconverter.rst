@@ -38,19 +38,19 @@ Overrides::
 
 	JsonConverter.CanConvert(Type)
 
-ReadJson(JsonReader, Type, object, JsonSerializer)
+ReadJson(JsonReader, Type, object?, JsonSerializer)
 --------------------------------------------------
 
 Reads the JSON representation of the object.
 
 Declaration::
 
-	public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
+	public override object ReadJson(JsonReader reader, Type objectType, object? existingValue, JsonSerializer serializer)
 	
 **Parameters:**
 	- ``JsonReader`` reader: The JSON reader to read from
 	- ``Type`` objectType: The object type
-	- ``object`` existingValue: The existing value of object being read
+	- ``object?`` existingValue: The existing value of object being read
 	- ``Type`` serializer: The calling serializer
 
 **Returns:** ``object?``: The object value
@@ -59,18 +59,18 @@ Overrides::
 
 	JsonConverter.ReadJson(JsonReader, Type, object?, JsonSerializer)
 
-WriteJson(JsonWriter, object, JsonSerializer)
+WriteJson(JsonWriter, object?, JsonSerializer)
 ---------------------------------------------
 
 Writes the JSON representation of the object.
 
 Declaration::
 
-	public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer) 
+	public override void WriteJson(JsonWriter writer, object? value, JsonSerializer serializer) 
 	
 **Parameters:**
 	- ``JsonWriter`` writer: Writes the JSON representation of the object
-	- ``object`` value: The value
+	- ``object?`` value: The value
 	- ``JsonSerializer`` serializer: The calling serializer
 
 Overrides::
