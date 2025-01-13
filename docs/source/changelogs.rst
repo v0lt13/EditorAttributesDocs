@@ -5,7 +5,7 @@ EditorAttributes v2.5.2 Changelog:
 ----------------------------------
 - Added optional parameter to the HideInChildren Attribute to specify in which children to hide the field
 - Added option to draw help boxes above the attached field
-- Added dynamic string support to help boxes
+- Added dynamic string support to the HelpBox Attribute
 - The HelpBox Attribute will now draw the helpbox under the field by default
 - Fixed tooltips not being displayed on some attributes
 - Fixed Rename Attribute not working on fields inside a horizontal group

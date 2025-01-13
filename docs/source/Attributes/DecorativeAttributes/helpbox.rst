@@ -31,7 +31,7 @@ Example::
 	
 .. image:: ../../Images/HelpBox01.png
 
-You can dynamically change the text by setting the stringInputMode parameter to dynamic and specify a member name in the string parameter to get the string value from:
+You can dynamically change the text by setting the stringInputMode parameter to dynamic and specify a member name in the string parameter to get the string value from::
 
 	using UnityEngine;
 	using EditorAttributes;
@@ -44,4 +44,4 @@ You can dynamically change the text by setting the stringInputMode parameter to 
 
 .. image:: ../../Images/HelpBox02.gif
 
-HelpBoxes have rich text support.
+Help boxes have rich text support.

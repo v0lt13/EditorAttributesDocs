@@ -161,7 +161,7 @@ Schedules an action to update.
 
 Declaration::
 
-	public static void UpdateVisualElementAtInterval(VisualElement visualElement, Action logicToUpdate, long intervalMs = 60)
+	public static void UpdateVisualElement(VisualElement visualElement, Action logicToUpdate, long intervalMs = 60)
 	
 **Parameters:**
 	- ``VisualElement`` visualElement: The visual element to schedule the update
