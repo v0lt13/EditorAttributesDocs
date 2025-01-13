@@ -3,6 +3,9 @@ HideInChildren Attribute
 
 Attribute to hide the inherited field in the child classes
 
+**Parameters:**
+	- `params`, ``Type`` childTypes: The field will be hidden only in these child classes
+
 Example::
 
 	using UnityEngine;

@@ -154,33 +154,34 @@ Declaration::
 	- ``VisualElement`` root: The root visual element
 	- ``HelpBox`` errorBox: The help box to displaying the errors
 
-UpdateVisualElement(VisualElement, Action)
-------------------------------------------
+UpdateVisualElement(VisualElement, Action, long)
+------------------------------------------------
 
-Update logic for a visual element.
-
-Declaration::
-
-	protected void UpdateVisualElement(VisualElement visualElement, Action logicToUpdate)
-	
-**Parameters:**
-	- ``VisualElement`` visualElement: The element to update
-	- ``Action`` logicToUpdate: The logic to update
-
-UpdateVisualElementAtInterval(VisualElement, Action, long)
-----------------------------------------------------------
-
-Updates a visual element at a set interval.
+Schedules an action to update.
 
 Declaration::
 
 	public static void UpdateVisualElementAtInterval(VisualElement visualElement, Action logicToUpdate, long intervalMs = 60)
 	
 **Parameters:**
-	- ``VisualElement`` visualElement: The visual element to update
+	- ``VisualElement`` visualElement: The visual element to schedule the update
 	- ``Action`` logicToUpdate: The logic to execute on the specified element
 	- `optional`, ``long`` intervalMs: The update interval in milliseconds
+
+ExecuteLater(VisualElement, Action, long)
+-----------------------------------------
+
+Schedules an action to execute after a delay.
+
+Declaration::
+
+	public static void ExecuteLater(VisualElement visualElement, Action logicToExecute, long delayMs = 1)
 	
+**Parameters:**
+	- ``VisualElement`` visualElement: The visual element to schedule the execution
+	- ``Action`` logicToUpdate: The logic to execute on the specified element
+	- `optional`, ``long`` delayMs: The execution delay in milliseconds
+
 AddElement(VisualElement, VisualElement)
 ----------------------------------------
 

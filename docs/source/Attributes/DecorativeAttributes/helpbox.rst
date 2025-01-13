@@ -6,6 +6,8 @@ Attribute to display a help box.
 **Parameters:**
 	- ``string`` message: The message to display
 	- `optional`, ``MessageMode`` messageType: The type of the message
+	- `optional`, ``StringInputMode`` stringInputMode: Set if the string input is set trough a constant or dynamically trough another member
+	- `optional`, ``bool`` drawAbove: Draws the HelpBox above the attached field
 	
 Example::
 
@@ -28,5 +30,18 @@ Example::
 	}
 	
 .. image:: ../../Images/HelpBox01.png
+
+You can dynamically change the text by setting the stringInputMode parameter to dynamic and specify a member name in the string parameter to get the string value from:
+
+	using UnityEngine;
+	using EditorAttributes;
+	
+	public class AttributesExample : MonoBehaviour
+	{
+		[HelpBox(nameof(helpBox), MessageMode.Log, StringInputMode.Dynamic)]
+		[SerializeField] private string helpBox;
+	}
+
+.. image:: ../../Images/HelpBox02.gif
 
 HelpBoxes have rich text support.

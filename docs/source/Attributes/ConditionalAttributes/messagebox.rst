@@ -9,6 +9,7 @@ Attribute to display a message box depending on a condition.
 	- ``object`` enumValue: The value of the enum
 	- `optional`, ``MessageMode`` messageType: The type of the message
 	- `optional`, ``StringInputMode`` stringInputMode: Set if the string input is set trough a constant or dynamically trough another member
+	- `optional`, ``bool`` drawAbove: Draws the HelpBox above the attached field
 
 Example::
 

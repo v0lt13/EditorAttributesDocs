@@ -104,19 +104,6 @@ Declaration::
 	
 **Returns:** ``VisualElement``: All the inspector properties
 	
-RunUpdateLoop(VisualElement)
-----------------------------
-
-Runs the update loop on elements that use the :doc:`propertydrawerbase`.UpdateVisualElement function.
-Call this function in the CreateGUI function to have conditional attributes and dynamic string attributes work in custom editor windows.
-
-**Parameters:**
-	- ``VisualElement`` root: The root element of the editor
-
-Declaration::
-
-	public static void RunUpdateLoop(VisualElement root)
-	
 DrawStaticFields()
 ------------------
 
