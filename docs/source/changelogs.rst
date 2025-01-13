@@ -10,7 +10,7 @@ EditorAttributes v2.5.2 Changelog:
 - Fixed tooltips not being displayed on some attributes
 - Fixed Rename Attribute not working on fields inside a horizontal group
 - Fixed asset preivews not displaying when assigning new assets
-- Removed the global update scheduler due invoked events generating a ton of garbage and tanking performance, all atrtibutes will now use their own scheduler
+- Removed the global update scheduler due invoked events generating a ton of garbage and tanking performance, all attributes will now use their own scheduler
 
 EditorAttributes v2.5.1 Changelog:
 ----------------------------------
