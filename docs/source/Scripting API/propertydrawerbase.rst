@@ -66,19 +66,47 @@ Declaration::
 	
 **Returns:** ``VisualElement``: The property visual element
 
-SetProperyValueFromString(string, ref SerializedProperty, HelpBox)
-------------------------------------------------------------------
+CopyValue(VisualElement, SerializedProperty)
+--------------------------------------------
+
+Override this function to customize the copied value from an element with using AddPropertyContextMenu(VisualElement, SerializedProperty).
+
+Declaration::
+
+	protected virtual string CopyValue(VisualElement element, SerializedProperty property)
+	
+**Parameters:**
+	- ``VisualElement`` element: The element on which the context menu was added
+	- ``SerializedProperty`` property: The attached serialized property
+	
+**Returns:** ``string``: The string that will be copied into the clipboard
+
+PasteValue(VisualElement, SerializedProperty, string)
+-----------------------------------------------------
+
+Override this function to customize the paste behaivour for an element with using AddPropertyContextMenu(VisualElement, SerializedProperty).
+
+Declaration::
+
+	protected virtual void PasteValue(VisualElement element, SerializedProperty property, string clipboardValue)
+	
+**Parameters:**
+	- ``VisualElement`` element: The element on which the context menu was added
+	- ``SerializedProperty`` property: The attached serialized property
+	- ``string`` clipboardValue: The current clipboard value
+
+SetProperyValueFromString(string, SerializedProperty)
+-----------------------------------------------------
 
 Sets the value of a property from a string.
 
 Declaration::
 
-	protected static void SetProperyValueFromString(string value, ref SerializedProperty property, HelpBox errorBox)
+	protected static void SetProperyValueFromString(string value, SerializedProperty property)
 	
 **Parameters:**
 	- ``string`` value: The string value to convert
-	- `reference`, ``SerializedProperty`` property: The serialized property reference to assign the value to
-	- ``HelpBox`` errorBox: The error box to display any errors to
+	- ``SerializedProperty`` property: The serialized property to assign the value to
 
 GetPropertyValueAsString(SerializedProperty)
 --------------------------------------------
@@ -241,6 +269,19 @@ Declaration::
 	- ``HelpBox`` errorBox: The error box to display any errors to
 	
 **Returns:** ``string``: If the input mode is Constant will return the base input string, if is Dynamic will return the string value of the member
+
+AddPropertyContextMenu(VisualElement, SerializedProperty)
+---------------------------------------------------------
+
+Adds the property context menu to a non property element.
+
+Declaration::
+
+	public static void AddPropertyContextMenu(VisualElement element, SerializedProperty property)
+	
+**Parameters:**
+	- ``VisualElement`` element: The element to add the context menu to
+	- ``SerializedProperty`` property: The serialized property
 
 ApplyBoxStyle(VisualElement)
 ----------------------------

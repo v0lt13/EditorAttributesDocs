@@ -47,6 +47,8 @@ Contents:
     Scripting API/colorutils
     Scripting API/vectorutils
     Scripting API/unitytypeconverter
+    Scripting API/void
+    Scripting API/simpletransform
 
 External Links:
 ===============

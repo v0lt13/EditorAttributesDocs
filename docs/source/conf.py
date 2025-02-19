@@ -3,10 +3,10 @@
 # -- Project information
 
 project = 'EditorAttributes'
-copyright = '2024, v0lt'
+copyright = '2025, v0lt'
 author = 'v0lt'
 
-release = '2.5.2'
+release = '2.5.3'
 
 # -- General configuration
 

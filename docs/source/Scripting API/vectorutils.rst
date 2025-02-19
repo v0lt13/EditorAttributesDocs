@@ -104,3 +104,73 @@ Declaration::
 	- ``Vector3`` vector3: The Vector3 to convert
 	
 **Returns:** ``Vector3Int``: The converted Vector3Int
+
+ParseVector2(string)
+--------------------
+
+Parses a ``string`` to a ``Vector2``.
+
+Declaration::
+
+	public static Vector2 ParseVector2(string vectorString)
+	
+**Parameters:**
+	- ``string`` vectorString: The string representing the vector
+	
+**Returns:** ``Vector2``: The vector value from the string
+
+ParseVector2Int(string)
+-----------------------
+
+Parses a ``string`` to a ``Vector2Int``.
+
+Declaration::
+
+	public static Vector2Int ParseVector2Int(string vectorString)
+	
+**Parameters:**
+	- ``string`` vectorString: The string representing the vector
+	
+**Returns:** ``Vector2Int``: The vector value from the string
+
+ParseVector3(string)
+--------------------
+
+Parses a ``string`` to a ``Vector3``.
+
+Declaration::
+
+	public static Vector3 ParseVector3(string vectorString)
+	
+**Parameters:**
+	- ``string`` vectorString: The string representing the vector
+	
+**Returns:** ``Vector3``: The vector value from the string
+
+ParseVector3Int(string)
+-----------------------
+
+Parses a ``string`` to a ``Vector3Int``.
+
+Declaration::
+
+	public static Vector3Int ParseVector3Int(string vectorString)
+	
+**Parameters:**
+	- ``string`` vectorString: The string representing the vector
+	
+**Returns:** ``Vector3Int``: The vector value from the string
+
+ParseVector4(string)
+--------------------
+
+Parses a ``string`` to a ``Vector4``.
+
+Declaration::
+
+	public static Vector4 ParseVector4(string vectorString)
+	
+**Parameters:**
+	- ``string`` vectorString: The string representing the vector
+	
+**Returns:** ``Vector4``: The vector value from the string

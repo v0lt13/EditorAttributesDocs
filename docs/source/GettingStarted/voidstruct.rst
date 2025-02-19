@@ -1,7 +1,7 @@
 Void Struct
 ===========
 
-The **Void** struct is an empty serialized struct to use as a holder property for attributes like the :doc:`../Attributes/GroupingAttributes/verticalgroup`, :doc:`../Attributes/GroupingAttributes/horizontalgroup`, etc. 
+The :doc:`../Scripting API/void` struct is an empty serialized struct to use as a holder property for attributes like the :doc:`../Attributes/GroupingAttributes/verticalgroup`, :doc:`../Attributes/GroupingAttributes/horizontalgroup`, etc. 
 that completely redraw the property in the inspector. 
 
 By itself the Void struct will not be drawn in the inspector but attributes attached to it will still execute.
