@@ -6,7 +6,7 @@ Attribute to show/hide or disable/enable a field based on a bunch of conditions.
 **Parameters:**
 	- ``ConditionType`` conditionType: How to evaluate the the specified booleans
 	- `optional`, ``ConditionResult`` conditionResult: What happens to the property when the condition evaluates to true
-	- `optional`, ``bool array`` negatedValues: Specify which booleans to negate
+	- `optional`, ``bool[]`` negatedValues: Specify which booleans to negate
 	- `params`, ``string`` booleanNames: The names of the booleans to evaluate
 
 The field will be shown when the result of the specified conditions return true::

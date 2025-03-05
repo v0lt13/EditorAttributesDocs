@@ -51,21 +51,6 @@ Overrides::
 
 	PropertyDrawer.CreatePropertyGUI(SerializedProperty)
 
-DrawProperty(SerializedProperty, Label)
----------------------------------------
-
-Draws a property field also accounting for Unity Events.
-
-Declaration::
-
-	protected virtual VisualElement DrawProperty(SerializedProperty property, Label label = null)
-	
-**Parameters:**
-	- ``SerializedProperty`` property: The serialized property to draw
-	- `optional`, ``Label`` label: Add a custom label to the property
-	
-**Returns:** ``VisualElement``: The property visual element
-
 CopyValue(VisualElement, SerializedProperty)
 --------------------------------------------
 
@@ -196,6 +181,8 @@ Declaration::
 	- ``Action`` logicToUpdate: The logic to execute on the specified element
 	- `optional`, ``long`` intervalMs: The update interval in milliseconds
 
+**Returns:** ``IVisualElementScheduledItem``: The scheduled visual element item
+
 ExecuteLater(VisualElement, Action, long)
 -----------------------------------------
 
@@ -209,6 +196,8 @@ Declaration::
 	- ``VisualElement`` visualElement: The visual element to schedule the execution
 	- ``Action`` logicToUpdate: The logic to execute on the specified element
 	- `optional`, ``long`` delayMs: The execution delay in milliseconds
+
+**Returns:** ``IVisualElementScheduledItem``: The scheduled visual element item
 
 AddElement(VisualElement, VisualElement)
 ----------------------------------------
