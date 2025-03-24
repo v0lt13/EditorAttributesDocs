@@ -28,7 +28,7 @@ A preset of binding flags used by the package.
 
 Declaration::
 
-	public const BindingFlags BINDING_FLAGS = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static;
+	public const BindingFlags BINDING_FLAGS = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static | BindingFlags.FlattenHierarchy;
 
 Methods:
 --------
@@ -91,9 +91,24 @@ Declaration::
 	- ``string`` memberName: The name of the member to look for
 	- ``Type`` targetType: The type to get the member from
 	- ``BindingFlags`` bindingFlags: The binding flags
-	- ``MemberTypes`` memberType: The type of the member to look for. Only Field, Property and Method are supported
+	- ``MemberTypes`` memberType: The type of the member to look for. Only Field, Property and Method types are supported
 
-**Returns:** ``MemberInfo``: The member info of the desired member
+**Returns:** ``MemberInfo``: The member info of the specified member type
+
+GetStaticMemberInfoFromPath(string, MemberTypes)
+------------------------------------------------
+
+Gets the info of a const or static member from the type specified in the path.
+
+Declaration::
+
+	public static MemberInfo FindMember(string memberName, Type targetType, BindingFlags bindingFlags, MemberTypes memberType)
+	
+**Parameters:**
+	- ``string`` memberName: The path on which to locate the member
+	- ``MemberTypes`` memberType: The type of the member to look for. Only Field, Property and Method types are supported
+
+**Returns:** ``MemberInfo``: The member info of the specified member type
 
 TryGetField(string, Type, BindingFlags, out FieldInfo)
 ------------------------------------------------------

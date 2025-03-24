@@ -26,7 +26,7 @@ Now you can specify the value of the ``string`` from a dropdown.
 
 .. image:: ../../Images/Dropdown01.gif
 
-You can also customize how to display dropdown values by passing a ``string[]`` like this::
+You can also customize how to display dropdown values by passing a ``string`` array like this::
 
 	using UnityEngine;
 	using EditorAttributes;
@@ -66,4 +66,4 @@ Or alternatively use a Dictionary where the keys will be used for display::
 .. image:: ../../Images/Dropdown02.gif
 
 .. note:: 
-	If you try to use both a Dictionary and a ``string[]`` with the attribute, the array will take priority for the displayed values.
+	If you try to use both a Dictionary and a ``string`` array with the attribute, the array will take priority for the displayed values.
