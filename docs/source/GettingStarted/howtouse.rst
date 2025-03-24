@@ -85,10 +85,10 @@ Finding members
 
 Some attributes like :doc:`../Attributes/DropdownAttributes/dropdown`, :doc:`../Attributes/MiscellaneousAttributes/validate` or :doc:`../Attributes/ConditionalAttributes/index` 
 will ask for the name of a member to use for their functionality, these members do not abide by Unity's serialization rules, 
-meaning they can can be fields, properties or functions, inherited or nested, marked with any `access modifier <https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers>`_ 
+meaning they can be fields, properties or functions, inherited or nested, marked with any `access modifier <https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers>`_ 
 and be ``static``, ``readonly`` or ``const``.
 
-.. :note:
+.. note::
 	The :doc:`../Attributes/GroupingAttributes` are the only attributes that abide by Unity's serialization rules for finding members since they have to draw those members in the inspector.
 
 You can also input members that are inside a different type as long as they are ``const`` or ``static``::
