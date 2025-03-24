@@ -78,4 +78,4 @@ Some attributes need to look for a member in your script and it will ask you to 
 	}
 
 .. note::
-	The only exception to using the nameof expression is when you need to input the entire path to a member inside another type, for more details see :doc:`howtouse/finding members`.
+	The only exception to using the nameof expression is when you need to input the entire path to a member inside another type, for more details see :doc:`howtouse/findingmembers`.
