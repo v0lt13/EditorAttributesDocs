@@ -1,7 +1,7 @@
 Wrap Attribute
 ==============
 
-Attribute to wrap over a numeric value after it surpases it's limit
+Attribute to wrap over a numeric value after it surpases it's limits
 
 **Parameters:**
 	- ``float`` minValue: The min value before it wraps arround

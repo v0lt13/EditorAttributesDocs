@@ -1,7 +1,7 @@
 VerticalGroup Attribute
 =======================
 
-Attribute to display specified fields vertically.
+Attribute to display the specified fields vertically.
 
 **Parameters:**
 	- `optional`, ``float`` widthOffset: By how much to offset the width of the properties in pixels

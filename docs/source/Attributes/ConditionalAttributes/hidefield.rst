@@ -1,7 +1,7 @@
 HideField Attribute
 ===================
 
-Attribute to hide fields based on a condition.
+Attribute to hide a field based on a condition.
 
 **Parameters:**
 	- ``string`` conditionName: The name of the condition to evaluate

@@ -26,7 +26,7 @@ Now you can specify the value of the ``string`` from a dropdown.
 
 .. image:: ../../Images/Dropdown01.gif
 
-You can also customize how to display dropdown values like this::
+You can also customize how to display dropdown values by passing a ``string[]`` like this::
 
 	using UnityEngine;
 	using EditorAttributes;
@@ -42,4 +42,28 @@ You can also customize how to display dropdown values like this::
 		};
 	}
 
+Or alternatively use a Dictionary where the keys will be used for display::
+
+	using UnityEngine;
+	using EditorAttributes;
+	using System.Collections.Generic;
+	
+	public class AttributesExample : MonoBehaviour
+	{
+		[Dropdown(nameof(dropdownValues))] 
+		[SerializeField] private Vector3 vectorDropdown;
+	
+		private Dictionary<string, Vector3> dropdownValues = new()
+		{
+			{ "Directions/Forward", Vector3.forward },
+			{ "Directions/Up", Vector3.up }, 
+			{ "Directions/Down", Vector3.right }, 
+			{ "One", Vector3.one }, 
+			{ "Zero", Vector3.zero }
+		}
+	}
+	
 .. image:: ../../Images/Dropdown02.gif
+
+.. note:: 
+	If you try to use both a Dictionary and a ``string[]`` with the attribute, the array will take priority for the displayed values.

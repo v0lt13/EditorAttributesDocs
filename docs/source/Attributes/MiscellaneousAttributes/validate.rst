@@ -16,8 +16,11 @@ Example::
 	
 	public class AttributesExample : MonoBehaviour
 	{
-		[SerializeField, Validate("The value must be positive", nameof(CheckNegative), buildKiller: true)] private int intField;
-		[SerializeField, Validate("The string can't be empty", nameof(CheckEmpty), MessageMode.Warning)] private string stringField;
+		[Validate("The value must be positive", nameof(CheckNegative), buildKiller: true)] 
+		[SerializeField] private int intField;
+		
+		[Validate("The string can't be empty", nameof(CheckEmpty), MessageMode.Warning)] 
+		[SerializeField] private string stringField;
 
 		private bool CheckNegative => intField < 0;
 		private bool CheckEmpty() => stringField == string.Empty;
@@ -25,7 +28,31 @@ Example::
 
 .. image:: ../../Images/Validate01.png
 
-To validate something go to the engine toolbar and look for *EditorValidation* and select whatever you want to validate.
+If you want to do more advanced validation like doing multiple validations on one field you can use a function returning a :doc:`../../Scripting API/validationcheck`::
+
+	using UnityEngine;
+	using EditorAttributes;
+	
+	public class AttributesExample : MonoBehaviour
+	{
+		[Validate(nameof(AdvancedCheck))]
+		[SerializeField] private int intField;
+	
+		private ValidationCheck AdvancedCheck()
+		{
+			if (intField < 0)
+				return ValidationCheck.Fail("Number can't be less than 0", MessageMode.Error, true);
+	
+			if (intField > 100)
+				return ValidationCheck.Fail("Number can't be more than 100", MessageMode.Warning);
+	
+			return ValidationCheck.Pass();
+		}
+	}
+
+.. image:: ../../Images/Validate05.gif
+
+To validate your project go to the engine toolbar and look for *Tools/EditorValidation* and select whatever you want to validate.
 
 .. image:: ../../Images/Validate03.png
 
@@ -33,6 +60,7 @@ To validate something go to the engine toolbar and look for *EditorValidation* a
 - **Validate Assets** will validate every prefab and scriptable object inside the Assets folder.
 - **Validate Scenes** will validate every scene in the active scene list in the build settings.
 - **Validate Open Scenes** will validate every scene currently loaded in the hierarchy whether is added in the active build settings scene list or not.
+- **Disable Build Validation** option to disable validation when building the game, this option will not persist between editor sessions.
 
 Once you select what you want to validate it will begin the validation process. Note that the validation process may take a while depending on the size of the project.
 When is done it will throw some logs in the console with the results of the validation and errors for failed validations.

@@ -49,6 +49,7 @@ Contents:
     Scripting API/unitytypeconverter
     Scripting API/void
     Scripting API/simpletransform
+    Scripting API/validationcheck
 
 External Links:
 ===============

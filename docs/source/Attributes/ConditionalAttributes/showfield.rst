@@ -1,7 +1,7 @@
 ShowField Attribute
 ==================
 
-Attribute to show fields based on a condition.
+Attribute to show a field based on a condition.
 
 **Parameters:**
 	- ``string`` conditionName: The name of the condition to evaluate
