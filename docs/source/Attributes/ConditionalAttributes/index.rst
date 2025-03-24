@@ -3,7 +3,8 @@ Conditional Attributes
 
 **Conditional Attributes** are attributes that execute based on certain conditions.
 
-The conditional attributes support fields, properties and functions, inherited or nested as conditions and they can also be ``private``, ``static``, ``readonly`` or ``const``.
+.. note::
+	All attributes in this category need to search members to evaluate their conditions, you can read more about it at :doc:`howtouse/finding members`.
 
 .. toctree::
     :maxdepth: 1

@@ -11,7 +11,7 @@ Using the void struct
 ---------------------
 
 The :doc:`voidstruct` is made to act as a holder for attributes that redraw the property is attached to.
-While it’s not necessary to use the struct for those attributes (any serialized data type can be used), using the struct as a holder makes the code more readable for you and others.
+While it’s not necessary to use the struct for those attributes (any unity serialized data type can be used), using the struct as a holder makes the code more readable for you and others.
 
 When you use the :doc:`voidstruct` as a variable it makes it obvious that is a holder and it will be redrawn, it also keeps some consistency in your code rather than using 
 ``int`` or ``float`` randomly in your code as holders.
@@ -73,6 +73,9 @@ Some attributes need to look for a member in your script and it will ask you to 
 		// Passing the variable as a string (error prone)
 		[SerializeField, EnableField("condition01")] private int field01;
 	
-		// Using the nameof condition
+		// Using the nameof expression
 		[SerializeField, EnableField(nameof(condition01))] private int field02;
 	}
+
+.. note::
+	The only exception to using the nameof expression is when you need to input the entire path to a member inside another type, for more details see :doc:`howtouse/finding members`.

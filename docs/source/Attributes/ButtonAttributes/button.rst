@@ -109,8 +109,7 @@ If you wish for the button to be enabled/shown by default and disabled/hidden wh
 
 .. image:: ../../Images/Button04.gif
 
-You can also use an ``enum`` as a condition the same way you would use it on the :doc:`../ConditionalAttributes/enablefield`, :doc:`../ConditionalAttributes/disablefield`, 
-:doc:`../ConditionalAttributes/showfield`, :doc:`../ConditionalAttributes/hidefield` and :doc:`../ConditionalAttributes/messagebox`.
+You can also use an ``enum`` as a condition the same way you would use it with :doc:`../ConditionalAttributes`.
 
 .. note::
 	The attribute won't work inside a serialized ``struct`` or ``class``

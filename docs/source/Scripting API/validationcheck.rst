@@ -17,7 +17,7 @@ Syntax::
 	public class ValidationCheck
 
 Properties:
-===========
+-----------
 
 ValidationMessage
 -----------------
