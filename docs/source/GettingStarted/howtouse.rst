@@ -89,6 +89,9 @@ meaning they can be fields, properties or functions, inherited or nested, marked
 and be ``static``, ``readonly`` or ``const``.
 
 .. note::
+	If the member is inherited it has to be ``public`` or ``protected`` for it to be found.
+
+.. note::
 	The :doc:`../Attributes/GroupingAttributes/index` are the only attributes that abide by Unity's serialization rules for finding members since they have to draw those members in the inspector.
 
 You can also input members that are inside a different type as long as they are ``const`` or ``static``::
