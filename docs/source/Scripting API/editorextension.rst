@@ -104,16 +104,27 @@ Declaration::
 	
 **Returns:** ``VisualElement``: All the inspector properties
 	
-DrawStaticFields()
-------------------
+DrawStaticMembers()
+-------------------
 
-Draws all the static and const fields.
+Draws all the static members.
 
 Declaration::
 
-	protected VisualElement DrawStaticFields()
+	protected VisualElement DrawStaticMembers()
 	
-**Returns:** ``VisualElement``: A visual element containing all static and const fields
+**Returns:** ``VisualElement``: A visual element containing all static members
+
+DrawNonSerializedMembers()
+--------------------------
+
+Draws all the non serialized members.
+
+Declaration::
+
+	protected VisualElement DrawNonSerilizedMembers()
+	
+**Returns:** ``VisualElement``: A visual element containing all non serialized members
 	
 DrawButtons()
 -------------

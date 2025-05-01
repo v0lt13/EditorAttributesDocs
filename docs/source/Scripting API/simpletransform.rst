@@ -1,7 +1,7 @@
 SimpleTransform
 ===============
 
-A simple serializable transform struct that can be used with the :doc:`../Attributes/NumericalAttributes/drawhandle` or for data serialization.
+A simple serializable transform struct that can be used with the :doc:`../Attributes/NumericalAttributes/drawhandle`.
 
 **Inheritance:**
 	- *object* -> *SimpleTransform*

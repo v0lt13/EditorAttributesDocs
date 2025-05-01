@@ -1,6 +1,13 @@
 Changelogs
 ==========
 
+EditorAttributes v2.6.1 Changelog:
+----------------------------------
+- Added option to show all non serialized members
+- Extended showing static fields to showing all static members
+- Handled an error on ButtonField Attribute when it can't find the function.
+- Fixed issue where Property Fields are sometimes not automatically binded
+
 EditorAttributes v2.6.0 Changelog:
 ----------------------------------
 - Added Dictionary support for Dropdown Attribute

@@ -80,6 +80,20 @@ Declaration::
 	- ``SerializedProperty`` property: The attached serialized property
 	- ``string`` clipboardValue: The current clipboard value
 
+CreateProperty(SerializedProperty)
+----------------------------------
+
+Creates a properly binded property field from a serialized property.
+
+Declaration::
+
+	public static PropertyField CreateProperty(SerializedProperty property)
+	
+**Parameters:**
+	- ``SerializedProperty`` property: The serialized property
+	
+**Returns:** ``PropertyField``: The binded property field
+
 SetProperyValueFromString(string, SerializedProperty)
 -----------------------------------------------------
 
@@ -283,6 +297,102 @@ Declaration::
 	
 **Parameters:**
 	- ``VisualElement`` visualElement: The element to apply the style to
+
+CreateFieldForType<T>(string, object)
+-------------------------------------
+
+Creates a field for a specific type.
+
+Declaration::
+
+	public static VisualElement CreateFieldForType<T>(string fieldName, object fieldValue)
+
+**Type Parameters:**
+	- ``T``: The type of the field to create
+
+**Parameters:**
+	- ``string`` fieldName: The name of the field
+	- ``object`` fieldValue: The default value of the field
+	
+**Returns:** ``VisualElement``: A visual element of the appropriate field
+
+CreateFieldForType(Type, string, object)
+-------------------------------------
+
+Creates a field for a specific type.
+
+Declaration::
+
+	public static VisualElement CreateFieldForType(Type fieldType, string fieldName, object fieldValue)
+
+**Parameters:**
+	- ``Type`` fieldType: The type of the field to create
+	- ``string`` fieldName: The name of the field
+	- ``object`` fieldValue: The default value of the field
+	
+**Returns:** ``VisualElement``: A visual element of the appropriate field
+
+RegisterValueChangedCallbackByType<T>(VisualElement, Action<object>)
+--------------------------------------------------------------------
+
+Registers a value changed callback for field of a specific type.
+
+Declaration::
+
+	public static void RegisterValueChangedCallbackByType<T>(VisualElement field, Action<object> valueCallback)
+
+**Type Parameters:**
+	- ``T``: The type of the value
+
+**Parameters:**
+	- ``VisualElement`` field: The visual element of the field
+	- ``Action<object>`` valueCallback: The callback action
+	
+RegisterValueChangedCallbackByType(Type, VisualElement, Action<object>)
+-----------------------------------------------------------------------
+
+Registers a value changed callback for field of a specific type.
+
+Declaration::
+
+	public static void RegisterValueChangedCallbackByType(Type fieldType, VisualElement field, Action<object> valueCallback)
+
+**Parameters:**
+	- ``Type`` fieldType: The type of the value
+	- ``VisualElement`` field: The visual element of the field
+	- ``Action<object>`` valueCallback: The callback action
+
+BindFieldToMember<T>(VisualElement, MemberInfo, object)
+-------------------------------------------------------
+
+Bind a field to the target member value.
+
+Declaration::
+
+	public static void BindFieldToMember<T>(VisualElement field, MemberInfo memberInfo, object targetObject)
+
+**Type Parameters:**
+	- ``T``: The type of the field
+
+**Parameters:**
+	- ``VisualElement`` fieldName: The field visual element
+	- ``MemberInfo`` memberInfo: The member to bind
+	- ``object`` targetObject: The target object of the member
+	
+BindFieldToMember(Type, VisualElement, MemberInfo, object)
+----------------------------------------------------------
+
+Bind a field to the target member value.
+
+Declaration::
+
+	public static void BindFieldToMember(Type fieldType, VisualElement field, MemberInfo memberInfo, object targetObject)
+
+**Parameters:**
+	- ``Type`` fieldType: The type of the field
+	- ``VisualElement`` fieldName: The field visual element
+	- ``MemberInfo`` memberInfo: The member to bind
+	- ``object`` targetObject: The target object of the member
 
 Print(object)
 -------------

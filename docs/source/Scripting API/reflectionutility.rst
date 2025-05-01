@@ -175,6 +175,21 @@ Declaration::
 
 **Returns:** ``bool``: True if the property is a list or array, false otherwise
 
+HasAnyAttributes(MemberInfo, params Type[])
+-------------------------------------------
+
+Checks to see if a member has one of the specified attributes.
+
+Declaration::
+
+	public static bool HasAnyAttributes(MemberInfo memberInfo, params Type[] attributeTypes)
+	
+**Parameters:**
+	- ``MemberInfo`` memberInfo: The member to check
+	- `params`, ``Type[]`` attributeTypes: The attribute types
+
+**Returns:** ``bool``: True if the member has at least one of specified attributes
+
 GetValidMemberInfo(string, SerializedProperty)
 ----------------------------------------------
 
