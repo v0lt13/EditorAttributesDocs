@@ -17,7 +17,7 @@ If you are using `Assembly Definitions <https://docs.unity3d.com/2023.3/Document
 Serialization
 -------------
 
-Every member the attribute is attached to must be serializable by Unity (with the exception of the :doc:`../Attributes/ButtonAttributes/button` which is attached to functions), 
+Every member the attribute is attached to must be serializable by Unity (with the exception of the :doc:`../Attributes/ButtonAttributes/button` and :doc:`../Attributes/MiscellaneousAttributes/showininspector`), 
 meaning those members must be either public or private with the `SerializeField Attribute <https://docs.unity3d.com/2023.3/Documentation/ScriptReference/SerializeField.html>`_ and valid to the Unity serializer.
 
 Here is a small example of what's valid and what's not::
@@ -44,37 +44,6 @@ Here is a small example of what's valid and what's not::
 	public CustomRawClass field07;
 
 For more details about unity serialization see `this <https://docs.unity3d.com/Manual/script-Serialization.html>`_
-
-While static members are not serialized you can show them in the inspector for debugging purposes trough the object's context menu.
-This will toggle the visibility of static members project wide.
-
-.. image:: ../Images/HowToUse06.gif
-
-This will show every static member that is part of the object whether is private, public or inherited. 
-If you wish to exclude certain members from this you can use the :doc:`../Attributes/MiscellaneousAttributes/hideproperty` or `HideInInspector Attribute <https://docs.unity3d.com/ScriptReference/HideInInspector.html>`_::
-
-	using UnityEngine;
-	using EditorAttributes;
-	
-	public class AttributesExample : MonoBehaviour
-	{
-		[HideProperty]
-		public static int field;
-	
-		[HideInInspector]
-		public static string Property { get; set; }	
-		
-		public static bool Method() => true;
-	}
-
-.. image:: ../Images/HowToUse07.png
-
-The same goes for other non Unity serialized members.
-
-.. image:: ../Images/HowToUse08.png
-
-.. note::
-	For non serialized members inherited members need to be marked as ``protected`` for them to show.
 
 Attribute Order
 ---------------

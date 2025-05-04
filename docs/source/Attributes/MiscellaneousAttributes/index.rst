@@ -13,8 +13,10 @@ Miscellaneous Attributes
     filepath
     folderpath
     typefilter
+    collectionrange
     hideproperty
     hideinchildren
+    showininspector
     disableinplaymode
     disableineditmode
     hideinplaymode

@@ -103,29 +103,18 @@ Declaration::
 	protected virtual new VisualElement DrawDefaultInspector()
 	
 **Returns:** ``VisualElement``: All the inspector properties
-	
-DrawStaticMembers()
+
+DrawNonSerilizedMembers()
 -------------------
 
-Draws all the static members.
-
-Declaration::
-
-	protected VisualElement DrawStaticMembers()
-	
-**Returns:** ``VisualElement``: A visual element containing all static members
-
-DrawNonSerializedMembers()
---------------------------
-
-Draws all the non serialized members.
+Draws all the members marked with the ShowInInspector attribute.
 
 Declaration::
 
 	protected VisualElement DrawNonSerilizedMembers()
 	
-**Returns:** ``VisualElement``: A visual element containing all non serialized members
-	
+**Returns:** ``VisualElement``: A visual element containing all non serialized member fields
+
 DrawButtons()
 -------------
 

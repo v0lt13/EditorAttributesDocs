@@ -80,14 +80,14 @@ Declaration::
 	- ``SerializedProperty`` property: The attached serialized property
 	- ``string`` clipboardValue: The current clipboard value
 
-CreateProperty(SerializedProperty)
-----------------------------------
+CreatePropertyField(SerializedProperty)
+---------------------------------------
 
 Creates a properly binded property field from a serialized property.
 
 Declaration::
 
-	public static PropertyField CreateProperty(SerializedProperty property)
+	public static PropertyField CreatePropertyField(SerializedProperty property)
 	
 **Parameters:**
 	- ``SerializedProperty`` property: The serialized property
@@ -153,6 +153,20 @@ Declaration::
 	
 **Returns:** ``SerializedProperty``: The nested serialized property
 
+GetCollectionProperty(SerializedProperty)
+-----------------------------------------
+
+Gets the collection property from a collection item property.
+
+Declaration::
+
+	public static SerializedProperty GetCollectionProperty(SerializedProperty property)
+	
+**Parameters:**
+	- ``SerializedProperty`` property: The collection item property
+	
+**Returns:** ``SerializedProperty``: The collection property
+
 GetSerializedPropertyName(string, SerializedProperty)
 -----------------------------------------------------
 
@@ -167,6 +181,17 @@ Declaration::
 	- ``SerializedProperty`` property: The serialized property
 	
 **Returns:** ``string``: The name of the serialized property
+
+IsPropertyEnumFlag()
+--------------------
+
+Checks to see if the serialized property is a flagged enum.
+
+Declaration::
+
+	protected bool IsPropertyEnumFlag()
+	
+**Returns:** ``bool``: True if the serialized property type is a flagged enum
 
 DisplayErrorBox(VisualElement, HelpBox)
 ---------------------------------------
