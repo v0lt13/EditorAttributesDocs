@@ -22,6 +22,8 @@ Contents:
     GettingStarted/howtouse
     GettingStarted/goodpractices
     GettingStarted/voidstruct
+    GettingStarted/commonissues
+    GettingStarted/faq
 
 .. toctree::
     :maxdepth: 1
