@@ -57,3 +57,4 @@ External Links:
 * `EditorAttributes Github repo <https://github.com/v0lt13/EditorAttributes>`_
 * `Documentation site Github repo <https://github.com/v0lt13/EditorAttributesDocs>`_
 * `Discord server <https://discord.gg/jKXvXyTzYn>`_
+* `Donate <https://buymeacoffee.com/v0lt>`_
