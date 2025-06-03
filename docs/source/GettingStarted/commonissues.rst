@@ -19,7 +19,7 @@ Common Issues
 
 5. Attributes like :doc:`../Attributes/ButtonAttributes/button`, :doc:`../Attributes/MiscellaneousAttributes/showininspector`, :doc:`../Attributes/DecorativeAttributes/guicolor` and :doc:`../Attributes/DecorativeAttributes/propertyorder` don't work after I create a custom inspector even though I use UI Toolkit.
 
-- The logic for :doc:`../Attributes/ButtonAttributes/button`, :doc:`../Attributes/MiscellaneousAttributes/showininspector`, :doc:`../Attributes/DecorativeAttributes/guicolor` and :doc:`../Attributes/DecorativeAttributes/propertyorder` is implemented in an :doc:`../ScriptingAPI/editorextension` class that inherits from the `UnityEditor.Editor <https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Editor.html>`_ class, if you want those attributes to work with your custom editor you need to inherit your editor from :doc:`../ScriptingAPI/editorextension` and call the appropriate functions
+- The logic for :doc:`../Attributes/ButtonAttributes/button`, :doc:`../Attributes/MiscellaneousAttributes/showininspector`, :doc:`../Attributes/DecorativeAttributes/guicolor` and :doc:`../Attributes/DecorativeAttributes/propertyorder` is implemented in an :doc:`../Scripting API/editorextension` class that inherits from the `UnityEditor.Editor <https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Editor.html>`_ class, if you want those attributes to work with your custom editor you need to inherit your editor from :doc:`../Scripting API/editorextension` and call the appropriate functions
 
 6. Attribute doesn't work on inherited members or doesn't find it.
 

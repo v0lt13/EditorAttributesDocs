@@ -18,8 +18,8 @@ Q: Can I contribute to the package?
 A: Of course! Thats basically the point of open source, just create a pull requests and if your contribution is good for the package it will be accepted. If you want contribute a completly new feature/attribute/API talk with me first since for that documentation must also be written and I need to make sure everything is tested, has a sample and fits the package.
 
 Q: Should I get the Github version or Asset Store version?
-A: There is no content difference between the Github version and the Asset Store version of the package. The only differences are in the licence, installation and update delivery.
 
+A: There is no content difference between the Github version and the Asset Store version of the package. The only differences are in the licence, installation and update delivery.
 
 - On Github the package is licenced as public domain while on the Unity Asset Store it licenced with the standard Unity Extension Asset licence.
 - On Github if you install the package from the git URL it will install in the Packages folder of Unity which makes the package read only, installing it from the asset store will add it in the Assets folder which will allow modifications.
