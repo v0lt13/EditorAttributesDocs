@@ -311,6 +311,20 @@ Declaration::
 	- ``VisualElement`` element: The element to add the context menu to
 	- ``SerializedProperty`` property: The serialized property
 
+InvokeFunctionOnAllTargets(Object[], string, object[])
+------------------------------------------------------
+
+Invokes a function on all specified targets.
+
+Declaration::
+
+	public static void InvokeFunctionOnAllTargets(Object[] targets, string functionName, object[] parameterValues = null)
+	
+**Parameters:**
+	- ``Object[]`` targets: The property to get the targets from
+	- ``string`` functionName: The name of the function to invoke
+	- `optional`, ``object[]`` parameterValues: Parameter values for the function
+
 ApplyBoxStyle(VisualElement)
 ----------------------------
 
@@ -323,14 +337,14 @@ Declaration::
 **Parameters:**
 	- ``VisualElement`` visualElement: The element to apply the style to
 
-CreateFieldForType<T>(string, object)
--------------------------------------
+CreateFieldForType<T>(string, object, bool)
+-------------------------------------------
 
 Creates a field for a specific type.
 
 Declaration::
 
-	public static VisualElement CreateFieldForType<T>(string fieldName, object fieldValue)
+	public static VisualElement CreateFieldForType<T>(string fieldName, object fieldValue, bool showMixedValue = false)
 
 **Type Parameters:**
 	- ``T``: The type of the field to create
@@ -338,22 +352,24 @@ Declaration::
 **Parameters:**
 	- ``string`` fieldName: The name of the field
 	- ``object`` fieldValue: The default value of the field
+	- `optional`, ``bool`` showMixedValue: Whether to show the mixed value state for the field
 	
 **Returns:** ``VisualElement``: A visual element of the appropriate field
 
-CreateFieldForType(Type, string, object)
--------------------------------------
+CreateFieldForType(Type, string, object, bool)
+----------------------------------------------
 
 Creates a field for a specific type.
 
 Declaration::
 
-	public static VisualElement CreateFieldForType(Type fieldType, string fieldName, object fieldValue)
+	public static VisualElement CreateFieldForType(Type fieldType, string fieldName, object fieldValue, bool showMixedValue = false)
 
 **Parameters:**
 	- ``Type`` fieldType: The type of the field to create
 	- ``string`` fieldName: The name of the field
 	- ``object`` fieldValue: The default value of the field
+	- `optional`, ``bool`` showMixedValue: Whether to show the mixed value state for the field
 	
 **Returns:** ``VisualElement``: A visual element of the appropriate field
 

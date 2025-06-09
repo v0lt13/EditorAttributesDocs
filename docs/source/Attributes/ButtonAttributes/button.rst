@@ -51,10 +51,6 @@ Due to how buttons are drawn, parameters are serialized trough a custom system i
 have the parameters save you can set the `serializeParameters` parameter to ``false``, this is reccomended to avoid unneccesary clutter when you have tons of objects in your scene that do not need
 the parameters to be saved.
 
-.. note::
-	Because of the way the button parameters are serialized if you have multiple of the same component on one object the button parameters will share values, same applies to multiple objects
-	with the same name and component. If you delete the duplicate object or component it will reset the parameters to the default values.
-
 You can make a button to keep executing on hold by marking it as repetable::
 
 	using UnityEngine;
