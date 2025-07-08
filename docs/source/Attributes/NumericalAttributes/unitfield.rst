@@ -37,6 +37,7 @@ First we go `Edit/ProjectSettings/EditorAttributes` and add a new entry in the `
 - Base factor represents how much of the base unit is equal to 1 of this unit. If you create a new category you will need a base unit set to 1 that all conversions will be based on.
 
 In the example I added 3 units:
+
 - HalfMeter adds another unit to the Length category and it represents half of 1 meter. The base unit for the length category is the meter so 1 half meter is 0.5 meters
 - Gems is the base unit of a new category called Currency so we set the base factor to 1.
 - Coins is another unit part of the Currency category. 1 coin is equivalent to 0.01 gems so 100 coins is equal to 1 gem.
@@ -61,6 +62,7 @@ We can see the converted values in the debug view.
 .. image:: ../../Images/UnitField05.png
 
 Here is a list of every base unit in the built-in categories:
+
 - Time: Second
 - Lenght: Meter
 - Mass: Gram
