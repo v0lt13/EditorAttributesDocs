@@ -11,5 +11,6 @@ Numerical Attributes
     wrap
     minmaxslider
     progressbar
+	unitfield
     timefield
     drawhandle

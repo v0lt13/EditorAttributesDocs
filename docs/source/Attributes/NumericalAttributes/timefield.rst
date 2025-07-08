@@ -5,7 +5,7 @@ Attribute to display a numerical field as a specified time format and convert it
 
 **Parameters:**
 	- ``TimeFormat`` timeFormat: The format in which to display the time
-	- ``ConvertTo`` convertTo: What to convert the time value into
+	- ``Unit`` conversionUnit: The time unit to convert to
 
 Example::
 
@@ -14,8 +14,8 @@ Example::
 	
 	public class AttributesExample : MonoBehaviour
 	{
-		[SerializeField, TimeField(TimeFormat.YearMonthWeek, ConvertTo.Days)] private int intField;
-		[SerializeField, TimeField(TimeFormat.DayHourMinute, ConvertTo.Seconds)] private float floatField;
+		[SerializeField, TimeField(TimeFormat.YearMonthWeek, Unit.Days)] private int intField;
+		[SerializeField, TimeField(TimeFormat.DayHourMinute, Unit.Seconds)] private float floatField;
 	}
 
 .. image:: ../../Images/TimeField01.png

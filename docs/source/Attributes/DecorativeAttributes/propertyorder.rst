@@ -19,3 +19,6 @@ The default order of all properties is 0 if you want to order fields before fiel
 	}
 	
 .. image:: ../../Images/PropertyOrder01.png
+
+.. note::
+	You cannot reorder nested properties.

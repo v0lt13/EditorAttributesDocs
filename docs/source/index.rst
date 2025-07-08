@@ -24,6 +24,7 @@ Contents:
     GettingStarted/voidstruct
     GettingStarted/commonissues
     GettingStarted/faq
+    GettingStarted/editorattributessettings
 
 .. toctree::
     :maxdepth: 1
@@ -43,7 +44,6 @@ Contents:
 	
     Scripting API/editorextension
     Scripting API/editorvalidation
-    Scripting API/editorhandles
     Scripting API/propertydrawerbase
     Scripting API/reflectionutility
     Scripting API/colorutils

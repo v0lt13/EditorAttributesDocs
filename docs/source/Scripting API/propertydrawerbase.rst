@@ -403,6 +403,34 @@ Declaration::
 	- ``VisualElement`` field: The visual element of the field
 	- ``Action<object>`` valueCallback: The callback action
 
+GetFieldValue(VisualElement)
+----------------------------
+
+Gets the value of the appropriate field.
+
+Declaration::
+
+	public static object GetFieldValue(VisualElement field)
+
+**Parameters:**
+	- ``VisualElement`` field: The visual element of the field
+	
+**Returns:** ``object``: The field value
+
+SetFieldValue(VisualElement, object, bool)
+------------------------------------------
+
+Sets the value of the appropriate field.
+
+Declaration::
+
+	public static void SetFieldValue(VisualElement field, object value, bool notify = false)
+
+**Parameters:**
+	- ``VisualElement`` field: The visual element of the field
+	- ``object`` value: The value to set
+	- `optional`, ``bool`` notify: Whether to call the value change callback when setting the value
+
 BindFieldToMember<T>(VisualElement, MemberInfo, object)
 -------------------------------------------------------
 

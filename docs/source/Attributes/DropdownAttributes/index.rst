@@ -10,6 +10,7 @@ Dropdown Attributes
     dropdown
     scenedropdown
     tagdropdown
+	typedropdown
     sortinglayerdropdown
     animatorparamdropdown
     propertydropdown

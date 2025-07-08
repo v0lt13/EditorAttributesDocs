@@ -1,6 +1,16 @@
 Changelogs
 ==========
 
+EditorAttributes v2.8.0 Changelog:
+----------------------------------
+- Added UnitField Attribute
+- Added TypeDropdown attribute
+- Added project settings tab
+- Moved the Disable Build Validation setting to the project settings tab
+- Handles now rotate correctly when set to local space
+- Removed the ConvertTo enum in favor of the Unit enum
+- Fixed HideLabel Attribute not removing the label from an EnumButtons marked field
+
 EditorAttributes v2.7.2 Changelog:
 ----------------------------------
 - Added the ability to execute button logic from multiple selections

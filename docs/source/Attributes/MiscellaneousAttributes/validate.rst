@@ -60,7 +60,6 @@ To validate your project go to the engine toolbar and look for *Tools/EditorVali
 - **Validate Assets** will validate every prefab and scriptable object inside the Assets folder.
 - **Validate Scenes** will validate every scene in the active scene list in the build settings.
 - **Validate Open Scenes** will validate every scene currently loaded in the hierarchy whether is added in the active build settings scene list or not.
-- **Disable Build Validation** option to disable validation when building the game, this option will not persist between editor sessions.
 
 Once you select what you want to validate it will begin the validation process. Note that the validation process may take a while depending on the size of the project.
 When is done it will throw some logs in the console with the results of the validation and errors for failed validations.
@@ -68,6 +67,7 @@ When is done it will throw some logs in the console with the results of the vali
 .. image:: ../../Images/Validate02.png
 
 Notice how one of the validations has a red *(Build Killer)* text. Those appear when you set the *buildKiller* parameter to ``true``, what it means is that when you are trying to build the project
-if you have any failed validations marked as a build killer it will cancel the build and throw the validation logs in the console.
+if you have any failed validations marked as a build killer it will cancel the build and throw the validation logs in the console. 
+You can disable build validation in the :doc:`../../GettingStarted/editorattributessettings`
 
 .. image:: ../../Images/Validate04.png

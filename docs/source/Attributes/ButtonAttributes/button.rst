@@ -49,7 +49,7 @@ If your function has parameters they will be displayed under the button as a fol
 
 Due to how buttons are drawn, parameters are serialized trough a custom system into JSON files, those JSON files are saved in ``YourProjectRoot\ProjectSettings\EditorAttributes``, to not 
 have the parameters save you can set the `serializeParameters` parameter to ``false``, this is reccomended to avoid unneccesary clutter when you have tons of objects in your scene that do not need
-the parameters to be saved.
+the parameters to be saved. You can also delete all serialized parameters from the :doc:`../../GettingStarted/editorattributessettings`.
 
 You can make a button to keep executing on hold by marking it as repetable::
 
