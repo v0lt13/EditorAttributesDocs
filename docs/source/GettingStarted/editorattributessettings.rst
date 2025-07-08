@@ -11,7 +11,7 @@ Disables automatic validation when building the project.
 Custom Unit Definitions
 -----------------------
 
-Define custom units for use with :doc:`../Attributes/NumericalAttributes/unitfieldattribute`.
+Define custom units for use with :doc:`../Attributes/NumericalAttributes/unitfield`.
 
 **Fields:**
 	- ``string`` unitName: The name of the custom unit
