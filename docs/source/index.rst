@@ -21,8 +21,8 @@ Contents:
     GettingStarted/instalation
     GettingStarted/howtouse
     GettingStarted/goodpractices
-    GettingStarted/editorattributessettings
     GettingStarted/voidstruct
+    GettingStarted/editorattributessettings
     GettingStarted/commonissues
     GettingStarted/faq
 
