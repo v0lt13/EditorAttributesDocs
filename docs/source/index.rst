@@ -21,10 +21,10 @@ Contents:
     GettingStarted/instalation
     GettingStarted/howtouse
     GettingStarted/goodpractices
+    GettingStarted/editorattributessettings
     GettingStarted/voidstruct
     GettingStarted/commonissues
     GettingStarted/faq
-    GettingStarted/editorattributessettings
 
 .. toctree::
     :maxdepth: 1
