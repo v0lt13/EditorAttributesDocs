@@ -4,7 +4,6 @@ VerticalGroup Attribute
 Attribute to display the specified fields vertically.
 
 **Parameters:**
-	- `optional`, ``float`` widthOffset: By how much to offset the width of the properties in pixels
 	- `optional`, ``bool`` drawInBox: Draw the group in a nice box
 	- `params`, ``string`` fieldsToGroup: The name of the fields to group
 
@@ -37,10 +36,10 @@ This attribute is best used with the :doc:`horizontalgroup` to display a bunch o
 		[HorizontalGroup(nameof(verticalGroupHolder01), nameof(verticalGroupHolder02))]
 		[SerializeField] private Void horizontalGroupHolder;
 	
-		[VerticalGroup(drawInBox: true, nameof(intField01), nameof(stringField01), nameof(boolField01))]
+		[VerticalGroup(true, nameof(intField01), nameof(stringField01), nameof(boolField01))]
 		[SerializeField, HideInInspector] private Void verticalGroupHolder01;
 	
-		[VerticalGroup(drawInBox: true, nameof(intField02), nameof(stringField02), nameof(boolField02))]
+		[VerticalGroup(true, nameof(intField02), nameof(stringField02), nameof(boolField02))]
 		[SerializeField, HideInInspector] private Void verticalGroupHolder02;
 	
 		[SerializeField, HideProperty] private int intField01;

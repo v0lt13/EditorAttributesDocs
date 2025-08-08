@@ -23,6 +23,3 @@ Debug inspector mode:
 
 The intended usage for this attribute is for fields grouped by the :doc:`../GroupingAttributes/index`, since you need to hide the original fields else they will be shown twice, hiding them with the
 `HideInInspector Attribute <https://docs.unity3d.com/ScriptReference/HideInInspector.html>`_ works well but this will also hide them in Debug View which might not be ideal.
-	
-.. note::
-	If the attribute is attached to an inherited field, that field has to be marked as ``public`` or ``protected`` for it to work.

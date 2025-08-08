@@ -175,6 +175,20 @@ Declaration::
 
 **Returns:** ``bool``: True if the property is a list or array, false otherwise
 
+IsTypeCollection(Type)
+----------------------
+
+Checks to see if a type is a list or array.
+
+Declaration::
+
+	public static bool IsTypeCollection(Type type)
+	
+**Parameters:**
+	- ``Type`` type: The type to check
+
+**Returns:** ``bool``: True if the type is a list or array
+
 HasAnyAttributes(MemberInfo, params Type[])
 -------------------------------------------
 

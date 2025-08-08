@@ -38,7 +38,7 @@ You can also customize how to display dropdown values by passing a ``string`` ar
 	
 		private Vector3[] dropdownValues = new Vector3[]
 		{
-			Vector3.forward, Vector3.up, Vector3.right, Vector3.one, Vector3.zero
+			Vector3.forward, Vector3.up, Vector3.down, Vector3.one, Vector3.zero
 		};
 	}
 
@@ -57,10 +57,10 @@ Or alternatively use a Dictionary where the keys will be used for display::
 		{
 			{ "Directions/Forward", Vector3.forward },
 			{ "Directions/Up", Vector3.up }, 
-			{ "Directions/Down", Vector3.right }, 
+			{ "Directions/Down", Vector3.down }, 
 			{ "One", Vector3.one }, 
 			{ "Zero", Vector3.zero }
-		}
+		};
 	}
 	
 .. image:: ../../Images/Dropdown02.gif

@@ -337,6 +337,19 @@ Declaration::
 **Parameters:**
 	- ``VisualElement`` visualElement: The element to apply the style to
 
+CopyStyle(VisualElement, VisualElement)
+---------------------------------------
+
+Copies all of the style values from a VisualElement to another.
+
+Declaration::
+
+	public void CopyStyle(VisualElement copyFrom, VisualElement copyTo)
+	
+**Parameters:**
+	- ``VisualElement`` copyFrom: The element to copy the style from
+	- ``VisualElement`` copyTo: The element to copy the style to
+
 CreateFieldForType<T>(string, object, bool)
 -------------------------------------------
 
@@ -402,6 +415,20 @@ Declaration::
 	- ``Type`` fieldType: The type of the value
 	- ``VisualElement`` field: The visual element of the field
 	- ``Action<object>`` valueCallback: The callback action
+
+GetFieldLabel(VisualElement)
+----------------------------
+
+Gets the label of the appropriate field
+
+Declaration::
+
+	public static string GetFieldLabel(VisualElement field)
+
+**Parameters:**
+	- ``VisualElement`` field: The visual element of the field
+	
+**Returns:** ``string``: The field label
 
 GetFieldValue(VisualElement)
 ----------------------------

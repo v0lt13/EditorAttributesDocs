@@ -18,11 +18,15 @@ Example::
 	
 	public class AttributesExample : MonoBehaviour
 	{
-		[SerializeField, InlineButton(nameof(InlineButton))] private int intField;
-		[SerializeField, InlineButton(nameof(PrintString), "Press Me!", 200f)] private string stringField;
-		
-		private void InlineButton() => print("Hello World!");
-		
+		[InlineButton(nameof(PrintString))]
+		[SerializeField] private string stringField;
+	
+		[InlineButton(nameof(IncreaseValue), "+", 30f), InlineButton(nameof(DecreaseValue), "-", 30f)]
+		[SerializeField] private int intField;
+	
+		private void IncreaseValue() => intField++;
+		private void DecreaseValue() => intField--;
+	
 		private void PrintString() => print(stringField);
 	}
 

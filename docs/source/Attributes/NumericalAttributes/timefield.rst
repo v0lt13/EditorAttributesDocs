@@ -1,6 +1,9 @@
 TimeField Attribute
 ===================
 
+.. warning::
+	This attribute has been deprecated, use :doc:`unitfield` instead
+
 Attribute to display a numerical field as a specified time format and convert it to a single value
 
 **Parameters:**
