@@ -1,13 +1,6 @@
 Changelogs
 ==========
 
-`Test`
-*Test*
-**Test**
-``Test``
-
-.. comment
-
 EditorAttributes v2.9.0 Changelog:
 ----------------------------------
 - Added checks for duplicate units and empty unit names when defining custom units
