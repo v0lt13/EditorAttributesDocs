@@ -104,8 +104,8 @@ Declaration::
 	
 **Returns:** ``VisualElement``: All the inspector properties
 
-DrawNonSerilizedMembers()
--------------------
+DrawNonSerializedMembers()
+--------------------------
 
 Draws all the members marked with the ShowInInspector attribute.
 
