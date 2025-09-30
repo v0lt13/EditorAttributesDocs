@@ -29,7 +29,7 @@ Example::
 		private string helpBoxError;
 	}
 	
-.. image:: ../../Images/HelpBox01.png
+.. image:: ../../Media/HelpBox01.png
 
 You can dynamically change the text by setting the stringInputMode parameter to dynamic and specify a member name in the string parameter to get the string value from::
 
@@ -42,6 +42,6 @@ You can dynamically change the text by setting the stringInputMode parameter to 
 		[SerializeField] private string helpBox;
 	}
 
-.. image:: ../../Images/HelpBox02.gif
+.. image:: ../../Media/HelpBox02.gif
 
 Help boxes have rich text support.

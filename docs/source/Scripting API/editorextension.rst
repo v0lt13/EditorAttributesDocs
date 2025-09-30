@@ -32,7 +32,7 @@ The default global color.
 
 Declaration::
 
-	public static readonly Color DEFAULT_GLOBAL_COLOR = new(0.8f, 0.8f, 0.8f, 1.0f);
+	public static readonly Color DEFAULT_GLOBAL_COLOR;
 
 GLOBAL_COLOR
 ------------
@@ -43,7 +43,7 @@ The current global color.
 
 Declaration::
 
-	public static Color GLOBAL_COLOR = DEFAULT_GLOBAL_COLOR;
+	public static Color GLOBAL_COLOR;
 
 Methods:
 --------

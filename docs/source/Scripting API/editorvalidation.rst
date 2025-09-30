@@ -32,7 +32,7 @@ Returns the relative callback order for callbacks. Callbacks with lower values a
 
 Declaration::
 
-	public int callbackOrder => 0;
+	public int callbackOrder { get; }
 
 Methods:
 --------

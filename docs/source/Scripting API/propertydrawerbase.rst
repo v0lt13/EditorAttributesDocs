@@ -28,7 +28,7 @@ Checks if the global color can be applied on an element.
 
 Declaration::
 
-	protected bool CanApplyGlobalColor => EditorExtension.GLOBAL_COLOR != EditorExtension.DEFAULT_GLOBAL_COLOR;
+	protected bool CanApplyGlobalColor { get; }
 
 Methods:
 --------

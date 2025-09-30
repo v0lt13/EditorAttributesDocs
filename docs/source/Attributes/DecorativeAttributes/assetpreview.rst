@@ -20,4 +20,4 @@ Example::
 		[SerializeField, AssetPreview(64f, 64f)] private Mesh meshAsset04;
 	}
 	
-.. image:: ../../Images/AssetPreview01.png
+.. image:: ../../Media/AssetPreview01.png

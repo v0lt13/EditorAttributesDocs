@@ -19,7 +19,7 @@ Example::
 		[SerializeField, Prefix("prefix with offset", 50f)] private int field02;
 	}
 
-.. image:: ../../Images/Prefix01.png
+.. image:: ../../Media/Prefix01.png
 
 You can dynamically change the label by setting the `stringInputMode` parameter to dynamic and specify a member name in the string parameter to get the string value from::
 
@@ -32,5 +32,5 @@ You can dynamically change the label by setting the `stringInputMode` parameter 
 		[SerializeField] private string stringField;
 	}
 	
-.. image:: ../../Images/Prefix02.gif
+.. image:: ../../Media/Prefix02.gif
 

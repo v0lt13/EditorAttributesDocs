@@ -35,7 +35,7 @@ You can further customize titles with rich text support::
 		[SerializeField] private float floatField03;
 	}
 
-.. image:: ../../Images/Title01.png
+.. image:: ../../Media/Title01.png
 
 You can dynamically change the title by settings the `stringInputMode` parameter to dynamic and specify a member name in the string parameter to get the string value from::
 
@@ -50,4 +50,4 @@ You can dynamically change the title by settings the `stringInputMode` parameter
 		public string DynamicTitle => $"The int value is: {intField}";
 	}
 
-.. image:: ../../Images/Title02.gif
+.. image:: ../../Media/Title02.gif

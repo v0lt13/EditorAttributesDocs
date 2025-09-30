@@ -19,7 +19,7 @@ Example::
 		[SerializeField, Suffix("suffix with offset", 20f)] private int field02;
 	}
 
-.. image:: ../../Images/Suffix01.png
+.. image:: ../../Media/Suffix01.png
 
 You can dynamically change the label by setting the `stringInputMode` parameter to dynamic and specify a member name in the string parameter to get the string value from::
 
@@ -32,4 +32,4 @@ You can dynamically change the label by setting the `stringInputMode` parameter 
 		[SerializeField] private string stringField;
 	}
 	
-.. image:: ../../Images/Suffix02.gif
+.. image:: ../../Media/Suffix02.gif

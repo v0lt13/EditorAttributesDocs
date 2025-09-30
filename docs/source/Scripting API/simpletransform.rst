@@ -1,7 +1,7 @@
 SimpleTransform
 ===============
 
-A simple serializable transform struct that can be used with the :doc:`../Attributes/NumericalAttributes/drawhandle`.
+A simple unity serializable transform struct that can be used with the :doc:`../Attributes/NumericalAttributes/drawhandle`.
 
 **Namespace:** 
 	*EditorAttributes*
@@ -17,9 +17,38 @@ Syntax::
 Fields:
 -------
 
-- ``Vector3`` position: Position value
-- ``Vector3`` rotation: Rotation value in euler angles
-- ``Vector3`` scale: Scale value
+position
+--------
+
+Position value.
+
+**Type:** ``Vector3``
+
+Declaration::
+
+	public Vector3 position;
+	
+rotation
+--------
+
+Rotation value in euler angles.
+
+**Type:** ``Vector3``
+
+Declaration::
+
+	public Vector3 rotation;
+	
+scale
+-----
+
+Scale value.
+
+**Type:** ``Vector3``
+
+Declaration::
+
+	public Vector3 scale;
 
 Constructors:
 -------------

@@ -23,7 +23,7 @@ You can use this attribute on any non serialized field, property or method::
 		public static string Method() => "Hello World!";
 	}
 
-.. image:: ../../Images/ShowInInspector01.png
+.. image:: ../../Media/ShowInInspector01.png
 
 .. note::
 	Since the fields marked with this attribute are drawn in a custom way, property drawers will not affect it.

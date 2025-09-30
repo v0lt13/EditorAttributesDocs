@@ -20,7 +20,7 @@ The name of the field will be used as the tab label::
 		[SerializeField, HideProperty] private string stringField;
 	}
 
-.. image:: ../../Images/TabGroup01.gif
+.. image:: ../../Media/TabGroup01.gif
 
 If you want to display multiple fields in one tab put those fields inside a group first then put those groups as the parameters of the tab group::
 
@@ -54,4 +54,4 @@ If you want to display multiple fields in one tab put those fields inside a grou
 		[SerializeField, HideProperty] private bool boolField03;
 	}
 
-.. image:: ../../Images/TabGroup02.gif
+.. image:: ../../Media/TabGroup02.gif

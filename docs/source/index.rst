@@ -23,8 +23,7 @@ Contents:
     GettingStarted/goodpractices
     GettingStarted/voidstruct
     GettingStarted/editorattributessettings
-    GettingStarted/commonissues
-    GettingStarted/faq
+    GettingStarted/faq&issues
 
 .. toctree::
     :maxdepth: 1
@@ -39,7 +38,7 @@ Contents:
     Attributes/MiscellaneousAttributes/index
 	
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: Scripting API
 	
     Scripting API/editorextension

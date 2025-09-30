@@ -18,4 +18,4 @@ Example::
 		private void PrintInt() => print(intField);
 	}
 
-.. image:: ../../Images/OnValueChanged01.gif
+.. image:: ../../Media/OnValueChanged01.gif

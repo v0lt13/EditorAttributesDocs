@@ -23,4 +23,4 @@ Example::
 		[SerializeField, HideProperty] private bool boolField;
 	}
 	
-.. image:: ../../Images/FoldoutGroup01.gif
+.. image:: ../../Media/FoldoutGroup01.gif

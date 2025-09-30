@@ -31,7 +31,7 @@ Buttons made using the :doc:`button` will always be drawn after all the fields, 
 		private void PrintMessage() => print("Hello World!");
 	}
 
-.. image:: ../../Images/ButtonField01.png
+.. image:: ../../Media/ButtonField01.png
 
 By using the `ButtonField Attribute` you can also add buttons inside groups::
 
@@ -52,7 +52,7 @@ By using the `ButtonField Attribute` you can also add buttons inside groups::
 		private void PrintMessage() => print("Hello World!");
 	}
 
-.. image:: ../../Images/ButtonField02.png
+.. image:: ../../Media/ButtonField02.png
 
 You can make a button to keep executing on hold by marking it as repetable::
 
@@ -70,7 +70,7 @@ You can make a button to keep executing on hold by marking it as repetable::
 		public void PrintRandomValue() => print(Random.value);
 	}
 
-.. image:: ../../Images/ButtonField03.gif
+.. image:: ../../Media/ButtonField03.gif
 
 .. note::
 	The `ButtonField Attribute` does not support functions with parameters.

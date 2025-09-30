@@ -26,7 +26,7 @@ Moving the value slider will update the progress bar value::
 		}
 	}
 	
-.. image:: ../../Images/ProgressBar01.gif
+.. image:: ../../Media/ProgressBar01.gif
 
 .. note:: 
 	The `ProgressBar Attribute` cannot be attached to vector fields

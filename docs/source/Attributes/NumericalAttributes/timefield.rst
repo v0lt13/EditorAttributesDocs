@@ -21,11 +21,11 @@ Example::
 		[SerializeField, TimeField(TimeFormat.DayHourMinute, Unit.Seconds)] private float floatField;
 	}
 
-.. image:: ../../Images/TimeField01.png
+.. image:: ../../Media/TimeField01.png
 
 We can see the converted value in the debug view.
 
-.. image:: ../../Images/TimeField02.png
+.. image:: ../../Media/TimeField02.png
 
 .. note::
 	The `TimeField Attribute` can only be attached to ``float`` and ``int`` fields

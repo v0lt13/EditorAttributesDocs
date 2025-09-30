@@ -18,4 +18,4 @@ Example::
 		[SerializeField, IndentProperty(50f)] private string stringField;
 	}
 	
-.. image:: ../../Images/IndentProperty01.png
+.. image:: ../../Media/IndentProperty01.png

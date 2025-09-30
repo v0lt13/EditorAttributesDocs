@@ -22,7 +22,7 @@ Example::
 		[SerializeField, MinMaxSlider(0f, 10f, false)] private Vector2Int vector2IntFieldNoField;
 	}
 	
-.. image:: ../../Images/MinMaxSlider01.gif
+.. image:: ../../Media/MinMaxSlider01.gif
 
 .. note:: 
 	The `MinMaxSlider Attribute` can only be attached to ``Vector2`` and ``Vector2Int`` fields

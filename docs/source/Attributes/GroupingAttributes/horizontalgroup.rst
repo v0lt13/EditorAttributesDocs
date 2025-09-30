@@ -31,4 +31,4 @@ Example::
 		[SerializeField, HideProperty] private Vector3 field06;
 	}
 
-.. image:: ../../Images/HorizontalGroup01.png
+.. image:: ../../Media/HorizontalGroup01.png

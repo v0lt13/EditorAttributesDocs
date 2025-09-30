@@ -20,4 +20,4 @@ Example::
 		[SerializeField] private List<string> stringList;
 	}
 
-.. image:: ../../Images/CollectionRange01.gif
+.. image:: ../../Media/CollectionRange01.gif

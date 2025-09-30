@@ -28,7 +28,7 @@ A preset of binding flags used by the package.
 
 Declaration::
 
-	public const BindingFlags BINDING_FLAGS = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static | BindingFlags.FlattenHierarchy;
+	public const BindingFlags BINDING_FLAGS;
 
 Methods:
 --------
@@ -81,7 +81,7 @@ Declaration::
 FindMember(string, Type, BindingFlags, MemberTypes)
 ---------------------------------------------------
 
-Finds a member from the target type.
+Finds a member from the target type and it's inherited types.
 
 Declaration::
 

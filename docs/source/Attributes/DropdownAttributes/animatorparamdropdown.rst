@@ -21,4 +21,4 @@ Example::
 		[SerializeField, AnimatorParamDropdown(nameof(animator))] private string animatorParameter;
 	}
 
-.. image:: ../../Images/AnimatorParamDropdown01.gif
+.. image:: ../../Media/AnimatorParamDropdown01.gif

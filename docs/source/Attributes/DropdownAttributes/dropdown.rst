@@ -24,7 +24,7 @@ Example::
 
 Now you can specify the value of the ``string`` from a dropdown.
 
-.. image:: ../../Images/Dropdown01.gif
+.. image:: ../../Media/Dropdown01.gif
 
 You can also customize how to display dropdown values by passing a ``string`` array like this::
 
@@ -63,7 +63,7 @@ Or alternatively use a Dictionary where the keys will be used for display::
 		};
 	}
 	
-.. image:: ../../Images/Dropdown02.gif
+.. image:: ../../Media/Dropdown02.gif
 
 .. note:: 
 	If you try to use both a Dictionary and a ``string`` array with the attribute, the array will take priority for the displayed values.

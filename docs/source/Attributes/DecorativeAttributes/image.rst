@@ -23,7 +23,7 @@ If there is no size given it will default to the image size::
 		[SerializeField] private int field02;
 	}
 
-.. image:: ../../Images/Image01.png
+.. image:: ../../Media/Image01.png
 
 You can dynamically change the image by setting the `stringInputMode` parameter to dynamic and specify a member name in the string parameter to get the image path from::
 
@@ -38,4 +38,4 @@ You can dynamically change the image by setting the `stringInputMode` parameter 
 		[SerializeField, FilePath(filters: "png")] private string imagePath;
 	}
 
-.. image:: ../../Images/Image02.png
+.. image:: ../../Media/Image02.png

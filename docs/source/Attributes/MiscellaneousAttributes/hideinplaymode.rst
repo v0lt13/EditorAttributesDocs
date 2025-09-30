@@ -11,4 +11,4 @@ Attribute to hide a field when entering play mode::
 		[SerializeField, HideInPlayMode] private int field;
 	}
 
-.. image:: ../../Images/HideInPlayMode01.gif
+.. image:: ../../Media/HideInPlayMode01.gif

@@ -21,7 +21,7 @@ Example::
 		[SerializeField, FilePath(false)] private string absoluteFilePath;
 	}
 
-.. image:: ../../Images/FilePath01.png
+.. image:: ../../Media/FilePath01.png
 
 You can filter file types by typing the file extenstions in the `filters` parameter::
 
@@ -36,4 +36,4 @@ You can filter file types by typing the file extenstions in the `filters` parame
 		[SerializeField, FilePath(filters: "cs,unity")] private string multipleFileFilters; // Will only find C# and Unity Scene files
 	}
 
-.. image:: ../../Images/FilePath02.png
+.. image:: ../../Media/FilePath02.png

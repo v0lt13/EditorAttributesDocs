@@ -47,4 +47,4 @@ Example::
 		};
 	}
 
-.. image:: ../../Images/SelectionButtons01.png
+.. image:: ../../Media/SelectionButtons01.png

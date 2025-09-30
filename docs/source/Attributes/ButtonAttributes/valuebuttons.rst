@@ -33,7 +33,7 @@ Example::
 		};
 	}
 
-.. image:: ../../Images/ValueButtons01.png
+.. image:: ../../Media/ValueButtons01.png
 
 You can also customize how to display button values by passing a ``string`` array like this::
 
@@ -72,7 +72,7 @@ Or alternatively use a Dictionary where the keys will be used for display::
 		};
 	}
 	
-.. image:: ../../Images/ValueButtons02.png
+.. image:: ../../Media/ValueButtons02.png
 
 .. note:: 
 	If you try to use both a Dictionary and a ``string`` array with the attribute, the array will take priority for the displayed values.

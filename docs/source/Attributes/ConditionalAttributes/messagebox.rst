@@ -35,7 +35,7 @@ Example::
 
 The message boxes will show only when the condition is true.
 
-.. image:: ../../Images/MessageBox01.gif
+.. image:: ../../Media/MessageBox01.gif
 
 You can also use an ``enum`` as a condition like so::
 
@@ -59,7 +59,7 @@ You can also use an ``enum`` as a condition like so::
 
 The message boxes will show when the ``enum`` is set to `State02`.
 
-.. image:: ../../Images/MessageBox02.gif
+.. image:: ../../Media/MessageBox02.gif
 
 You can dynamically change the message by setting the `stringInputMode` parameter to dynamic and specify a member name in the string parameter to get the string value from::
 
@@ -74,6 +74,6 @@ You can dynamically change the message by setting the `stringInputMode` paramete
 		[SerializeField] private string stringField;
 	}
 	
-.. image:: ../../Images/MessageBox03.gif
+.. image:: ../../Media/MessageBox03.gif
 
 MessageBoxes have rich text support.

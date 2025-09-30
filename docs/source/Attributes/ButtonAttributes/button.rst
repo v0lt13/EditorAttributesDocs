@@ -29,7 +29,7 @@ Example::
 		public void TallButton() => print("Im Tall!");
 	}
 
-.. image:: ../../Images/Button01.png
+.. image:: ../../Media/Button01.png
 
 If your function has parameters they will be displayed under the button as a foldout::
 
@@ -42,7 +42,7 @@ If your function has parameters they will be displayed under the button as a fol
 		public void ButtonParams(int param01) => print(param01);
 	}
 
-.. image:: ../../Images/Button02.png
+.. image:: ../../Media/Button02.png
 
 .. note::
 	Collections, UnityEvents, GameObject, serialized objects and ``out`` or ``ref`` parameters are not supported
@@ -65,7 +65,7 @@ You can make a button to keep executing on hold by marking it as repetable::
 		public void SlowRepetableButton() => print(Random.value);
 	}
 
-.. image:: ../../Images/Button05.gif
+.. image:: ../../Media/Button05.gif
 
 You can also enable/disable or show/hide buttons based on a given condition::
 
@@ -85,7 +85,7 @@ You can also enable/disable or show/hide buttons based on a given condition::
 
 Now the buttons will be disabled/hidden by default until the `condition` is true
 
-.. image:: ../../Images/Button03.gif
+.. image:: ../../Media/Button03.gif
 
 If you wish for the button to be enabled/shown by default and disabled/hidden when the `conditon` is true, you can set the `negate` parameter to true::
 
@@ -103,7 +103,7 @@ If you wish for the button to be enabled/shown by default and disabled/hidden wh
 		public void Button02() => print("Hello World!");
 	}
 
-.. image:: ../../Images/Button04.gif
+.. image:: ../../Media/Button04.gif
 
 You can also use an ``enum`` as a condition the same way you would use it with :doc:`../ConditionalAttributes`.
 

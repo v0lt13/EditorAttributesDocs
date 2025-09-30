@@ -23,7 +23,7 @@ Example::
 		[SerializeField, HideProperty] private bool boolField;
 	}
 	
-.. image:: ../../Images/ToggleGroup01.gif
+.. image:: ../../Media/ToggleGroup01.gif
 
 If you place the `ToggleGroup Attribute` on a ``bool`` the toggle value it will be set to that bool::
 
@@ -41,4 +41,4 @@ If you place the `ToggleGroup Attribute` on a ``bool`` the toggle value it will 
 		[SerializeField, HideProperty] private bool boolField;
 	}
 	
-.. image:: ../../Images/ToggleGroup02.gif
+.. image:: ../../Media/ToggleGroup02.gif

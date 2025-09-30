@@ -20,4 +20,4 @@ Example::
 		[SerializeField, FolderPath(false)] private string absoluteFolderPath;
 	}
 
-.. image:: ../../Images/FolderPath01.png
+.. image:: ../../Media/FolderPath01.png

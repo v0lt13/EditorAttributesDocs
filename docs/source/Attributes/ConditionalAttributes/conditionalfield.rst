@@ -26,22 +26,22 @@ The field will be shown when the result of the specified conditions return true:
 In this case we set the ``ConditionType`` to ``AND`` so the evaluation will be something like this:
 ``condition01 && condition02``
 
-.. image:: ../../Images/ConditionalField01.gif
+.. image:: ../../Media/ConditionalField01.gif
 
 We can also set it to ``OR`` and it will evaluate like this:
 ``condition01 || condition02``
 
-.. image:: ../../Images/ConditionalField02.gif
+.. image:: ../../Media/ConditionalField02.gif
 
 ``NAND`` which will evaluate like this:
 ``!condition01 && !condition02``
 
-.. image:: ../../Images/ConditionalField03.gif
+.. image:: ../../Media/ConditionalField03.gif
 
 And ``NOR`` which evaluates like this:
 ``!condition01 || !condition02``
 
-.. image:: ../../Images/ConditionalField04.gif
+.. image:: ../../Media/ConditionalField04.gif
 
 On top of the ``ConditionType`` we can also specify a certain condition we want to negate by creating a ``bool`` array that must contain the 
 the conditions we want to negate in the order we added them.
@@ -62,7 +62,7 @@ We set true for conditions we want to negate and set false for conditions we don
 So in this case we only negate `condition02` and the evaluation will be something like this:
 ``condition01 && !condition02``
 
-.. image:: ../../Images/ConditionalField05.gif
+.. image:: ../../Media/ConditionalField05.gif
 
 By default the ConditionalField attribute will only show/hide fields, but you can also set it to only enable/disable fields, 
 by setting the ``ConditionResult`` parameter to the value `EnableDisable`, like so::
@@ -79,4 +79,4 @@ by setting the ``ConditionResult`` parameter to the value `EnableDisable`, like 
 		private int field;
 	}
 	
-.. image:: ../../Images/ConditionalField06.gif
+.. image:: ../../Media/ConditionalField06.gif

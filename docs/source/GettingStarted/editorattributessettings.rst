@@ -4,9 +4,14 @@ EditorAttributes Settings
 The settings for EditorAttributes package are located in `Edit/ProjectSettings/EditorAttributes`.
 
 Disable Build Validation
------------------------
+------------------------
 
 Disables automatic validation when building the project.
+
+Asset Preview Load Time
+-----------------------
+
+Time in milliseconds to wait for the asset preview to load, increase this value if the previews are not showing up.
 
 Custom Unit Definitions
 -----------------------

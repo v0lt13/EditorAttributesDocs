@@ -24,4 +24,4 @@ Example::
 	
 	}
 
-.. image:: ../../Images/HideInChildren01.png
+.. image:: ../../Media/HideInChildren01.png

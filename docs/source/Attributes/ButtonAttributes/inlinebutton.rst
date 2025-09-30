@@ -30,7 +30,7 @@ Example::
 		private void PrintString() => print(stringField);
 	}
 
-.. image:: ../../Images/InlineButton01.png
+.. image:: ../../Media/InlineButton01.png
 
 You can make a button to keep executing on hold by marking it as repetable::
 
@@ -50,7 +50,7 @@ You can make a button to keep executing on hold by marking it as repetable::
 		public void GenerateGUID() => stringField = Guid.NewGuid().ToString();
 	}
 
-.. image:: ../../Images/InlineButton02.gif
+.. image:: ../../Media/InlineButton02.gif
 
 .. note::
 	The attribute won't work well inside data tables

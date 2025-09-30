@@ -33,7 +33,7 @@ Example::
 		[SerializeField] private int field09;
 	}
 	
-.. image:: ../../Images/GUIColor01.png
+.. image:: ../../Media/GUIColor01.png
 
 .. note::
 	The `GUIColor Attribute` may not work well with nested arrays and objects

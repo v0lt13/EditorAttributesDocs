@@ -24,7 +24,7 @@ Example::
 		[SerializeField, HideProperty] private bool field04;
 	}
 
-.. image:: ../../Images/VerticalGroup01.png
+.. image:: ../../Media/VerticalGroup01.png
 
 This attribute is best used with the :doc:`horizontalgroup` to display a bunch of field groups horizontally::
 
@@ -51,4 +51,4 @@ This attribute is best used with the :doc:`horizontalgroup` to display a bunch o
 		[SerializeField, HideProperty] private bool boolField02;
 	}
 
-.. image:: ../../Images/VerticalGroup02.png
+.. image:: ../../Media/VerticalGroup02.png

@@ -16,7 +16,7 @@ In this example only components of type ``SphereCollider`` can be assigned into 
 		[SerializeField, TypeFilter(typeof(SphereCollider))] private Component colliderComponent;
 	}
 
-.. image:: ../../Images/TypeFilter01.gif
+.. image:: ../../Media/TypeFilter01.gif
 
 While using this attribute to filter only one type may not be too usefull since you can just make the field of the type you want to assign, but you can also filter multiple types::
 
@@ -30,7 +30,7 @@ While using this attribute to filter only one type may not be too usefull since 
 	
 Now only components of type ``SphereCollider`` and ``BoxCollider`` can be assigned.
 
-.. image:: ../../Images/TypeFilter02.gif
+.. image:: ../../Media/TypeFilter02.gif
 
 The best use of this attribute is to filter types that implement a certain interface::
 
@@ -44,4 +44,4 @@ The best use of this attribute is to filter types that implement a certain inter
 
 Now you will only be able to assign components in the inspector that inherit from the specified interface.
 
-.. image:: ../../Images/TypeFilter03.gif
+.. image:: ../../Media/TypeFilter03.gif

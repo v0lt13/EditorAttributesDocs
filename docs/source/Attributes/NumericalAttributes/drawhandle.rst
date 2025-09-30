@@ -26,25 +26,25 @@ Example::
 		[SerializeField, DrawHandle(GUIColor.Red)] private Bounds boundsField;
 	}
 
-.. image:: ../../Images/DrawHandle01.png
+.. image:: ../../Media/DrawHandle01.png
 
 Here are handles for each supported type:
 
 - ``int`` and ``float`` types
 
-.. image:: ../../Images/DrawHandle02.gif
+.. image:: ../../Media/DrawHandle02.gif
 
 - Vector types
 
-.. image:: ../../Images/DrawHandle03.gif
+.. image:: ../../Media/DrawHandle03.gif
 
 - ``Bounds`` type
 
-.. image:: ../../Images/DrawHandle04.gif
+.. image:: ../../Media/DrawHandle04.gif
 
 - ``SimpleTransform`` type
 
-.. image:: ../../Images/DrawHandle05.gif
+.. image:: ../../Media/DrawHandle05.gif
 
 By default the handles are in world space but you can also put them in local space by setting the **handleSpace** parameter::
 
@@ -56,7 +56,7 @@ By default the handles are in world space but you can also put them in local spa
 		[SerializeField, DrawHandle(handleSpace: Space.Self)] private Vector3[] waypoints;
 	}
 
-.. image:: ../../Images/DrawHandle06.gif
+.. image:: ../../Media/DrawHandle06.gif
 
 .. note::
 	``Vector2Int`` and ``Vector3Int`` handles don't support local space.

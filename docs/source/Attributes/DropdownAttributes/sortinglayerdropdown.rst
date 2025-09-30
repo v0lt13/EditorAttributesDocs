@@ -16,4 +16,4 @@ Example::
 		[SerializeField, SortingLayerDropdown] private int sortingLayer;
 	}
 
-.. image:: ../../Images/SortingLayerDropdown01.gif
+.. image:: ../../Media/SortingLayerDropdown01.gif

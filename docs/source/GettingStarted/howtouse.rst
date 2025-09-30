@@ -12,7 +12,7 @@ To start using the editor attributes you must add this using statement in your c
 
 If you are using `Assembly Definitions <https://docs.unity3d.com/2023.3/Documentation/Manual/ScriptCompilationAssemblyDefinitionFiles.html>`_ in your project make sure you reference the “EditorAttributes” Assembly Definition where needed.
 
-.. image:: ../Images/HowToUse01.png
+.. image:: ../Media/HowToUse01.png
 
 Serialization
 -------------
@@ -61,7 +61,7 @@ meaning the suffix will fail to add because of how the :doc:`../Attributes/Numer
 		[SerializeField] private int field;
 	}
 
-.. image:: ../Images/HowToUse02.png
+.. image:: ../Media/HowToUse02.png
 
 To fix this we can change the order by putting the :doc:`../Attributes/NumericalAttributes/timefield` after the :doc:`../Attributes/DecorativeAttributes/suffix` or use the `order` parameter that every attribute has
 to execute the :doc:`../Attributes/DecorativeAttributes/suffix` first, C# will first go through the attributes with the lowest order from left to right then to the ones with the higher order the same way,
@@ -78,7 +78,7 @@ the default order of all attributes is 0::
 
 So now the :doc:`../Attributes/DecorativeAttributes/suffix` will be executed first and the :doc:`../Attributes/NumericalAttributes/timefield` will draw the field with the suffix already on it.
 
-.. image:: ../Images/HowToUse03.png
+.. image:: ../Media/HowToUse03.png
 
 Finding members
 ---------------
@@ -130,7 +130,7 @@ the name of the member itself not its path::
 		public static string[] GetDropdownValues() => new string[] { "Option 1", "Option 2", "Option 3" };
 	}
 	
-.. image:: ../Images/HowToUse04.png
+.. image:: ../Media/HowToUse04.png
 
 If your type containing the member is inside of a namespace you need to input the entire path to that member::
 
@@ -154,4 +154,4 @@ If your type containing the member is inside of a namespace you need to input th
 		}
 	}
 
-.. image:: ../Images/HowToUse05.png
+.. image:: ../Media/HowToUse05.png

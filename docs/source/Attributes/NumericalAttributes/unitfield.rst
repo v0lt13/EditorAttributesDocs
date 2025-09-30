@@ -20,11 +20,11 @@ Example::
 		[SerializeField, UnitField(Unit.Day, Unit.Second)] private float floatField;
 	}
 
-.. image:: ../../Images/UnitField01.png
+.. image:: ../../Media/UnitField01.png
 
 We can see the converted values in the debug view.
 
-.. image:: ../../Images/UnitField02.png
+.. image:: ../../Media/UnitField02.png
 
 You can define custom units in the :doc:`../../GettingStarted/editorattributessettings` and use them by passing them as a string in the attribute like this.
 
@@ -42,7 +42,7 @@ In the example I added 3 units:
 - Gems is the base unit of a new category called Currency so we set the base factor to 1.
 - Coins is another unit part of the Currency category. 1 coin is equivalent to 0.01 gems so 100 coins is equal to 1 gem.
 
-.. image:: ../../Images/UnitField03.png
+.. image:: ../../Media/UnitField03.png
 
 Now we pass the unit name of our custom defined unit in the attribute::
 
@@ -55,11 +55,11 @@ Now we pass the unit name of our custom defined unit in the attribute::
 		[SerializeField, UnitField("Coins", "Gems")] private int gems;
 	}
 
-.. image:: ../../Images/UnitField04.png
+.. image:: ../../Media/UnitField04.png
 
 We can see the converted values in the debug view.
 
-.. image:: ../../Images/UnitField05.png
+.. image:: ../../Media/UnitField05.png
 
 Here is a list of every base unit in the built-in categories:
 
@@ -82,3 +82,4 @@ Here is a list of every base unit in the built-in categories:
 - Data: Byte
 - Density: Kilogram Per Cubic meter
 - Fuel Economy: MilesPerGallon_US
+- Percentage: Percent Multiplier

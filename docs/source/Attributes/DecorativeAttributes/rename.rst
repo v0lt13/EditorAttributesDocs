@@ -22,7 +22,7 @@ Example::
 	
 Usefull for when you want two or more fields to have the same name in the inspector.
 
-.. image:: ../../Images/Rename01.png
+.. image:: ../../Media/Rename01.png
 
 You can also apply different case types to the name like so::
 
@@ -39,7 +39,7 @@ You can also apply different case types to the name like so::
 		[SerializeField, Rename("LOWER CASE MODE", CaseType.Lower)] private int intField6;
 	}
 
-.. image:: ../../Images/Rename02.png
+.. image:: ../../Media/Rename02.png
 
 You can dynamically change the label by setting the `stringInputMode` parameter to dynamic and specify a member name in the string parameter to get the string value from::
 
@@ -52,4 +52,4 @@ You can dynamically change the label by setting the `stringInputMode` parameter 
 		[SerializeField] private string stringField;
 	}
 	
-.. image:: ../../Images/Rename03.gif
+.. image:: ../../Media/Rename03.gif
