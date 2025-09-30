@@ -20,7 +20,7 @@ Methods:
 --------
 
 ApplyColor(VisualElement, IColorAttribute, HelpBox)
----------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Applies a color to a visual element via the color attribute.
 
@@ -34,7 +34,7 @@ Declaration::
 	- ``HelpBox`` errorBox: The error box to display any errors to
 
 ApplyColor(VisualElement, Color, int)
--------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Applies a color to a visual element.
 
@@ -48,7 +48,7 @@ Declaration::
 	- `optional`, ``int`` delay: How many milliseconds to delay before applying the color
 
 GetColorFromProperty(SerializedProperty)
-----------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Gets the color from a serialzied property with a color attribute.
 
@@ -62,7 +62,7 @@ Declaration::
 **Returns:** ``Color?``: The color from the attribute, null if the attribute is not found
 
 GetColorFromAttribute(IColorAttribute, HelpBox)
------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Gets the color value from a color attribute
 
@@ -77,7 +77,7 @@ Declaration::
 **Returns:** ``Color``: The color from the attribute
 
 GetColorFromAttribute(IColorAttribute, float, HelpBox)
-------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Gets the color value from a color attribute with custom alpha
 
@@ -93,7 +93,7 @@ Declaration::
 **Returns:** ``Color``: The color from the attribute
 
 ColorAttributeToColor(IColorAttribute)
---------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Converts the color attribute values from the color attribute to a color
 
@@ -107,7 +107,7 @@ Declaration::
 **Returns:** ``Color``: The color value
 
 ColorAttributeToColor(IColorAttribute, float)
----------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Converts the color attribute values from the color attribute to a color
 
@@ -122,7 +122,7 @@ Declaration::
 **Returns:** ``Color``: The color value
 
 GUIColorToColor(GUIColor)
--------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Converts the GUIColor value to a color
 
@@ -136,7 +136,7 @@ Declaration::
 **Returns:** ``Color``: The color value
 
 GUIColorToColor(GUIColor, float)
---------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Converts the GUIColor value to a color
 

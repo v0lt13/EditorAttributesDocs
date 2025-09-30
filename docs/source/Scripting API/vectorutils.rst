@@ -20,7 +20,7 @@ Methods:
 --------
 
 AddVector(Vector3, float)
--------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Adds a value to a vector.
 
@@ -35,7 +35,7 @@ Declaration::
 **Returns:** ``Vector3``: A vector with the value added to all axis
 
 SubtractVector(Vector3, float)
-------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Subtracts a value from a vector.
 
@@ -50,7 +50,7 @@ Declaration::
 **Returns:** ``Vector3``: A vector with the value subtracted from all axis
 
 Vector3IntToVector2Int(Vector3Int)
-----------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Converts a ``Vector3Int`` to a ``Vector2Int``.
 
@@ -64,7 +64,7 @@ Declaration::
 **Returns:** ``Vector2Int``: The converted Vector2Int
 
 Vector2IntToVector2(Vector2Int)
--------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Converts a ``Vector2Int`` to a ``Vector2``.
 
@@ -78,7 +78,7 @@ Declaration::
 **Returns:** ``Vector2``: The converted Vector2
 
 Vector2ToVector2Int(Vector3Int)
--------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Converts a ``Vector2`` to a ``Vector2Int``.
 
@@ -92,7 +92,7 @@ Declaration::
 **Returns:** ``Vector2Int``: The converted Vector2Int
 
 Vector3ToVector3Int(Vector3)
-----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Converts a ``Vector3`` to a ``Vector3Int``.
 
@@ -106,7 +106,7 @@ Declaration::
 **Returns:** ``Vector3Int``: The converted Vector3Int
 
 ParseVector2(string)
---------------------
+^^^^^^^^^^^^^^^^^^^^
 
 Parses a ``string`` to a ``Vector2``.
 
@@ -120,7 +120,7 @@ Declaration::
 **Returns:** ``Vector2``: The vector value from the string
 
 ParseVector2Int(string)
------------------------
+^^^^^^^^^^^^^^^^^^^^^^^
 
 Parses a ``string`` to a ``Vector2Int``.
 
@@ -134,7 +134,7 @@ Declaration::
 **Returns:** ``Vector2Int``: The vector value from the string
 
 ParseVector3(string)
---------------------
+^^^^^^^^^^^^^^^^^^^^
 
 Parses a ``string`` to a ``Vector3``.
 
@@ -148,7 +148,7 @@ Declaration::
 **Returns:** ``Vector3``: The vector value from the string
 
 ParseVector3Int(string)
------------------------
+^^^^^^^^^^^^^^^^^^^^^^^
 
 Parses a ``string`` to a ``Vector3Int``.
 
@@ -162,7 +162,7 @@ Declaration::
 **Returns:** ``Vector3Int``: The vector value from the string
 
 ParseVector4(string)
---------------------
+^^^^^^^^^^^^^^^^^^^^
 
 Parses a ``string`` to a ``Vector4``.
 

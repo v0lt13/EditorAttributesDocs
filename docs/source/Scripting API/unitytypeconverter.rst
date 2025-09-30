@@ -21,7 +21,7 @@ Methods:
 --------
 
 CanConvert(Type)
-----------------
+^^^^^^^^^^^^^^^^
 
 Determines whether this instance can convert the specified object type.
 
@@ -39,7 +39,7 @@ Overrides::
 	JsonConverter.CanConvert(Type)
 
 ReadJson(JsonReader, Type, object?, JsonSerializer)
---------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Reads the JSON representation of the object.
 
@@ -60,7 +60,7 @@ Overrides::
 	JsonConverter.ReadJson(JsonReader, Type, object?, JsonSerializer)
 
 WriteJson(JsonWriter, object?, JsonSerializer)
----------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Writes the JSON representation of the object.
 

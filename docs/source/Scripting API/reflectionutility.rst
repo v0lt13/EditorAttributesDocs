@@ -20,7 +20,7 @@ Fields:
 -------
 
 BINDING_FLAGS
--------------
+^^^^^^^^^^^^^
 
 A preset of binding flags used by the package.
 
@@ -34,7 +34,7 @@ Methods:
 --------
 
 FindField(string, SerializedProperty)
--------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Finds a field inside a serialized object.
 
@@ -49,7 +49,7 @@ Declaration::
 **Returns:** ``FieldInfo``: The field info of the desired field
 
 FindProperty(string, SerializedProperty)
-----------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Finds a property inside a serialized object.
 
@@ -64,7 +64,7 @@ Declaration::
 **Returns:** ``PropertyInfo``: The property info of the desired property
 
 FindFunction(string, SerializedProperty)
-----------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Finds a funciton inside a serialized object.
 
@@ -79,7 +79,7 @@ Declaration::
 **Returns:** ``MethodInfo``: The field info of the desired field
 
 FindMember(string, Type, BindingFlags, MemberTypes)
----------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Finds a member from the target type and it's inherited types.
 
@@ -96,7 +96,7 @@ Declaration::
 **Returns:** ``MemberInfo``: The member info of the specified member type
 
 GetStaticMemberInfoFromPath(string, MemberTypes)
-------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Gets the info of a const or static member from the type specified in the path.
 
@@ -111,7 +111,7 @@ Declaration::
 **Returns:** ``MemberInfo``: The member info of the specified member type
 
 TryGetField(string, Type, BindingFlags, out FieldInfo)
-------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Tries to get a field from the target type.
 
@@ -128,7 +128,7 @@ Declaration::
 **Returns:** ``bool``: True if the field was succesfully found, false otherwise
 
 TryGetProperty(string, Type, BindingFlags, out PropertyInfo)
-------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Tries to get a property from the target type.
 
@@ -145,7 +145,7 @@ Declaration::
 **Returns:** ``bool``: True if the field was succesfully found, false otherwise
 
 TryGetMethod(string, Type, BindingFlags, out MethodInfo)
---------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Tries to get a function from the target type.
 
@@ -162,7 +162,7 @@ Declaration::
 **Returns:** ``bool``: True if the field was succesfully found, false otherwise
 
 IsPropertyCollection(SerializedProperty)
-----------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Checks to see if a seralized property is a list or array.
 
@@ -176,7 +176,7 @@ Declaration::
 **Returns:** ``bool``: True if the property is a list or array, false otherwise
 
 IsTypeCollection(Type)
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
 
 Checks to see if a type is a list or array.
 
@@ -190,7 +190,7 @@ Declaration::
 **Returns:** ``bool``: True if the type is a list or array
 
 HasAnyAttributes(MemberInfo, params Type[])
--------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Checks to see if a member has one of the specified attributes.
 
@@ -205,7 +205,7 @@ Declaration::
 **Returns:** ``bool``: True if the member has at least one of specified attributes
 
 GetValidMemberInfo(string, SerializedProperty)
-----------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Finds a member inside a serialzied object.
 
@@ -220,7 +220,7 @@ Declaration::
 **Returns:** ``MemberInfo``: The member info of the member
 
 GetNestedObjectType(SerializedProperty, out object)
----------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Gets the type of a nested serialized object.
 
@@ -235,7 +235,7 @@ Declaration::
 **Returns:** ``Type``: The nested object type
 
 GetMemberInfoType(MemberInfo)
------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Gets the type of a member.
 
@@ -249,7 +249,7 @@ Declaration::
 **Returns:** ``Type``: The type of the member
 
 GetMemberInfoValue(MemberInfo, SerializedProperty)
---------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Gets the value of a member.
 

@@ -20,7 +20,7 @@ Properties:
 -----------
 
 ValidationMessage
------------------
+^^^^^^^^^^^^^^^^^
 
 The message displayed in the console.
 
@@ -30,7 +30,7 @@ Declaration::
 	
 
 PassedCheck
------------
+^^^^^^^^^^^
 
 Has passed the validation check.
 
@@ -40,7 +40,7 @@ Declaration::
 	
 
 KillBuild
----------
+^^^^^^^^^
 
 Will the validation an error during build time and cancel it.
 
@@ -50,7 +50,7 @@ Declaration::
 	
 	
 Severety
---------
+^^^^^^^^
 
 The severety of the validation.
 
@@ -62,7 +62,7 @@ Methods:
 --------
 
 Fail(string, MessageMode, bool)
--------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Marks the validation as failed.
 
@@ -78,7 +78,7 @@ Declaration::
 **Returns:** ``ValidationCheck``: The validation check object
 
 Pass()
-------
+^^^^^^
 
 Marks the validation as passed.
 

@@ -20,7 +20,7 @@ Properties:
 -----------
 
 CanApplyGlobalColor
--------------------
+^^^^^^^^^^^^^^^^^^^
 
 Checks if the global color can be applied on an element.
 
@@ -34,7 +34,7 @@ Methods:
 --------
 
 CreatePropertyGUI(SerializedProperty)
--------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Override this method to make your own UI Toolkit based GUI for the property.
 
@@ -52,7 +52,7 @@ Overrides::
 	PropertyDrawer.CreatePropertyGUI(SerializedProperty)
 
 CopyValue(VisualElement, SerializedProperty)
---------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Override this function to customize the copied value from an element with using AddPropertyContextMenu(VisualElement, SerializedProperty).
 
@@ -67,7 +67,7 @@ Declaration::
 **Returns:** ``string``: The string that will be copied into the clipboard
 
 PasteValue(VisualElement, SerializedProperty, string)
------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Override this function to customize the paste behaivour for an element with using AddPropertyContextMenu(VisualElement, SerializedProperty).
 
@@ -81,7 +81,7 @@ Declaration::
 	- ``string`` clipboardValue: The current clipboard value
 
 CreatePropertyField(SerializedProperty)
----------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Creates a properly binded property field from a serialized property.
 
@@ -95,7 +95,7 @@ Declaration::
 **Returns:** ``PropertyField``: The binded property field
 
 SetProperyValueFromString(string, SerializedProperty)
------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Sets the value of a property from a string.
 
@@ -108,7 +108,7 @@ Declaration::
 	- ``SerializedProperty`` property: The serialized property to assign the value to
 
 GetPropertyValueAsString(SerializedProperty)
---------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Gets the value of a serialzied property and returns it as a string.
 
@@ -122,7 +122,7 @@ Declaration::
 **Returns:** ``string``: The serialized property value as a string
 
 ConvertCollectionValuesToStrings(string, SerializedProperty, MemberInfo, HelpBox)
----------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Converts the values of a collection into strings.
 
@@ -139,7 +139,7 @@ Declaration::
 **Returns:** ``List<string>``: The values of the collection in a list of strings
 
 FindNestedProperty(SerializedProperty, string)
-----------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Finds a nested serialized property.
 
@@ -154,7 +154,7 @@ Declaration::
 **Returns:** ``SerializedProperty``: The nested serialized property
 
 GetCollectionProperty(SerializedProperty)
------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Gets the collection property from a collection item property.
 
@@ -168,7 +168,7 @@ Declaration::
 **Returns:** ``SerializedProperty``: The collection property
 
 GetSerializedPropertyName(string, SerializedProperty)
------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Gets the name of a serialized property accounting for C# properties.
 
@@ -183,7 +183,7 @@ Declaration::
 **Returns:** ``string``: The name of the serialized property
 
 IsPropertyEnumFlag()
---------------------
+^^^^^^^^^^^^^^^^^^^^
 
 Checks to see if the serialized property is a flagged enum.
 
@@ -194,7 +194,7 @@ Declaration::
 **Returns:** ``bool``: True if the serialized property type is a flagged enum
 
 DisplayErrorBox(VisualElement, HelpBox)
----------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Displays an error box in the inspector.
 
@@ -207,7 +207,7 @@ Declaration::
 	- ``HelpBox`` errorBox: The help box to displaying the errors
 
 UpdateVisualElement(VisualElement, Action, long)
-------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Schedules an action to update.
 
@@ -223,7 +223,7 @@ Declaration::
 **Returns:** ``IVisualElementScheduledItem``: The scheduled visual element item
 
 ExecuteLater(VisualElement, Action, long)
------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Schedules an action to execute after a delay.
 
@@ -239,7 +239,7 @@ Declaration::
 **Returns:** ``IVisualElementScheduledItem``: The scheduled visual element item
 
 AddElement(VisualElement, VisualElement)
-----------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Add an element to another visual element if it doesn't exist.
 
@@ -252,7 +252,7 @@ Declaration::
 	- ``VisualElement`` element: The element to add
 
 RemoveElement(VisualElement, VisualElement)
--------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Removes an element from another visual element if it exists.
 
@@ -265,7 +265,7 @@ Declaration::
 	- ``VisualElement`` element: The element to remove
 
 GetConditionValue(MemberInfo, IConditionalAttribute, SerializedProperty, HelpBox)
----------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Gets the value of a condition for a conditional attribute.
 
@@ -282,7 +282,7 @@ Declaration::
 **Returns:** ``bool``: True if the condition is satisfied
 
 GetDynamicString(string, SerializedProperty, IDynamicStringAttribute, HelpBox)
-------------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Gets the string value from a member if the input mode is set to Dynamic.
 
@@ -299,7 +299,7 @@ Declaration::
 **Returns:** ``string``: If the input mode is Constant will return the base input string, if is Dynamic will return the string value of the member
 
 AddPropertyContextMenu(VisualElement, SerializedProperty)
----------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Adds the property context menu to a non property element.
 
@@ -312,7 +312,7 @@ Declaration::
 	- ``SerializedProperty`` property: The serialized property
 
 InvokeFunctionOnAllTargets(Object[], string, object[])
-------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Invokes a function on all specified targets.
 
@@ -326,7 +326,7 @@ Declaration::
 	- `optional`, ``object[]`` parameterValues: Parameter values for the function
 
 ApplyBoxStyle(VisualElement)
-----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Applies the help box style to a visual element.
 
@@ -338,7 +338,7 @@ Declaration::
 	- ``VisualElement`` visualElement: The element to apply the style to
 
 CopyStyle(VisualElement, VisualElement)
----------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Copies all of the style values from a VisualElement to another.
 
@@ -351,7 +351,7 @@ Declaration::
 	- ``VisualElement`` copyTo: The element to copy the style to
 
 CreateFieldForType<T>(string, object, bool)
--------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Creates a field for a specific type.
 
@@ -370,7 +370,7 @@ Declaration::
 **Returns:** ``VisualElement``: A visual element of the appropriate field
 
 CreateFieldForType(Type, string, object, bool)
-----------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Creates a field for a specific type.
 
@@ -387,7 +387,7 @@ Declaration::
 **Returns:** ``VisualElement``: A visual element of the appropriate field
 
 RegisterValueChangedCallbackByType<T>(VisualElement, Action<object>)
---------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Registers a value changed callback for field of a specific type.
 
@@ -403,7 +403,7 @@ Declaration::
 	- ``Action<object>`` valueCallback: The callback action
 	
 RegisterValueChangedCallbackByType(Type, VisualElement, Action<object>)
------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Registers a value changed callback for field of a specific type.
 
@@ -417,7 +417,7 @@ Declaration::
 	- ``Action<object>`` valueCallback: The callback action
 
 GetFieldLabel(VisualElement)
-----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Gets the label of the appropriate field
 
@@ -431,7 +431,7 @@ Declaration::
 **Returns:** ``string``: The field label
 
 GetFieldValue(VisualElement)
-----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Gets the value of the appropriate field.
 
@@ -445,7 +445,7 @@ Declaration::
 **Returns:** ``object``: The field value
 
 SetFieldValue(VisualElement, object, bool)
-------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Sets the value of the appropriate field.
 
@@ -459,7 +459,7 @@ Declaration::
 	- `optional`, ``bool`` notify: Whether to call the value change callback when setting the value
 
 BindFieldToMember<T>(VisualElement, MemberInfo, object)
--------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Bind a field to the target member value.
 
@@ -476,7 +476,7 @@ Declaration::
 	- ``object`` targetObject: The target object of the member
 	
 BindFieldToMember(Type, VisualElement, MemberInfo, object)
-----------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Bind a field to the target member value.
 
@@ -491,7 +491,7 @@ Declaration::
 	- ``object`` targetObject: The target object of the member
 
 Print(object)
--------------
+^^^^^^^^^^^^^
 
 A short handy version of ``Debug.Log``.
 
@@ -503,7 +503,7 @@ Declaration::
 	- ``object`` message: The message to print
 
 IsCollectionValid(ICollection)
-------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Checks if a collection is null or has no members.
 
@@ -517,7 +517,7 @@ Declaration::
 **Returns:** ``bool``: False is the collection is null or has no members, true otherwise
 
 GetTextureSize(Texture2D)
--------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Gets the size of a 2D texture.
 

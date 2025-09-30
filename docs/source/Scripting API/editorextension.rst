@@ -49,7 +49,7 @@ Methods:
 --------
 
 OnEnable()
-----------
+^^^^^^^^^^
 
 This function is called when the object becomes enabled and active.
 
@@ -61,7 +61,7 @@ Declaration::
 	protected virtual void OnEnable()
 
 OnDisable()
-----------
+^^^^^^^^^^^
 
 This function is called when the object becomes disabled or inactive.
 
@@ -73,7 +73,7 @@ Declaration::
 	protected virtual void OnDisable()
 	
 CreateInspectorGUI()
---------------------
+^^^^^^^^^^^^^^^^^^^^
 
 Implement this method to make a custom UIElements inspector.
 
@@ -91,7 +91,7 @@ Overrides::
 	Editor.CreateInspectorGUI()
 
 DrawDefaultInspector()
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
 
 This function redraws all the inspector properties with UIElements and handles the coloring and hiding of properties.
 
@@ -105,7 +105,7 @@ Declaration::
 **Returns:** ``VisualElement``: All the inspector properties
 
 DrawNonSerializedMembers()
---------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Draws all the members marked with the ShowInInspector attribute.
 
@@ -116,7 +116,7 @@ Declaration::
 **Returns:** ``VisualElement``: A visual element containing all non serialized member fields
 
 DrawButtons()
--------------
+^^^^^^^^^^^^^
 
 Draws all the buttons from functions using the Button Attribute.
 

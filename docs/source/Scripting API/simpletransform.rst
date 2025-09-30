@@ -18,7 +18,7 @@ Fields:
 -------
 
 position
---------
+^^^^^^^^
 
 Position value.
 
@@ -29,7 +29,7 @@ Declaration::
 	public Vector3 position;
 	
 rotation
---------
+^^^^^^^^
 
 Rotation value in euler angles.
 
@@ -40,7 +40,7 @@ Declaration::
 	public Vector3 rotation;
 	
 scale
------
+^^^^^
 
 Scale value.
 
@@ -50,11 +50,23 @@ Declaration::
 
 	public Vector3 scale;
 
+Properties:
+-----------
+
+QuaternionRotation
+^^^^^^^^^^^^^^^^^^
+
+The rotation of the transform as a quaternion.
+
+Declaration::
+
+	public readonly Quaternion QuaternionRotation;
+
 Constructors:
 -------------
 
 SimpleTransform(Vector3, Vector3, Vector3)
-------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Construct a SimpleTransform.
 
@@ -68,7 +80,7 @@ Declaration::
 	- ``Vector3`` scale: Input scale
 
 SimpleTransform(Vector3, Quaternion, Vector3)
----------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Construct a SimpleTransform.
 
@@ -82,7 +94,7 @@ Declaration::
 	- ``Vector3`` scale: Input scale
 
 SimpleTransform(Transform)
---------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Construct a SimpleTransform.
 
@@ -93,23 +105,11 @@ Declaration::
 **Parameters:**
 	- ``Transform`` transform: Input transform
 
-Properties:
------------
-
-QuaternionRotation
-------------------
-
-The rotation of the transform as a quaternion.
-
-Declaration::
-
-	public readonly Quaternion QuaternionRotation;
-
 Operators:
 ----------
 
 implicit operator SimpleTransform(Transform)
---------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Implicitly converts a ``Transform`` to ``SimpleTransform``.
 
@@ -124,7 +124,7 @@ Methods:
 --------
 
 ToString()
-----------
+^^^^^^^^^^
 
 Returns the transform values as string.
 
@@ -139,7 +139,7 @@ Overrides::
 	ValueType.ToString()
 
 ToTransform(Transform)
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
 
 Puts the SimpleTransform values to into a Transform in world space.
 
@@ -151,7 +151,7 @@ Declaration::
 	- ``Transform`` transform: The transform to put the values into
 
 ToLocalTransform(Transform)
----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Puts the SimpleTransform values to into a Transform in local space.
 

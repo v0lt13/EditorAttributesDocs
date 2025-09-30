@@ -24,7 +24,7 @@ Properties:
 -----------
 
 callbackOrder
--------------
+^^^^^^^^^^^^^
 
 Returns the relative callback order for callbacks. Callbacks with lower values are called before ones with higher values.
 
@@ -38,7 +38,7 @@ Methods:
 --------
 
 OnPreprocessBuild(BuildReport)
-------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Implement this function to receive a callback before the build is started.
 
@@ -50,7 +50,7 @@ Declaration::
 	- ``BuildReport`` report: A report containing information about the build, such as its target platform and output path
 
 ValidateAll()
--------------
+^^^^^^^^^^^^^
 
 Validates every asset and scene in the project.
 
@@ -60,7 +60,7 @@ Declaration::
 	public static void ValidateAll()
 	
 ValidateAllScenes()
--------------------
+^^^^^^^^^^^^^^^^^^^
 
 Validates all scenes in the build.
 
@@ -70,7 +70,7 @@ Declaration::
 		public static void ValidateAllScenes()
 
 ValidateOpenScenes()
---------------------
+^^^^^^^^^^^^^^^^^^^^
 
 Validates all scenes currently open.
 
@@ -80,7 +80,7 @@ Declaration::
 		public static void ValidateOpenScenes()
 
 ValidateAllAssets()
--------------------
+^^^^^^^^^^^^^^^^^^^
 
 Validates all assets in the project.
 
@@ -90,7 +90,7 @@ Declaration::
 		public static void ValidateAllAssets()
 	
 Validate(Object, ref int, ref int)
-----------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Validates all fields marked for validation with an attribute.
 
@@ -104,7 +104,7 @@ Declaration::
 	- `reference`, ``int`` successfulValidations: The amount of validations that succeded
 	
 IsPackageAsset(string)
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
 
 Checks to see if an asset is inside the Packages folder.
 
