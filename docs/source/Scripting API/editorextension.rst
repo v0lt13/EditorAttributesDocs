@@ -24,7 +24,7 @@ Fields:
 -------
 
 DEFAULT_GLOBAL_COLOR
---------------------
+^^^^^^^^^^^^^^^^^^^^
 
 The default global color.
 
@@ -35,7 +35,7 @@ Declaration::
 	public static readonly Color DEFAULT_GLOBAL_COLOR;
 
 GLOBAL_COLOR
-------------
+^^^^^^^^^^^^
 
 The current global color.
 
