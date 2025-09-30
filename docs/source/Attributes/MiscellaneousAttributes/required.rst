@@ -61,7 +61,7 @@ You can choose one of the following options to specify how the reference will be
 - ``ReferenceFixMode.Custom``: A custom function will be used to auto-reference the field. This is set by default when using the constructor with the `customFixFunctionName` parameter.
 
 If the reference you want to assign requires additional logic you can create a custom function returning an ``UnityEngine.Object`` to be called by the "Fix" button.
-This is usefull in scenarios where you want to assign a loaded asset.
+This is usefull in scenarios where you want to assign a loaded asset::
 
 	using UnityEngine;
 	using EditorAttributes;
