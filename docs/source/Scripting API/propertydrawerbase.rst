@@ -153,6 +153,20 @@ Declaration::
 	
 **Returns:** ``SerializedProperty``: The nested serialized property
 
+IsPropertyCollection(SerializedProperty)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Checks to see if a seralized property is a list or array.
+
+Declaration::
+
+	public static bool IsPropertyCollection(SerializedProperty property)
+	
+**Parameters:**
+	- ``SerializedProperty`` property: The serialized property to check
+
+**Returns:** ``bool``: True if the property is a list or array, false otherwise
+
 GetCollectionProperty(SerializedProperty)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

@@ -1,6 +1,14 @@
 Changelogs
 ==========
 
+EditorAttributes v2.9.2 Changelog:
+----------------------------------
+- PropertyDropdown Attribute now supports any UnityEngine.Object type
+- Fixed conditional fields not working inside groups
+- Fixed Button Attribute not supporting enums anymore
+- Fixed Dropdown Attribute not updating when collection becomes invalid
+- Fixed DataTable adding labels to array elements after the first one when inside a custom object
+
 EditorAttributes v2.9.1 Changelog:
 ----------------------------------
 - Added char support to Button Attribute parameters and ShowInInspector Attribute
