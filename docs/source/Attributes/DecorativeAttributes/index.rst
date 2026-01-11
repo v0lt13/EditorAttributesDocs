@@ -12,6 +12,7 @@ Decorative Attributes
     title
     guicolor
     colorfield
+    applymaterial
     line
     image
     assetpreview

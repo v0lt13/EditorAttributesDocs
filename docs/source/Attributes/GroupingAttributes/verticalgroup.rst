@@ -4,6 +4,7 @@ VerticalGroup Attribute
 Attribute to display the specified fields vertically.
 
 **Parameters:**
+	- `optional`, ``groupName`` drawInBox: The name of the group to display as a header
 	- `optional`, ``bool`` drawInBox: Draw the group in a nice box
 	- `params`, ``string`` fieldsToGroup: The name of the fields to group
 
@@ -14,7 +15,7 @@ Example::
 	
 	public class AttributesExample : MonoBehaviour
 	{
-		[SerializeField, VerticalGroup(nameof(field01), nameof(field02), nameof(field03), nameof(field04))]
+		[SerializeField, VerticalGroup("Grouped properties", false, nameof(field01), nameof(field02), nameof(field03), nameof(field04))]
 		private Void groupHolder;
 	
 		// The fields needs to be serialized, but we don't want them to show twice in the inspector

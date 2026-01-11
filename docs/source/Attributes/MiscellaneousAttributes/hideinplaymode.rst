@@ -1,5 +1,5 @@
 HideInPlayMode Attribute
-=======================
+========================
 
 Attribute to hide a field when entering play mode::
 	

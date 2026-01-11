@@ -1,10 +1,10 @@
-ReflectionUtility
-=================
+ReflectionUtils
+===============
 
 An utility class containing usefull functions related to reflection.
 
 **Inheritance:**
-	- *object* -> *ReflectionUtility*
+	- *object* -> *ReflectionUtils*
 
 **Namespace:** 
 	*EditorAttributes.Editor.Utility*
@@ -14,7 +14,7 @@ An utility class containing usefull functions related to reflection.
 	
 Syntax::
 
-	public static class ReflectionUtility
+	public static class ReflectionUtils
 
 Fields:
 -------

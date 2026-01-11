@@ -44,7 +44,9 @@ Contents:
     Scripting API/editorextension
     Scripting API/editorvalidation
     Scripting API/propertydrawerbase
-    Scripting API/reflectionutility
+    Scripting API/collectiondisplaydrawer
+    Scripting API/groupdrawer
+    Scripting API/reflectionutils
     Scripting API/colorutils
     Scripting API/vectorutils
     Scripting API/unitytypeconverter

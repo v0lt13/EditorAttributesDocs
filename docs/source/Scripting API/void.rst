@@ -12,4 +12,4 @@ Empty struct to use as a holder property for attributes.
 Syntax::
 
 	[Serializable]
-	public struct Void
+	public readonly struct Void

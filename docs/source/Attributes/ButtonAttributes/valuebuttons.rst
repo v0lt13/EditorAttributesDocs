@@ -1,9 +1,6 @@
 ValueButtons Attribute
 ======================
 
-.. note::
-	This attribute is only available in *Unity 6 and above*, use the :doc:`selectionbuttons` for the same functionality
-
 Attribute to display a collection of values in toggleble buttons.
 
 **Parameters:**

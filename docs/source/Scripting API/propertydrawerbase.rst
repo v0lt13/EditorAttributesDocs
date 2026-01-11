@@ -121,23 +121,6 @@ Declaration::
 	
 **Returns:** ``string``: The serialized property value as a string
 
-ConvertCollectionValuesToStrings(string, SerializedProperty, MemberInfo, HelpBox)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Converts the values of a collection into strings.
-
-Declaration::
-
-	protected static List<string> ConvertCollectionValuesToStrings(string collectionName, SerializedProperty serializedProperty, MemberInfo memberInfo, HelpBox errorBox)
-	
-**Parameters:**
-	- ``string`` collectionName: The name of the collection to convert
-	- ``SerializedProperty`` serializedProperty: The serialized property
-	- ``MemberInfo`` memberInfo: The member info of the collection
-	- ``HelpBox`` errorBox: The error box to display any errors to
-	
-**Returns:** ``List<string>``: The values of the collection in a list of strings
-
 FindNestedProperty(SerializedProperty, string)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -152,20 +135,6 @@ Declaration::
 	- ``string`` propertyName: The name of the property to find
 	
 **Returns:** ``SerializedProperty``: The nested serialized property
-
-IsPropertyCollection(SerializedProperty)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Checks to see if a seralized property is a list or array.
-
-Declaration::
-
-	public static bool IsPropertyCollection(SerializedProperty property)
-	
-**Parameters:**
-	- ``SerializedProperty`` property: The serialized property to check
-
-**Returns:** ``bool``: True if the property is a list or array, false otherwise
 
 GetCollectionProperty(SerializedProperty)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -227,28 +196,12 @@ Schedules an action to update.
 
 Declaration::
 
-	public static void UpdateVisualElement(VisualElement visualElement, Action logicToUpdate, long intervalMs = 60)
+	public static void UpdateVisualElement(VisualElement visualElement, Action logicToUpdate, long intervalMs = 60L)
 	
 **Parameters:**
 	- ``VisualElement`` visualElement: The visual element to schedule the update
 	- ``Action`` logicToUpdate: The logic to execute on the specified element
 	- `optional`, ``long`` intervalMs: The update interval in milliseconds
-
-**Returns:** ``IVisualElementScheduledItem``: The scheduled visual element item
-
-ExecuteLater(VisualElement, Action, long)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Schedules an action to execute after a delay.
-
-Declaration::
-
-	public static void ExecuteLater(VisualElement visualElement, Action logicToExecute, long delayMs = 1)
-	
-**Parameters:**
-	- ``VisualElement`` visualElement: The visual element to schedule the execution
-	- ``Action`` logicToUpdate: The logic to execute on the specified element
-	- `optional`, ``long`` delayMs: The execution delay in milliseconds
 
 **Returns:** ``IVisualElementScheduledItem``: The scheduled visual element item
 
@@ -325,19 +278,20 @@ Declaration::
 	- ``VisualElement`` element: The element to add the context menu to
 	- ``SerializedProperty`` property: The serialized property
 
-InvokeFunctionOnAllTargets(Object[], string, object[])
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+InvokeFunctionOnAllTargets(Object[], string, object[], bool)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Invokes a function on all specified targets.
 
 Declaration::
 
-	public static void InvokeFunctionOnAllTargets(Object[] targets, string functionName, object[] parameterValues = null)
+	public static void InvokeFunctionOnAllTargets(Object[] targets, string functionName, object[] parameterValues = null, bool makeTargetsDirty = true)
 	
 **Parameters:**
 	- ``Object[]`` targets: The property to get the targets from
 	- ``string`` functionName: The name of the function to invoke
 	- `optional`, ``object[]`` parameterValues: Parameter values for the function
+	- `optional`, ``bool`` makeTargetsDirty: Whether to make the targets dirty after invoking the function
 
 ApplyBoxStyle(VisualElement)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

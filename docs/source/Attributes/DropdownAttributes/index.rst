@@ -12,5 +12,6 @@ Dropdown Attributes
     tagdropdown
     typedropdown
     sortinglayerdropdown
+    layerdropdown
     animatorparamdropdown
     propertydropdown

@@ -1,5 +1,3 @@
-# Configuration file for the Sphinx documentation builder.
-
 # -- Project information
 
 project = 'EditorAttributes'

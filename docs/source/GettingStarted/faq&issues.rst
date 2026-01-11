@@ -4,17 +4,13 @@ FAQ & Common Issues
 Common Issues
 -------------
 
-1. The attribute applies on the collection elements instead of the collection itself.
-
-- Unity only supports property drawers applying to collections in Unity 6 and above, upgrading your project will fix the issue.
-  
-2. Attribute doesn't work on custom serialized object members inside collections.
-
-- It's a Unity bug, a temporary solution until Unity fixes this is to go to the attribute's definition and add an additional parameter to any of the constructors like this ``ExampleConstructor(applyToCollection = false) : base(applyToCollection)`` now you can individually set when an attribute should apply to a collection or not from the attribute itself, leaving it to ``false`` will fix the problem with nested objects in collections.
-
-3. Attributes like :doc:`../Attributes/ButtonAttributes/button`, :doc:`../Attributes/MiscellaneousAttributes/showininspector`, :doc:`../Attributes/DecorativeAttributes/guicolor` and :doc:`../Attributes/DecorativeAttributes/propertyorder` don't work after I create a custom inspector.
+1. Attributes like :doc:`../Attributes/ButtonAttributes/button`, :doc:`../Attributes/MiscellaneousAttributes/showininspector`, :doc:`../Attributes/DecorativeAttributes/guicolor` and :doc:`../Attributes/DecorativeAttributes/propertyorder` don't work after I create a custom inspector.
 
 - The logic for :doc:`../Attributes/ButtonAttributes/button`, :doc:`../Attributes/MiscellaneousAttributes/showininspector`, :doc:`../Attributes/DecorativeAttributes/guicolor` and :doc:`../Attributes/DecorativeAttributes/propertyorder` is implemented in an :doc:`../Scripting API/editorextension` class that inherits from the `UnityEditor.Editor <https://docs.unity3d.com/6000.1/Documentation/ScriptReference/Editor.html>`_ class, if you want those attributes to work with your custom editor you need to inherit your editor from :doc:`../Scripting API/editorextension` and call the appropriate functions
+
+2. I get a **"You cannot use EditorAttributes with ImGUI based editors. Convert your editor to UI Toolkit for attributes to work, or remove the attributes from properties drawn by the editor script."** warning message in my inspector.
+
+- This warning message appears when you try to use EditorAttributes in an ImGUI based custom editor, EditorAttributes only works with UI Toolkit based editors. To fix this follow the instructions in the message, also check if the issue comes from another package you have installed that overrides the base editor using ImGUI.
 
 Frequently Asked Questions
 --------------------------
@@ -45,7 +41,7 @@ A: There is no content difference between the Github version and the Asset Store
 
 Q: I found a problem/bug with the package, what do I do?
 
-A: If you found a problem/bug just go to the `issues tab <https://github.com/v0lt13/EditorAttributes/issues>`_ on GitHub and create a new issue explaining what and how it happened in detail with reproduction steps make sure you check other closed issues first and the :doc:`commonissues` page, additionaly you can join the `discord server <https://discord.gg/jKXvXyTzYn>`_ and make the issue apparent there.
+A: If you found a problem/bug just go to the `issues tab <https://github.com/v0lt13/EditorAttributes/issues>`_ on GitHub and create a new issue explaining what and how it happened in detail with reproduction steps make sure you check other closed issues first, additionaly you can join the `discord server <https://discord.gg/jKXvXyTzYn>`_ and make the issue apparent there.
 
 Q: I have a feature idea, where do I put it?
 
