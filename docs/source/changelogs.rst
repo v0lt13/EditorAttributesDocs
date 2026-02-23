@@ -1,6 +1,18 @@
 Changelogs
 ==========
 
+EditorAttributes v3.0.1 Changelog:
+----------------------------------
+- Added the ability to filter TypeDropdown by certain types
+- Added makeDirty parameter to ButtonField Attribute
+- Slightly adjusted group alignments
+- DataTables can now contain serialized objects and collections
+- The editor attributes drawing of the default inspector can now be disabled
+- Fixed DataTable drawing labels in collections past the first element
+- Fixed finding property members inside serialized classes throwing an error
+- Fixed Dropdown reseting value after refreshing the inspector when using dictionaries
+- Fixed AssetPreview not displaying sliced sprites
+
 EditorAttributes v3.0.0 Changelog:
 ----------------------------------
 - Project refactoring

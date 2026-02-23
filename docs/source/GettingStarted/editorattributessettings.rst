@@ -3,6 +3,15 @@ EditorAttributes Settings
 
 The settings for EditorAttributes package are located in `Edit/ProjectSettings/EditorAttributes`.
 
+Disable Editor Extension
+------------------------
+
+Disables the drawing of the editor by the editor extension script, usefull if you want to override the base ``UnityEngine.Object`` yourself.
+
+.. warning::
+	The following attributes will stop working when enabling this setting: :doc:`../Attributes/ButtonAttributes/button`, :doc:`../Attributes/DecorativeAttributes/guicolor`,
+	:doc:`../Attributes/DecorativeAttributes/propertyorder`, :doc:`../Attributes/MiscellaneousAttributes/hideproperty`, :doc:`../Attributes/MiscellaneousAttributes/showininspector`.
+
 Disable Build Validation
 ------------------------
 

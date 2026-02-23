@@ -6,10 +6,11 @@ Attribute to add a button in the inspector in place of a field.
 **Parameters:**
 	- ``string`` functionName: The name of the function to call
 	- ``bool`` isRepetable: Makes the button repeat logic on hold
-	- `optional`, ``long`` pressDelay: How many milliseconds to wait before the logic is executed on hold
+	- `optional`, ``long`` pressDelay: How many milliseconds to wait before the logic is repeated
 	- `optional`, ``long`` repetitionInterval: The interval in milliseconds the logic will repeat
 	- `optional`, ``string`` buttonLabel: The label displayed on the button
 	- `optional`, ``float`` buttonHeight: The height of the button in pixels
+	- `optional`, ``bool`` makeDirty: Whether to mark the object as dirty after invoking the function
 
 Buttons made using the :doc:`button` will always be drawn after all the fields, use the `ButtonField Attribute` instead if you want to add buttons anywhere in the inspector::
 

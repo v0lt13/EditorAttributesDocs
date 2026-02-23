@@ -80,6 +80,23 @@ Declaration::
 	- ``SerializedProperty`` property: The attached serialized property
 	- ``string`` clipboardValue: The current clipboard value
 
+IsSupportedPropertyType(SerializedProperty)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Checks to see if the property type is supported by the drawer.
+
+.. note::
+	This always returns true by default, override it to add custom type checks.
+
+Declaration::
+
+	protected virtual bool IsSupportedPropertyType(SerializedProperty property)
+	
+**Parameters:**
+	- ``SerializedProperty`` property: The serialized property to check
+
+**Returns:** ``bool``: True if the type is supported, false otherwise
+
 CreatePropertyField(SerializedProperty)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

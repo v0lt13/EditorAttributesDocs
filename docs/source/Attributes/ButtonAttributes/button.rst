@@ -9,11 +9,12 @@ Attribute to add a button in the inspector.
 	- ``object`` enumValue: The value of the enum condition
 	- ``ConditionResult`` conditionResult: What happens to the button when the condition evaluates to true
 	- `optional`, ``bool`` negate: Negate the evaluated condition
-	- `optional`, ``long`` pressDelay: How many milliseconds to wait before the logic is executed on hold
+	- `optional`, ``long`` pressDelay: How many milliseconds to wait before the logic is repeated
 	- `optional`, ``long`` repetitionInterval: The interval in milliseconds the logic will repeat
 	- `optional`, ``string`` buttonLabel: The label displayed on the button
 	- `optional`, ``float`` buttonHeight: The height of the button in pixels
 	- `optional`, ``bool`` serializeParameters: Have the button parameters persist between selections
+	- `optional`, ``bool`` makeDirty: Whether to mark the object as dirty after invoking the function
 
 Example::
 

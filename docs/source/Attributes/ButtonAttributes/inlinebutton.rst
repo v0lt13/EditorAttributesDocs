@@ -6,10 +6,11 @@ Attribute to add a button next to a property.
 **Parameters:**
 	- ``string`` functionName: The name of the function the button activates
 	- ``bool`` isRepetable: Makes the button repeat logic on hold
-	- `optional`, ``long`` pressDelay: How many milliseconds to wait before the logic is executed on hold
+	- `optional`, ``long`` pressDelay: How many milliseconds to wait before the logic is repeated
 	- `optional`, ``long`` repetitionInterval: The interval in milliseconds the logic will repeat
 	- `optional`, ``string`` buttonLabel: The label displayed on the button
 	- `optional`, ``float`` buttonWidth: The width of the button in pixels
+	- `optional`, ``bool`` makeDirty: Whether to mark the object as dirty after invoking the function
 
 Example::
 

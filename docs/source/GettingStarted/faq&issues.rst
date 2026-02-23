@@ -17,7 +17,7 @@ Frequently Asked Questions
 
 Q: With what Unity version is the package compatible with?
 
-A: The package is compatible with Unity 2022 and above, but there a few features that are only available in Unity 6 and above. Package versions before v2.2.0 that use ImGUI may be compatible with Unity 2021 as well.
+A: The package is compatible with Unity 6.0 and above. Editor Attributes versions eariler then 3.0.0 are also compatible with Unity 2022.
 
 Q: Does this package serialize Dictionaries, HashSets, 2D Arrays, etc.?
 
