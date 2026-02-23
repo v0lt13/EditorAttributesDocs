@@ -17,7 +17,7 @@ Frequently Asked Questions
 
 Q: With what Unity version is the package compatible with?
 
-A: The package is compatible with Unity 6.0 and above. Editor Attributes versions eariler then 3.0.0 are also compatible with Unity 2022.
+A: The package is compatible with Unity 6.0 and above. Package versions eariler then 3.0.0 are also compatible with Unity 2022.
 
 Q: Does this package serialize Dictionaries, HashSets, 2D Arrays, etc.?
 
