@@ -48,35 +48,35 @@ For more details about unity serialization see `this <https://docs.unity3d.com/M
 Attribute Order
 ---------------
 
-The logic of all attributes is executed in the order they are written (left to right), meaning the last attribute can override the functionality of the previous attribute if the functionality is similar.
-In the following example the :doc:`../Attributes/NumericalAttributes/timefield` will execute before the :doc:`../Attributes/DecorativeAttributes/suffix` 
-meaning the suffix will fail to add because of how the :doc:`../Attributes/NumericalAttributes/timefield` is drawn::
+The logic of all attributes is executed in the order they are written (left to right), meaning an attribute might not work due to the way they are applied.
+In the following example the :doc:`../Attributes/NumericalAttributes/progressbar` will execute before the :doc:`../Attributes/DecorativeAttributes/hidelabel` 
+causing the label not be removed because the :doc:`../Attributes/DecorativeAttributes/hidelabel` looks for a property field label but it gets a progress bar element instead::
 
 	using UnityEngine;
 	using EditorAttributes;
 	
 	public class AttributesExample : MonoBehaviour
 	{
-		[TimeField(TimeFormat.YearMonthWeek, ConvertTo.Days), Suffix("to days")]
-		[SerializeField] private int field;
+    	[ProgressBar, HideLabel]
+    	[SerializeField] private int field;
 	}
 
 .. image:: ../Media/HowToUse02.png
 
-To fix this we can change the order by putting the :doc:`../Attributes/NumericalAttributes/timefield` after the :doc:`../Attributes/DecorativeAttributes/suffix` or use the `order` parameter that every attribute has
-to execute the :doc:`../Attributes/DecorativeAttributes/suffix` first, C# will first go through the attributes with the lowest order from left to right then to the ones with the higher order the same way,
-the default order of all attributes is 0::
+To fix this we can change the order by putting the :doc:`../Attributes/NumericalAttributes/progressbar` after the :doc:`../Attributes/DecorativeAttributes/hidelabel` or use the `order` parameter that every attribute has,
+to execute the :doc:`../Attributes/DecorativeAttributes/hidelabel` first. C# will first go through the attributes with the lowest order from left to right then to the ones with the higher order the same way.
+The default order of all attributes is 0::
 
 	using UnityEngine;
 	using EditorAttributes;
 	
 	public class AttributesExample : MonoBehaviour
 	{
-		[TimeField(TimeFormat.YearMonthWeek, ConvertTo.Days), Suffix("to days", order = -1)]
-		[SerializeField] private int field;
+    	[ProgressBar, HideLabel(order = -1)]
+    	[SerializeField] private int progressBar;
 	}
 
-So now the :doc:`../Attributes/DecorativeAttributes/suffix` will be executed first and the :doc:`../Attributes/NumericalAttributes/timefield` will draw the field with the suffix already on it.
+So now the :doc:`../Attributes/DecorativeAttributes/hidelabel` will be executed first and the :doc:`../Attributes/NumericalAttributes/progressbar` will create the progress bar with the label aready hidden.
 
 .. image:: ../Media/HowToUse03.png
 

@@ -8,6 +8,7 @@ Attribute to create custom validation
 	- ``string`` conditionName: The name of the condition to evaluate
 	- `optional`, ``MessageMode`` severety: The severety of the failed validation
 	- `optional`, ``bool`` buildKiller: Throws an error during build time and cancels it if validation fails
+	- `optional`, ``bool`` applyToCollection: Validate the whole collection instead of individual items
 
 Example::
 
@@ -27,6 +28,25 @@ Example::
 	}
 
 .. image:: ../../Media/Validate01.png
+
+By default the validation will be applied to the collection itself, but you can also make it apply to each individual item in the collection by setting the *applyToCollection* parameter to ``false``.
+Now if you add a ``int`` parameter to a validation function it will give you access to the index of the current collection item for you to validate::
+
+	using UnityEngine;
+	using EditorAttributes;
+	
+	public class AttributesExample : MonoBehaviour
+	{
+    	[Validate("The value must be positive", nameof(CheckNegative), applyToCollection: false)]
+    	[SerializeField] private int[] intArray;
+
+    	private bool CheckNegative(int index) => intArray[index] < 0;
+	}
+
+
+This will make the validation check each item in the collection and throw an error for each failed item instead of just one error for the whole collection.
+
+.. image:: ../../Media/Validate06.png
 
 If you want to do more advanced validation like doing multiple validations on one field you can use a function returning a :doc:`../../Scripting API/validationcheck`::
 

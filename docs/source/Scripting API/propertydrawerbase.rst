@@ -193,6 +193,20 @@ Declaration::
 	
 **Returns:** ``bool``: True if the serialized property type is a flagged enum
 
+GetCollectionElementIndex(SerializedProperty)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Get the element index of the property in a collection.
+
+Declaration::
+
+	public static int GetCollectionElementIndex(SerializedProperty property)
+	
+**Parameters:**
+	- ``SerializedProperty`` property: The serialized property
+
+**Returns:** ``int``: The index of the property if in an collection, else -1
+
 DisplayErrorBox(VisualElement, HelpBox)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
