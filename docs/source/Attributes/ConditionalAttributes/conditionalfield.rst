@@ -34,12 +34,12 @@ We can also set it to ``OR`` and it will evaluate like this:
 .. image:: ../../Media/ConditionalField02.gif
 
 ``NAND`` which will evaluate like this:
-``!condition01 && !condition02``
+``!(condition01 && condition02)``
 
 .. image:: ../../Media/ConditionalField03.gif
 
 And ``NOR`` which evaluates like this:
-``!condition01 || !condition02``
+``!(condition01 || condition02)``
 
 .. image:: ../../Media/ConditionalField04.gif
 
