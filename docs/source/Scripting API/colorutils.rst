@@ -16,8 +16,8 @@ Syntax::
 
 	public static class ColorUtils
 
-Methods:
---------
+Methods
+-------
 
 ApplyColor(VisualElement, IColorAttribute, HelpBox)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

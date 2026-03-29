@@ -16,8 +16,8 @@ Syntax::
 
 	public class PropertyDrawerBase : PropertyDrawer
 
-Properties:
------------
+Properties
+----------
 
 CanApplyGlobalColor
 ^^^^^^^^^^^^^^^^^^^
@@ -30,8 +30,8 @@ Declaration::
 
 	protected bool CanApplyGlobalColor { get; }
 
-Methods:
---------
+Methods
+-------
 
 CreatePropertyGUI(SerializedProperty)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -14,8 +14,8 @@ Syntax::
 	[Serializable]
 	public struct SimpleTransform
 
-Fields:
--------
+Fields
+------
 
 position
 ^^^^^^^^
@@ -50,8 +50,8 @@ Declaration::
 
 	public Vector3 scale;
 
-Properties:
------------
+Properties
+----------
 
 QuaternionRotation
 ^^^^^^^^^^^^^^^^^^
@@ -62,8 +62,8 @@ Declaration::
 
 	public readonly Quaternion QuaternionRotation;
 
-Constructors:
--------------
+Constructors
+------------
 
 SimpleTransform(Vector3, Vector3, Vector3)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -105,8 +105,8 @@ Declaration::
 **Parameters:**
 	- ``Transform`` transform: Input transform
 
-Operators:
-----------
+Operators
+---------
 
 implicit operator SimpleTransform(Transform)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -120,8 +120,8 @@ Declaration::
 **Parameters:**
 	- ``Transform`` transform: Input transform
 
-Methods:
---------
+Methods
+-------
 
 ToString()
 ^^^^^^^^^^

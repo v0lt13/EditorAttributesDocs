@@ -16,8 +16,8 @@ Syntax::
 
 	public static class VectorUtils
 
-Methods:
---------
+Methods
+-------
 
 AddVector(Vector3, float)
 ^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -16,8 +16,8 @@ Syntax::
 
 	public static class ReflectionUtils
 
-Fields:
--------
+Fields
+------
 
 BINDING_FLAGS
 ^^^^^^^^^^^^^
@@ -30,8 +30,8 @@ Declaration::
 
 	public const BindingFlags BINDING_FLAGS;
 
-Methods:
---------
+Methods
+-------
 
 FindField(string, SerializedProperty)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -234,17 +234,18 @@ Declaration::
 
 **Returns:** ``Type``: The type of the member
 
-GetMemberInfoValue(MemberInfo, SerializedProperty)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+GetMemberInfoValue(MemberInfo, SerializedProperty, params object[])
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Gets the value of a member.
 
 Declaration::
 
-	public static object GetMemberInfoValue(MemberInfo memberInfo, SerializedProperty property)
+	public static object GetMemberInfoValue(MemberInfo memberInfo, SerializedProperty property, params object[] methodParameters)
 	
 **Parameters:**
 	- ``MemberInfo`` memberInfo: The member to get the value from
 	- ``SerializedProperty`` property: The serialized property
+	- `params`, ``object[]`` methodParameters: Optional parameter data to pass through if the member is a method
 
 **Returns:** ``object``: The value of the member

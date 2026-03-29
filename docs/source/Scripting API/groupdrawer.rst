@@ -16,8 +16,8 @@ Syntax::
 
 	public abstract class GroupDrawer : PropertyDrawerBase
 
-Methods:
---------
+Methods
+-------
 
 CreateGroupProperty(string, SerializedProperty)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

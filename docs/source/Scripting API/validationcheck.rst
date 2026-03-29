@@ -16,8 +16,8 @@ Syntax::
 
 	public class ValidationCheck
 
-Properties:
------------
+Properties
+----------
 
 ValidationMessage
 ^^^^^^^^^^^^^^^^^
@@ -58,8 +58,8 @@ Declaration::
 
 	public MessageMode Severety { get; private set; }
 
-Methods:
---------
+Methods
+-------
 
 Fail(string, MessageMode, bool)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

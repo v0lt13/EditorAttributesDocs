@@ -6,10 +6,7 @@ Attribute to display a dropdown of animator parameters
 **Parameters:**
 	- ``string`` animatorFieldName: The animator from which to get the parameters
 
-.. note::
-	The `AnimatorParamDropdown Attribute` can only be attached to a ``string``
-
-Example::
+If the attribute is attached to a ``string`` it will get the parameter name, if is attached to an ``int`` it will get the parameter name hash::
 
 	using UnityEngine;
 	using EditorAttributes;

@@ -16,8 +16,8 @@ Syntax::
 
 	public abstract class CollectionDisplayDrawer : PropertyDrawerBase
 
-Fields:
--------
+Fields
+------
 
 nullList
 ^^^^^^^^
@@ -30,8 +30,8 @@ Declaration::
 
 	protected readonly List<string> nullList = new() { "NULL" };
 
-Methods:
---------
+Methods
+-------
 
 CreateDropdownField(List<string>, SerializedProperty)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -17,8 +17,8 @@ Syntax::
 
 	public class UnityTypeConverter : JsonConverter
 
-Methods:
---------
+Methods
+-------
 
 CanConvert(Type)
 ^^^^^^^^^^^^^^^^

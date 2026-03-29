@@ -20,8 +20,8 @@ Syntax::
 	[InitializeOnLoad]
 	public class EditorExtension : IPreprocessBuildWithReport
 
-Properties:
------------
+Properties
+----------
 
 callbackOrder
 ^^^^^^^^^^^^^
@@ -34,8 +34,8 @@ Declaration::
 
 	public int callbackOrder { get; }
 
-Methods:
---------
+Methods
+-------
 
 OnPreprocessBuild(BuildReport)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
