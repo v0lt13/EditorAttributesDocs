@@ -1,6 +1,14 @@
 Changelogs
 ==========
 
+EditorAttributes v3.0.3 Changelog:
+----------------------------------
+
+- Added BoundsInt, Rect and RectInt support to the DrawHandle Attribute
+- The AnimatorParamDropdown Attribute can now automatically grab the Animator component on the same GameObject
+- Fixed buttons duplicating on inherited scripts when functions are not private
+- Fixed alignment with dropdown errors
+
 EditorAttributes v3.0.2 Changelog:
 ----------------------------------
 - Added applyToCollection parameter to the Validate Attribute

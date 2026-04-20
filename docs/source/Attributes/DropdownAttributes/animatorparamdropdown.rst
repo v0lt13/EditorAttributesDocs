@@ -4,7 +4,7 @@ AnimatorParamDropdown Attribute
 Attribute to display a dropdown of animator parameters
 
 **Parameters:**
-	- ``string`` animatorFieldName: The animator from which to get the parameters
+	- `optional`, ``string`` animatorFieldName: The animator from which to get the parameters
 
 If the attribute is attached to a ``string`` it will get the parameter name, if is attached to an ``int`` it will get the parameter name hash::
 
@@ -19,3 +19,6 @@ If the attribute is attached to a ``string`` it will get the parameter name, if 
 	}
 
 .. image:: ../../Media/AnimatorParamDropdown01.gif
+
+.. note:: 
+	The attribute will get the animator component from the attached **GameObject** if an animator field name is not specified.

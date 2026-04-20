@@ -38,7 +38,11 @@ Here are handles for each supported type:
 
 .. image:: ../../Media/DrawHandle03.gif
 
-- ``Bounds`` type
+- ``Rect`` types
+
+.. image:: ../../Media/DrawHandle07.gif
+
+- ``Bounds`` types
 
 .. image:: ../../Media/DrawHandle04.gif
 
