@@ -514,17 +514,3 @@ Declaration::
 	- ``ICollection`` collection: The collection to check
 	
 **Returns:** ``bool``: False is the collection is null or has no members, true otherwise
-
-GetTextureSize(Texture2D)
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Gets the size of a 2D texture.
-
-Declaration::
-
-	public static Vector2 GetTextureSize(Texture2D texture)
-	
-**Parameters:**
-	- ``Texture2D`` texture: The texture to get the size from
-	
-**Returns:** ``Vector2``: The width and height of the texture as a Vector2
